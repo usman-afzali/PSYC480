@@ -39,7 +39,7 @@ website:
 
 format:
   html:
-    theme: quartz
+    theme: pulse
     css: styles.scss
     highlight-style: espresso
     code-tools: false
