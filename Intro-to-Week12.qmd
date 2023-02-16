@@ -1,0 +1,112 @@
+---
+title: "Week 1"
+subtitle: "PSYC480"
+author: "Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 02 23
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+---
+
+# Kauhau {background-color=#346bc8}
+::: incremental
+-   Introductions
+-   Introduction to the course: Understand the overall scope and intention of PSYC480
+-   Fundamentals of Neuroscience
+:::
+
+## Introductions {background-color=#346bc8}
+
+## Class reps {background-color=#346bc8}
+
+400 Level needs 2 class reps
+
+Link to registration system: [https://ucsa.org.nz/support/classrepresentatives/](https://ucsa.org.nz/support/classrepresentatives/)
+
+## Course Structure {background-color=#346bc8}
+
+::: incremental
+-   Fundamentals, EEG, Self-Transcendent practices, applications, reproducibility, broader scope, guest lecture
+-   Learning outcomes
+-   Lecturers
+-   Textbook/readings
+:::
+
+## Assessments {background-color=#346bc8}
+
+| Assessment | Due | % of final mark |
+|---------|:-----|------:|
+| Written labs      | Due Fridays   |    20%  |
+| Class participation    | During lectures  |   10% |
+| Lit Review/Essay      | 17 Mar   |     10%  |
+| Oral group presentation | Week 10 (15 May) | 20% |
+| Lab Report | 2 Jun | 40% |
+
+
+## Written Labs {background-color=#346bc8}
+
+This course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report.
+
+## Class Participation
+
+During 7 out of 9 weeks (excluding weeks 10, 11, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark.
+
+## Literature Review/Essay
+
+A 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct nonscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.
+
+## Oral Group Presentation
+
+-   Present on a topic of your choice relevant to neuroscience as part of a group
+-   Each member will get their own grade
+-   
+
+## Individual Lab Report
+
+## Late Work
+
+::: incremental
+-   Not accepted for Written Labs, Class Participation, or Oral Presentation
+-   10% penalty per each 24-hour delay for large assignments
+-   What if you have genuine reasons stopping you from submitting on-time?
+:::
+
+## How to seek help?
+
+::: incremental
+-   Use forum extensively
+-   Attend weekly hui
+-   Issues: Check Learn or Course Ouline. Not solved? Ask Usman
+-   If you email me or make a forum post, give me up to 24 hours to respond
+:::
+
+## Mean of Communication
+
+-   Forum
+-   Ask directly
+-   Email
+
+::: {.callout-note}
+
+## Email
+
+Please use your UC email address and my staff email address [usman.afzali@canterbury.ac.nz](mailto:usman.afzali@canterbury.ac.nz)
+:::
+
+
+
+## BREAK TIME
+
+## Fundamentals of Neuroscience
+
+Discussion
+
+
+
+
+
+
+

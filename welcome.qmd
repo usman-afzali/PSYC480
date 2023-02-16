@@ -1,0 +1,14 @@
+---
+title: "Computationl Contemplative-Neuroscience"
+author: "Usman Afzali"
+date: "2022-12-19"
+categories: [Introduction, Lab]
+---
+
+## Welcome To the Flourishing Lab!
+
+### About the Study
+
+### Purpose
+
+This website is intended to provide introduction to the NZAVS Flourishing project. Furthermore, findings, progress reports, and data analysis code will be made available in a timely manner.

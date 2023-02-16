@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Intermediate Research Methods and Statistics"
+  favicon: erp.jpg
+  
+  page-footer:
+    left: |
+      <span class="container"><strong>Made with [Posit Quarto on RStudio](https://quarto.org/docs/get-started/hello/rstudio.html){target="_blank"}</strong></span>
+    right: |
+      <span class="container"><strong>[PSYC344 Github Repository](https://github.com/usman-afzali/PSYC480){target="_blank"}</strong></span>
+    background: "#559BED"
+  
+  search: 
+    location: navbar
+    type: textbox
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Introduction"
+        file: intro.qmd
+      - text: "How to Use?"
+        file: how-to-use.qmd
+      - text: "Labs"
+        file: labs.qmd
+      - text: "Presentations"
+        file: presentations.qmd
+      - text: "Course Outline"
+        file: outline.qmd
+    right:
+      - icon: github
+        href: https://github.com/usman-afzali/psyc344
+
+    page-navigation: true
+
+format:
+  html:
+    theme: quartz
+    css: styles.scss
+    highlight-style: espresso
+    code-tools: false
+    code-block-bg: true
+    citations-hover: true
+
+editor: source

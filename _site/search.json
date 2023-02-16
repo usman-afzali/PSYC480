@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "classes.html",
+    "href": "classes.html",
+    "title": "A National Longitudinal Study of Muslim Diversity and Flourishing in New Zealand",
+    "section": "",
+    "text": "Hello/Salaam/Kia ora. I am Usman Afzali - a research fellow at University of Canterbury. I completed my PhD in psychology and am currently the principal investigator (project leader) of the three-year New Zealand Attitudes and Values Study (NZAVS) Flourishing Project (started 2023).\n\n\n\n\nUsman Afzali, PhD\n\nBeside research work, I teach two courses, Computational Contemplative-Neuroscience and Intermediate Research Methods and Statistics, in the School of Psychology at University of Canterbury. I have supervised research and am willing to take on students.\nIn my spare time, I learn programming - especially I like to write R code for the courses I teach.\nMy CV, publications, and further information can be found on my website.\n\n\n\nThe co-leaders consist of senior academics and engaged community members from across New Zealand."
+  },
+  {
+    "objectID": "welcome.html",
+    "href": "welcome.html",
+    "title": "Computationl Contemplative-Neuroscience",
+    "section": "",
+    "text": "This website is intended to provide introduction to the NZAVS Flourishing project. Furthermore, findings, progress reports, and data analysis code will be made available in a timely manner."
+  },
+  {
+    "objectID": "revealjs-template.html#welcome-to-psyc480---special-topic-computational-contemplative-neuroscience",
+    "href": "revealjs-template.html#welcome-to-psyc480---special-topic-computational-contemplative-neuroscience",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Welcome to PSYC480 - Special Topic: Computational Contemplative-Neuroscience",
+    "text": "Welcome to PSYC480 - Special Topic: Computational Contemplative-Neuroscience"
+  },
+  {
+    "objectID": "revealjs-template.html#section",
+    "href": "revealjs-template.html#section",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "",
+    "text": "Diagram of penguin head with indication of bill length and bill depth."
+  },
+  {
+    "objectID": "revealjs-template.html#literate-programming",
+    "href": "revealjs-template.html#literate-programming",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Literate Programming",
+    "text": "Literate Programming\nPer Donald Knuth\n\nA programming paradigm introduced by Donald Knuth in which a computer program is given an explanation of its logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which compilable source code can be generated."
+  },
+  {
+    "objectID": "revealjs-template.html#specific-statistics",
+    "href": "revealjs-template.html#specific-statistics",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Specific statistics",
+    "text": "Specific statistics\n\npenguins %>% \n  group_by(species, sex) %>% \n  summarize(\n    n = n(), \n    weight = mean(body_mass_g, na.rm = TRUE),\n    flipper_length = mean(flipper_length_mm, na.rm = TRUE)\n    ) %>% \n  arrange(desc(weight))\n\n# A tibble: 8 × 5\n# Groups:   species [3]\n  species   sex        n weight flipper_length\n  <fct>     <fct>  <int>  <dbl>          <dbl>\n1 Gentoo    male      61  5485.           222.\n2 Gentoo    female    58  4680.           213.\n3 Gentoo    <NA>       5  4588.           216.\n4 Adelie    male      73  4043.           192.\n5 Chinstrap male      34  3939.           200.\n6 Adelie    <NA>       6  3540            186.\n7 Chinstrap female    34  3527.           192.\n8 Adelie    female    73  3369.           188."
+  },
+  {
+    "objectID": "revealjs-template.html#cleanup-the-data",
+    "href": "revealjs-template.html#cleanup-the-data",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Cleanup the data",
+    "text": "Cleanup the data\nIf you noticed above, there was some NA or missing data. We can remove those rows for now.\n\npenguins_clean <- penguins %>% \n  na.omit() %>% \n  mutate(species_num = as.numeric(species))"
+  },
+  {
+    "objectID": "revealjs-template.html#plot-section",
+    "href": "revealjs-template.html#plot-section",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Plot Section",
+    "text": "Plot Section\nLet’s move on to some plots, for the overall distributions and for just the Adelie penguins. The overall distribution of the data by species shows some overlap in body weight for Adelie/Chinstrap, but more of a separation for the Gentoo penguins."
+  },
+  {
+    "objectID": "revealjs-template.html#distribution",
+    "href": "revealjs-template.html#distribution",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Distribution",
+    "text": "Distribution\n\npenguins %>% \n  ggplot(aes(body_mass_g, fill = species)) + \n  geom_density(color = \"white\", alpha = 0.5) +\n  scale_fill_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(x = \"Penguin Bins\")"
+  },
+  {
+    "objectID": "revealjs-template.html#lm-scatter-plot",
+    "href": "revealjs-template.html#lm-scatter-plot",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "LM + Scatter Plot",
+    "text": "LM + Scatter Plot\n\npenguin_size_plot <- penguins_clean %>% \n  ggplot(aes(x = body_mass_g, y = flipper_length_mm, color = species)) + \n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  geom_point(size = 2, alpha = 0.5) +\n  labs(x = \"Mass (g)\", y = \"Flipper Length (mm)\") +\n  geom_smooth(aes(group = \"none\"), method = \"lm\")\n\npenguin_size_plot"
+  },
+  {
+    "objectID": "revealjs-template.html#modeling-section",
+    "href": "revealjs-template.html#modeling-section",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Modeling section",
+    "text": "Modeling section\nMoving on to some basic modeling we can see if what kind of relationships we observe in the data. Note that I’m really not following any plan, just indicating how you can fit some different models all at once with dplyr + broom."
+  },
+  {
+    "objectID": "revealjs-template.html#section-1",
+    "href": "revealjs-template.html#section-1",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "",
+    "text": "model_inputs <- tibble(\n  model_form = c(\n    list(flipper_length_mm ~ body_mass_g),\n    list(species_num ~ bill_length_mm + body_mass_g + sex),\n    list(flipper_length_mm ~ bill_length_mm + species)\n    ),\n  data = list(penguins_clean)\n) \n\nmodel_metrics <- model_inputs %>% \n  rowwise(model_form, data) %>% \n  summarize(lm = list(lm(model_form, data = data)), .groups = \"drop\") %>% \n  rowwise(model_form, lm, data) %>% \n  summarise(broom::glance(lm), .groups = \"drop\")"
+  },
+  {
+    "objectID": "revealjs-template.html#section-2",
+    "href": "revealjs-template.html#section-2",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "",
+    "text": "model_metrics %>% \n  select(model_form, r.squared:p.value) %>% \n  mutate(model_form = as.character(model_form)) %>% \n  gt::gt() %>% \n  gt::fmt_number(r.squared:statistic) %>% \n  gt::fmt_scientific(p.value) %>% \n  gt::cols_width(\n    model_form ~ px(150)\n  )\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n    \n  \n  \n  \n    \n      model_form\n      r.squared\n      adj.r.squared\n      sigma\n      statistic\n      p.value\n    \n  \n  \n    flipper_length_mm ~ body_mass_g\n0.76\n0.76\n6.85\n1,060.30\n3.13 × 10−105\n    species_num ~ bill_length_mm + body_mass_g + sex\n0.84\n0.84\n0.36\n583.59\n2.45 × 10−131\n    flipper_length_mm ~ bill_length_mm + species\n0.83\n0.83\n5.83\n529.22\n1.66 × 10−125"
+  },
+  {
+    "objectID": "revealjs-template.html#new-slide",
+    "href": "revealjs-template.html#new-slide",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "New slide",
+    "text": "New slide\n\nI learned about penguins today"
+  },
+  {
+    "objectID": "revealjs-template.html#slide-1",
+    "href": "revealjs-template.html#slide-1",
+    "title": "Class 1: Introduction to the Course annd Fundamentals of Neuroscience",
+    "section": "Slide 1",
+    "text": "Slide 1\n\n\n\n\nNext component\nHere is a gap\n\nHello\n\n\nSecond component"
+  }
+]

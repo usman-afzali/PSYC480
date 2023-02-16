@@ -1,0 +1,32 @@
+---
+title: "A National Longitudinal Study of Muslim Diversity and Flourishing in New Zealand"
+author: "Usman Afzali"
+date: "2022-12-19"
+categories: [Team, Lab]
+---
+
+## The Flourishing Lab Team Members
+
+### About Me (The Project Leader)
+
+Hello/Salaam/Kia ora. I am Usman Afzali - a research fellow at University of Canterbury. I completed my PhD in psychology and am currently the principal investigator (project leader) of the three-year [New Zealand Attitudes and Values Study](https://www.psych.auckland.ac.nz/en/about/new-zealand-attitudes-and-values-study.html) (NZAVS) Flourishing Project (started 2023).
+
+![Usman Afzali, PhD](U-16_Original.jpg){.column-margin}
+
+Beside research work, I teach two courses, [Computational Contemplative-Neuroscience](https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=PSYC480&occurrence=23S1(C)&year=2023) and [Intermediate Research Methods and Statistics](https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=PSYC344&occurrence=22S2(C)&year=2022), in the School of Psychology at University of Canterbury. I have supervised research and am willing to take on students.
+
+In my spare time, I learn programming - especially I like to write `R` code for the courses I teach.
+
+My CV, publications, and further information can be found on my [website](www.usmanafzali.com).
+
+### The Project Co-leaders
+
+The co-leaders consist of senior academics and engaged community members from across New Zealand.
+
+#### Professor Joesph Bulbulia
+
+#### Associate Professor Kumar Yogeeswaran
+
+#### Professor Chris Sibley
+
+#### Mr Aarif Rasheed

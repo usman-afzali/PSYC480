@@ -1,0 +1,40 @@
+---
+title: "Computational Contemplative-Neuroscience (PSYC480)"
+image: erp.jpg
+author:
+  - name: Usman Afzali, PhD
+    orcid: 0000-0001-5119-9388
+    email: usman.afzali@canterbury.ac.nz
+    affiliations:
+      - name: University of Canterbury | Te Whare Wananga o Waitaha
+        address: 20 Kirkwood Ave
+        city: Chrsitchurch
+        state: Canterbury
+        postal-code: 8041
+
+about:
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: github
+      text: PSYC480
+      href: https://github.com/usman-afzali/PSYC480
+    - icon: book
+      text: Course Official Page
+      href: https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=PSYC480&occurrence=23S1(C)&year=2023
+    - icon: mailbox2
+      text: Email Usman
+      href: mailto:usman.afzali@canterbury.ac.nz
+    - icon: link
+      text: Usman Afzali
+      href: https://www.usmanafzali.com  
+    - icon: twitter
+      text: UsmanAfzali
+      href: https://twitter.com/UsmanAfzali
+    - icon: linkedin
+      text: Usman Afzali
+      href: https://www.linkedin.com/in/usman-afzali-086147a4/
+    - icon: mastodon
+      text: Usman Afzali
+      href: https://mathstodon.xyz/@usman_afzali
+---
