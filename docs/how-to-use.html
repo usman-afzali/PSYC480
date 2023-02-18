@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Usman Afzali, PhD">
 
-<title>Intermediate Research Methods and Statistics - Computational Contemplative-Neuroscience (PSYC480)</title>
+<title>Intermediate Research Methods and Statistics - How to use this website?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./erp.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -58,12 +60,42 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-intro-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-intro-listings'] = new List('listing-intro-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.scss">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -88,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./how-to-use.html">
+    <a class="nav-link active" href="./how-to-use.html" aria-current="page">
  <span class="menu-text">How to Use?</span></a>
   </li>  
   <li class="nav-item">
@@ -117,69 +149,106 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="erp.jpg" class="about-image
-  rectangle " style="width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Computational Contemplative-Neuroscience (PSYC480)</h1>
+<h1 class="title">How to use this website?</h1>
 </div>
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-    <div class="quarto-title-meta-contents">
-    Usman Afzali, PhD <a href="https://orcid.org/0000-0001-5119-9388" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            University of Canterbury | Te Whare Wananga o Waitaha
-          </p>
-      </div>
-    </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
+  
 
+</header>
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/usman-afzali/PSYC480" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">PSYC480</span>
-  </a>
-  <a href="https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=PSYC480&amp;occurrence=23S1(C)&amp;year=2023" class="about-link">
-    <i class="bi bi-book"></i>
-     <span class="about-link-text">Course Official Page</span>
-  </a>
-  <a href="mailto:usman.afzali@canterbury.ac.nz" class="about-link">
-    <i class="bi bi-mailbox2"></i>
-     <span class="about-link-text">Email Usman</span>
-  </a>
-  <a href="https://www.usmanafzali.com" class="about-link">
-    <i class="bi bi-link"></i>
-     <span class="about-link-text">Usman Afzali</span>
-  </a>
-  <a href="https://twitter.com/UsmanAfzali" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">UsmanAfzali</span>
-  </a>
-  <a href="https://www.linkedin.com/in/usman-afzali-086147a4/" class="about-link">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">Usman Afzali</span>
-  </a>
-  <a href="https://mathstodon.xyz/@usman_afzali" class="about-link">
-    <i class="bi bi-mastodon"></i>
-     <span class="about-link-text">Usman Afzali</span>
-  </a>
+<section id="labs" class="level2">
+<h2 class="anchored" data-anchor-id="labs">Labs</h2>
+<p>Besides Learn, lab instructions will be made available here too. They are exact match, but can be at the tip of your fingers when you need to access them via website. Simply bookmark this website on to your browser.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Repo
 </div>
 </div>
- <!-- /main -->
+<div class="callout-body-container callout-body">
+<p><code>Lab files</code> are within the <code>labs</code> folder in <a href="https://github.com/usman-afzali/PSYC344">Github Repo</a>.</p>
+</div>
+</div>
+<p>Labs files are made with <code>Quarto</code>. If you want to access the very <code>.qmd</code> documents to use and replicate the code, you should:</p>
+<ol type="1">
+<li><p>Use the latest version of <code>RStudio</code>, at least <code>Version: 2022.12.0+353</code> or later on your computer.</p></li>
+<li><p>Within <code>RStudio</code>, click on <code>new file</code> drop down menu and open a new <code>Quarto Document</code> (see the first figure), and name it.</p></li>
+<li><p>Once the <code>.qmd</code> document is opened, go to the <code>source</code> tab, erase the default code and paste the code from the corresponding lab file (from line 1 up to the final line). Then hit <code>Render</code>. You will see output in the <code>Viewer</code> menu.</p></li>
+<li><p>You can click <code>Show in a new window</code> to open rendered code in your local browser window (see the second figure for highlighted commands).</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="r-interface.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">RStudio Interface</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="rstudio-interf-2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">RStudio Interface 2</figcaption><p></p>
+</figure>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+More to come
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lab files are yet to be added.</p>
+</div>
+</div>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>Slides are made using <code>revealjs</code> on <code>Quarto</code>. There are three ways to use them:</p>
+<ol type="1">
+<li><p>Use live: From <a href="https://usman-afzali.github.io/PSYC480/presentations.html">Presentations</a>, click the corresponding presentation. They can be displayed live simply by clicking on them and using the keyboard <code>arrow keys</code>.</p></li>
+<li><p>Save as pdf: Get to the corresponding presentation as explained above. This option only works with <code>Google Chrome</code> as explained <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf">here</a>.</p></li>
+<li><p>The <code>revealjs</code> files: The original code files on <a href="https://github.com/usman-afzali/PSYC480">Github Repo</a> are inside the <code>presentations</code> folder.</p></li>
+</ol>
+<p>The process of using them is similar as using any other <code>.qmd</code> documents explained above. Once they are opened in <code>RStudio</code>, the <code>Present</code> button from the <code>Presentation</code> tab can be used to open the presentation in the local browser - that can be presented from there.</p>
+<section id="week-1" class="level4">
+<h4 class="anchored" data-anchor-id="week-1">Week 1</h4>
+<p>Use <code>Week01.qmd</code>.</p>
+<hr>
+
+
+
+</section>
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-intro-listings">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -200,6 +269,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

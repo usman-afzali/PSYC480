@@ -1,0 +1,62 @@
+---
+title: "How to use this website?"
+listing:
+  id: intro-listings
+  image-align: right
+  contents: intro
+  sort: "title asc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+## Labs
+
+Besides Learn, lab instructions will be made available here too. They are exact match, but can be at the tip of your fingers when you need to access them via website. Simply bookmark this website on to your browser.
+
+::: callout-note
+## Repo
+`Lab files` are within the `labs` folder in [Github Repo](https://github.com/usman-afzali/PSYC344).
+:::
+
+Labs files are made with `Quarto`. If you want to access the very `.qmd` documents to use and replicate the code, you should:
+
+1. Use the latest version of `RStudio`, at least `Version: 2022.12.0+353` or later on your computer. 
+
+2. Within `RStudio`, click on `new file` drop down menu and open a new `Quarto Document` (see the first figure), and name it. 
+
+3. Once the `.qmd` document is opened, go to the `source` tab, erase the default code and paste the code from the corresponding lab file (from line 1 up to the final line). Then hit `Render`. You will see output in the `Viewer` menu. 
+
+4. You can click `Show in a new window` to open rendered code in your local browser window (see the second figure for highlighted commands).
+
+![RStudio Interface](r-interface.png)
+
+![RStudio Interface 2](rstudio-interf-2.png)
+
+
+
+::: callout-note
+## More to come
+Lab files are yet to be added.
+:::
+
+## Slides
+
+Slides are made using `revealjs` on `Quarto`. There are three ways to use them:
+
+1. Use live: From [Presentations](https://usman-afzali.github.io/PSYC480/presentations.html), click the corresponding presentation. They can be displayed live simply by clicking on them and using the keyboard `arrow keys`.
+
+2. Save as pdf: Get to the corresponding presentation as explained above. This option only works with `Google Chrome` as explained [here](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf).
+
+3. The `revealjs` files: The original code files on [Github Repo](https://github.com/usman-afzali/PSYC480) are inside the `presentations` folder. 
+
+The process of using them is similar as using any other `.qmd` documents explained above. Once they are opened in `RStudio`, the `Present` button from the `Presentation` tab can be used to open the presentation in the local browser - that can be presented from there.
+
+#### Week 1
+
+Use `Week01.qmd`.
+
+
+------------------------------------------------------------------------------

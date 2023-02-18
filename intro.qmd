@@ -1,3 +1,17 @@
+---
+title: "Introduction"
+listing:
+  id: intro-listings
+  image-align: right
+  contents: intro
+  sort: "title asc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
 
 Kia ora!
 
@@ -8,21 +22,26 @@ I am Usman Afzali, the course coordinator and lecturer of the course.
 This website contains `labs`, `information` and `slides` of the Year 4 course [Special Topic: Computational Contemplative-Neuroscience](https://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=PSYC480&occurrence=23S1(C)&year=2023) taught at the [School of Psychology, Speech and Hearing, University of Canterbury](https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/).
 
 
+::: {.callout-note}
 
-## Website
+## GitHub Repo
 
-Please access the [PSYC480 website](https://github.com/usman-afzali/PSYC480) to see this code live.
+Please access the [PSYC480 Github Repository](https://github.com/usman-afzali/PSYC480) to use or replicate the code for this website. You can also access the `quarto` or `.qmd` files from the repository.
 
+:::
 
+::: callout-tip
 ## Note
 
 -   Feel free to use/replicate the code.
 
 -   Suggestions welcome.
-
+:::
 
 Kind regards.
 
 Usman Afzali, PhD
 
 [www.usmanafzali.com](https://www.usmanafzali.com)
+
+------------------------------------------------------------------------

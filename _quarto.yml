@@ -10,8 +10,8 @@ website:
     left: |
       <span class="container"><strong>Made with [Posit Quarto on RStudio](https://quarto.org/docs/get-started/hello/rstudio.html){target="_blank"}</strong></span>
     right: |
-      <span class="container"><strong>[PSYC344 Github Repository](https://github.com/usman-afzali/PSYC480){target="_blank"}</strong></span>
-    background: "#559BED"
+      <span class="container"><strong>[PSYC480 Github Repository](https://github.com/usman-afzali/PSYC480){target="_blank"}</strong></span>
+    background: "#543391"
   
   search: 
     location: navbar

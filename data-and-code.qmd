@@ -1,4 +1,0 @@
----
-title: "Data and Code"
-author: "Usman Afzali"
----

@@ -1,8 +1,8 @@
 ---
-title: "Labs"
+title: "Presentations"
 listing:
-  id: labs-listings
-  contents: labs
+  id: recap-listings2
+  contents: presentations
   sort: "date asc"
   type: default
   categories: false
@@ -13,6 +13,5 @@ title-block-banner: false
 page-navigation: true
 ---
 
-::: {#labs-listings}
+::: {#recap-listings2}
 :::
-

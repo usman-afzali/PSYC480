@@ -1,8 +1,0 @@
----
-title: "A National Longitudinal Study of Muslim Diversity and Flourishing in New Zealand"
-author: "Usman Afzali"
-date: "2023-01-12"
-categories: [Project]
----
-## The Project Description
-
