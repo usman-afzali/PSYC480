@@ -320,5 +320,250 @@
     "title": "Week 1",
     "section": "Final Exam",
     "text": "Final Exam"
+  },
+  {
+    "objectID": "Week01.html",
+    "href": "Week01.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Introductions\nIntroduction to the course: Understand the overall scope and intention of PSYC480\nFundamentals of Neuroscience\n\n\n\n\n\n\n\n400 Level needs 2 class reps\nLink to registration system: https://ucsa.org.nz/support/classrepresentatives/\n\n\n\n\n\nFundamentals, EEG, Self-Transcendent practices, applications, reproducibility, broader scope, guest lecture\nLearning outcomes\nLecturers\nTextbook/readings\n\n\n\n\n\n\n\n\nAssessment\nDue\n% of final mark\n\n\n\n\nWritten labs\nDue Fridays\n20%\n\n\nClass participation\nDuring lectures\n10%\n\n\nLit Review/Essay\n17 Mar\n10%\n\n\nOral group presentation\nWeek 10 (15 May)\n20%\n\n\nLab Report\n2 Jun\n40%\n\n\n\n\n\n\nDuring 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark.\n\n\n\n\n\n\n\nThis course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report.\n\n\n\n\n\n\n\nA 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.\n\n\n\n\n\n\n\n\nPresent on a topic of your choice relevant to neuroscience as part of a group - from Week 5-9 or Week 11.\nEach member will get their own grade\nUse Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings.\n\n\n\n\n\n\n\n\n\nPlan ahead and set clear goals and objectives.\nDivide the work and assign roles and responsibilities.\nConduct thorough research and organize information logically.\nCreate a visually appealing and engaging presentation.\nRehearse several times, individually and as a group.\nAnticipate questions and challenges and prepare appropriate responses.\nKeep track of time and adhere to the allotted time.\n\n\n\n\n\nDeliver the presentation with confidence and enthusiasm.\nEnd with a strong conclusion and thank the audience.\nReflect on the performance and use feedback to improve future presentations.\n\n\n\n\n\nAPA-styled scientific report\nIntro: the neuroscience of self-transcendent practices\nMethod: Method of your own EEG data collected in Week 7.\nResults: Analysis of your EEG data shall be reported.\nDiscussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc.\n\n\n\n\n\n\n\n\nWe might not be able to collect data from all of you within the one hour of weekly lab. Volunteering for data collection during the week or even during the term break are encouraged and appreciated.\n\n\n\n\n\n\n\n\nNot accepted for Written Labs, Class Participation, or Oral Presentation\n10% penalty per each 24-hour delay for large assignments\nWhat if you have genuine reasons stopping you from submitting on-time?\n\n\n\n\n\n\n\nUse forum extensively\nAttend weekly hui\nIssues: Check Learn or Course Outline. Not solved? Ask Usman\nIf you email me or make a forum post, give me up to 24 hours to respond\n\n\n\n\n\n\nForum\nAsk directly\nEmail\n\n\n\n\n\n\n\nEmail\n\n\n\nPlease use your UC email address and my staff email address usman.afzali@canterbury.ac.nz\n\n\n\n\n\n\n\n\nDiscussion"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Kia ora!\nWelcome to PSYC480.\nI am Usman Afzali, the course coordinator and lecturer of the course.\nThis website contains labs, information and slides of the Year 4 course Special Topic: Computational Contemplative-Neuroscience taught at the School of Psychology, Speech and Hearing, University of Canterbury.\n\n\n\n\n\n\nGitHub Repo\n\n\n\nPlease access the PSYC480 Github Repository to use or replicate the code for this website. You can also access the quarto or .qmd files from the repository.\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nFeel free to use/replicate the code.\nSuggestions welcome.\n\n\n\nKind regards.\nUsman Afzali, PhD\nwww.usmanafzali.com\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "how-to-use.html",
+    "href": "how-to-use.html",
+    "title": "How to use this website?",
+    "section": "",
+    "text": "Besides Learn, lab instructions will be made available here too. They are exact match, but can be at the tip of your fingers when you need to access them via website. Simply bookmark this website on to your browser.\n\n\n\n\n\n\nRepo\n\n\n\nLab files are within the labs folder in Github Repo.\n\n\nLabs files are made with Quarto. If you want to access the very .qmd documents to use and replicate the code, you should:\n\nUse the latest version of RStudio, at least Version: 2022.12.0+353 or later on your computer.\nWithin RStudio, click on new file drop down menu and open a new Quarto Document (see the first figure), and name it.\nOnce the .qmd document is opened, go to the source tab, erase the default code and paste the code from the corresponding lab file (from line 1 up to the final line). Then hit Render. You will see output in the Viewer menu.\nYou can click Show in a new window to open rendered code in your local browser window (see the second figure for highlighted commands).\n\n\n\n\nRStudio Interface\n\n\n\n\n\nRStudio Interface 2\n\n\n\n\n\n\n\n\nMore to come\n\n\n\nLab files are yet to be added."
+  },
+  {
+    "objectID": "how-to-use.html#slides",
+    "href": "how-to-use.html#slides",
+    "title": "How to use this website?",
+    "section": "Slides",
+    "text": "Slides\nSlides are made using revealjs on Quarto. There are three ways to use them:\n\nUse live: From Presentations, click the corresponding presentation. They can be displayed live simply by clicking on them and using the keyboard arrow keys.\nSave as pdf: Get to the corresponding presentation as explained above. This option only works with Google Chrome as explained here.\nThe revealjs files: The original code files on Github Repo are inside the presentations folder.\n\nThe process of using them is similar as using any other .qmd documents explained above. Once they are opened in RStudio, the Present button from the Presentation tab can be used to open the presentation in the local browser - that can be presented from there.\n\nWeek 1\nUse Week01.qmd."
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "Labs",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Week 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "outline.html",
+    "href": "outline.html",
+    "title": "Course Outline and Topics",
+    "section": "",
+    "text": "PSYC480 is a one semester 15-point (0.1250 EFT) course aimed at postgraduate students who are interested in gaining skills in computational neuroscience. As neuroscience knowledge grows in its scope of societal applications, so does the need to educate a wider audience on how to critically evaluate its research findings. Recent years have seen numerous initiatives to reach a wider university population by making neuroscience more interdisciplinary, integrative, accessible and applicable to students’ lives and intrinsic interests. In addition, we see an increasing global trend in adopting embodied, embedded, enacted, and extended research of cognitive processes (also known as the 4E approach), rather than sufficing with behavioural-only lab studies. The focus of the course will be to apply computational neuroscience techniques to the emerging field of research that aims to understand changes within the mind, brain, and body as a result of contemplative practices, such as mindfulness-based meditation, contemplative walking, or yoga. More broadly, practices where the subjective sense of oneself as an isolated entity can temporarily fade into an experience of unity with other people or one’s surroundings. The course is interdisciplinary and attempts to clarify such mind-brain-body changes across emotional, behavioural, cognitive, and perceptual domains with an emphasis for relating such changes to data obtained with Electroencephalogram (EEG) and analysed with the latest computational techniques. Hence, PSYC480 will also be a step towards adopting the 4E approach to cognition.\nThe goal of this course is to teach computational neuroscience and data science relevant for obtaining neurological data from people using static and portable EEG devices, understand the characteristics of such data sets, develop an understanding of the anatomical structures, physiological, and pathological states of the brain and spinal cord and nerves in various states, and analyse such data sets. At the end of the course, the students will gain an understanding of:\n\nStructure and function of the brain and neurological processes.\nPsychological and mental health attributes that can be understood and analyzed using electrophysiological signals.\nBe able to understand to design and carry out experiments to obtain EEG signals.\nBe able to analyze EEG signals and apply computational tools to derive appropriate statistical measures from brain rhythm data, such as micro-states."
+  },
+  {
+    "objectID": "outline.html#prerequisites",
+    "href": "outline.html#prerequisites",
+    "title": "Course Outline and Topics",
+    "section": "Prerequisites:",
+    "text": "Prerequisites:\nBSc (PSYC) or BA (PSYC) or BDataSc or BHSc"
+  },
+  {
+    "objectID": "outline.html#hua-akoranga-learning-outcomes",
+    "href": "outline.html#hua-akoranga-learning-outcomes",
+    "title": "Course Outline and Topics",
+    "section": "Hua Akoranga | Learning Outcomes",
+    "text": "Hua Akoranga | Learning Outcomes\nThe objectives of the course are:\n\nThe student will recognise and describe the anatomical structure and function of the brain and neurological processes and be able to identify the role and function of the different brain regions (frontal, temporal, parietal, and occipital).\nThe student will describe the physiological processes in the brain and neural systems (nerve conduction pathways).\nThe student will identify and report the neurological correlates of the various states (such as calmness, agitation, pathological states, stroke, muscle movements).\nThe student will analyse how cultural factors and neurophysiological process act with each other, e.g., with the Māori, Pasifika, and other ethnic groups.\nThe student will explain various psychological and mental health processes as related to experiences that elicit self-transcendent states.\nThe student will define the physics of electroencephalographic signal processing.\nThe student will analyse EEG signals using portable and non-portable devices and understand how such data are used and processed.\nThe student will report processing of EEG signals using Matlab (and other tools such as EEGlab), and/or with other software tools such as MNE (Python) and Neuroconductor suite of packages."
+  },
+  {
+    "objectID": "outline.html#aromatawai-assessment",
+    "href": "outline.html#aromatawai-assessment",
+    "title": "Course Outline and Topics",
+    "section": "Aromatawai | Assessment",
+    "text": "Aromatawai | Assessment\n\n\n\nAssessment\nDue\n% of final mark\n\n\n\n\nWritten labs\nDue Fridays\n20%\n\n\nClass participation\nDuring lectures\n10%\n\n\nLit Review/Essay\n17 Mar\n10%\n\n\nOral group presentation\nWeek 10 (15 May)\n20%\n\n\nLab Report\n2 Jun\n40%\n\n\n\nTuhinga | Textbooks and Readings\nThere are no required textbooks for this course. Assigned readings for lectures/labs will be provided online via LEARN.\nWātaka | Timetable\n\n\n\nDay\nTime\nLocation\n\n\n\n\nMonday (Lecture)\n10am – 12pm\nBeatrice Tinsley 111\n\n\nWednesday (Lab)\n3pm – 4pm\nPsyc/Soc 225\n\n\n\nPlease check Course Information System and/or My Timetable for any possible changes to day/time/venue.\nWātaka | Timetable\nSummary of Course Content\n\n\n\n\n\n\n\n\nWeek\nLecture topic\nLab/tutorial Topic\n\n\n\n\nWeek 1\nIntroductions Fundamentals of Neuroscience\nLab 1: Introduction to MATLAB/EEGLAB, Importing EEG data to EEGLAB, importing event markers and channel locations\n\n\nWeek 2\nMethods in Neuroscience\nLab 2: referencing and filtering\n\n\nWeek 3\nFundamentals of Electroencephalography (EEG)\nLab 3: Examining raw data and identifying bad channels, automatic and manual rejection of bad channels\n\n\nWeek 4\nEEG Data Analysis: Principles of Digital Signal Processing\nLab 4: Independent component analysis, labelling bad components for rejection, and rejecting bad components\n\n\nWeek 5\nSelf-Transcendent (contemplative) science 1\nLab 5: Extracting brain rhythms & obtaining micro-states\n\n\nWeek 6\nSelf-Transcendent (contemplative) science 2\nLab 6: Processing many datasets together – or creating a “study”\n\n\nWeek 7\nWider applications of neuroscience: Brain computer interfaces and neurofeedback\nLab 7: Obtaining EEG from a subject immersed in contemplative activity\n\n\nWeek 8\nWider applications of neuroscience: Brain Fingerprinting\nLab 8: Statistical operations\n\n\nWeek 9\nReproducibility in neuroscience\nLab 9: Analysing and interpretation of data\n\n\nWeek 10\nGroup Presentations\nLab 10: Report Writing\n\n\nWeek 11\nBroadening the scope: 4E Cognition\n\n\n\nWeek 12\nGuest Lecture (TBC)\n\n\n\n\nLecturers and topics subjected to changes during the semester.\nNgā Whakamāramatanga | General Course Information for Psychology\nTe Ratonga Tautoko Hangarau | IT Services: https://www.canterbury.ac.nz/its/\nAKO | LEARN https://learn.canterbury.ac.nz/\nUC Library Subject Guide: http://canterbury.libguides.com/psyc\nTe Tatū I Ngā Āwangawanga Ākonga | Addressing Student Concerns \nIf you have any concerns about a course, please contact the Course Coordinator in the first instance. The School of Psychology, Speech and Hearing has a Psychology Staff/Student Liaison Committee and at least five students voluntarily represent postgraduate students for both papers and thesis years for the whole year. A request for volunteers is sent early in the first semester.\nTe Ratonga Whaikaha | Student Accessibility Service\nPlease refer to Te Ratonga Whaikaha | Student Accessibility Service | University of Canterbury for information on study support services.\nTest and Exam Special Arrangements for students registered with TRW | SAS Special arrangements for tests and examinations are generally organised, if required, at the beginning of the academic year, in collaboration with an Accessibility Advisor. Special arrangements have cut-off dates for each exam period, and you must be registered with TRW | SAS in advance if you require this support. While the implementation of special arrangements for exams are automatically arranged by the Examinations Office, you must email examinations@canterbury.ac.nz to organise your special arrangements for tests.\nMana Wānanga | Academic Integrity\nIt is the responsibility of each student to be familiar with the definitions, policies and procedures concerning academic misconduct/dishonest behaviour. Instances of academic misconduct will be dealt with in a serious and appropriate manner. Students should refer to: Academic Integrity | University of Canterbury\nTārua Whānako | Policy on Dishonest Practice\nPlagiarism, collusion, copying and ghost writing are unacceptable and dishonest practices.\n\nPlagiarism is the presentation of any material (text, data, figures or drawings, on any medium including computer files) from any other source without clear and adequate acknowledgement of the source.\nCollusion is the presentation of work performed in conjunction with another person or persons, but submitted as if it has been completed only by the named author(s).\nCopying is the use of material (in any medium, including computer files) produced by another person(s) with or without their knowledge and approval.\nGhost writing is the use of another person(s) (with or without payment) to prepare all or part of an item submitted for assessment.\n\nIn cases where dishonest practice is involved in tests or other work submitted for credit, the student will be referred to the University Proctor. The instructor may choose to not mark the work.\nThe School of Psychology, Speech and Hearing reserves the right to require work to be submitted in electronic format so that it can be submitted to plagiarism detection websites.\nNgā Tōmuringa | Late Work / Penalty\nLab participation and lecture participation are designed to break down learning into ‘digestible’ chunks. As such, participation in labs and lectures are due at the end of their respective weeks; late participation will not be accepted. Late lab reports and individual lab reports will be marked down by 5% of the total score for each day it is late (i.e., reduced by 5% for being 1 day late, 10% for being 2 days late, etc.).\nIf illness or special circumstances prevent you from submitting an assignment on time, this work should be accompanied by a medical certificate and/or a short note explaining why it is late. Days late include weekends and holidays.\nNgā Pairuri Motuhake | Special Consideration\nSpecial Consideration for assessments is for students who have covered the work of a course but have been prevented from demonstrating their knowledge or skills at the time of the assessment due to unforeseen circumstances. Students should consult the Special Considerations website for information: https://www.canterbury.ac.nz/study/special-consideration/.\nAlso on the Examinations webpage is information about Results and Appeals for final grades. The School of Psychology Speech and Hearing policy of “substantial part of assessment” for all courses is set at 50% of all coursework. Unless a minimum of 50% of coursework is completed, final special consideration will not be given. Additionally, special considerations in the form of aegrotats can only be applied to a maximum of 50% of coursework within a given course.\nA special consideration application is not the process to apply for an extension of time to complete a piece of assessment. You must contact the course coordinator, with your supporting documentation, to apply for an extension of time to complete the assessment. Please note that where possible, an extension of time should be applied for prior to making an application for a special consideration e.g., for essays, literature reviews, or other written or ‘take-home’ assignments.\nTaumata Ako | Marks and Grades\nYou will get a mark and/or a grade for each piece of assessment during the course and a final grade at the end of the course. For more information on the University regulations for credit see: General conditions for credit regulations | General regulations | Regulations | University of Canterbury.\nTe Pīra Taumata | Reconsideration of Grades Students can appeal any decision made on their final grade, and should, in the first instance, speak to the course coordinator about their grade. Students can apply through Student Services to appeal for up to four weeks after the release of results: Result dates and appeals | Study | University of Canterbury.\nFor more information see General Course and Examination Regulations in the University Calendar: https://www.canterbury.ac.nz/publications/brochure-gallery/tabs/study-options/documents/UC-Calendar.pdf\nNgā Ritenga Nawe | Complaints and Grievances If a student encounters any problems regarding any aspect of the course, they should in the first instance approach the lecturer concerned. Failing that, they can approach the course coordinator. For more information, please see the Psychology Handbook.\nTe Matangaro i ngā Whakamātautau | Missed Tests\nIn rare cases a student will not be able to sit a test. In such cases, the student should consult with the course coordinator to discuss if alternative arrangements are available. This must be done well in advance of the set date of the test. The criteria used for approving a special sitting are the same as the UC policy used for end-of-semester examinations, which are outlined below:\n\nClash with another test from other UC courses\nReligious (Conflicting religious day or event)\nBereavement (family member or close friend)\nStudy (overseas study, must be a tertiary institute)\nSporting or cultural event (Representing NZ, Canterbury or the University of Canterbury)\nWedding (immediate family member or part of a bridal party)\nBusiness (travel)\n\nWith the exception of the above criteria, tests will only be given at the regularly scheduled time and place. Missed tests will result in a score of 0% for that test.\nNgā Whakamarumaru | Emergency Preparedness\nPlease refer to this link to familiarise yourself with the information in the event of an emergency situation: Emergency preparedness | University of Canterbury"
+  },
+  {
+    "objectID": "presentations/presentations.html",
+    "href": "presentations/presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "presentations/Week01.html",
+    "href": "presentations/Week01.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Introductions\nIntroduction to the course: Understand the overall scope and intention of PSYC480\nFundamentals of Neuroscience\n\n\n\n\n\n\n\n400 Level needs 2 class reps\nLink to registration system: https://ucsa.org.nz/support/classrepresentatives/\n\n\n\n\n\nFundamentals, EEG, Self-Transcendent practices, applications, reproducibility, broader scope, guest lecture\nLearning outcomes\nLecturers\nTextbook/readings\n\n\n\n\n\n\n\n\nAssessment\nDue\n% of final mark\n\n\n\n\nWritten labs\nDue Fridays\n20%\n\n\nClass participation\nDuring lectures\n10%\n\n\nLit Review/Essay\n17 Mar\n10%\n\n\nOral group presentation\nWeek 10 (15 May)\n20%\n\n\nLab Report\n2 Jun\n40%\n\n\n\n\n\n\nDuring 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark.\n\n\n\n\n\n\n\nThis course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report.\n\n\n\n\n\n\n\nA 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.\n\n\n\n\n\n\n\n\nPresent on a topic of your choice relevant to neuroscience as part of a group - from Week 5-9 or Week 11.\nEach member will get their own grade\nUse Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings.\n\n\n\n\n\n\n\n\n\nPlan ahead and set clear goals and objectives.\nDivide the work and assign roles and responsibilities.\nConduct thorough research and organize information logically.\nCreate a visually appealing and engaging presentation.\nRehearse several times, individually and as a group.\nAnticipate questions and challenges and prepare appropriate responses.\nKeep track of time and adhere to the allotted time.\n\n\n\n\n\nDeliver the presentation with confidence and enthusiasm.\nEnd with a strong conclusion and thank the audience.\nReflect on the performance and use feedback to improve future presentations.\n\n\n\n\n\nAPA-styled scientific report\nIntro: the neuroscience of self-transcendent practices\nMethod: Method of your own EEG data collected in Week 7.\nResults: Analysis of your EEG data shall be reported.\nDiscussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc.\n\n\n\n\n\n\n\n\nWe might not be able to collect data from all of you within the one hour of weekly lab. Volunteering for data collection during the week or even during the term break are encouraged and appreciated.\n\n\n\n\n\n\n\n\nNot accepted for Written Labs, Class Participation, or Oral Presentation\n10% penalty per each 24-hour delay for large assignments\nWhat if you have genuine reasons stopping you from submitting on-time?\n\n\n\n\n\n\n\nUse forum extensively\nAttend weekly hui\nIssues: Check Learn or Course Outline. Not solved? Ask Usman\nIf you email me or make a forum post, give me up to 24 hours to respond\n\n\n\n\n\n\nForum\nAsk directly\nEmail\n\n\n\n\n\n\n\nEmail\n\n\n\nPlease use your UC email address and my staff email address usman.afzali@canterbury.ac.nz\n\n\n\n\n\n\n\n\nDiscussion"
+  },
+  {
+    "objectID": "presentations/Week01.html#introductions",
+    "href": "presentations/Week01.html#introductions",
+    "title": "Week 1",
+    "section": "Introductions",
+    "text": "Introductions"
+  },
+  {
+    "objectID": "presentations/Week01.html#class-reps",
+    "href": "presentations/Week01.html#class-reps",
+    "title": "Week 1",
+    "section": "Class reps",
+    "text": "Class reps\n400 Level needs 2 class reps\nLink to registration system: https://ucsa.org.nz/support/classrepresentatives/"
+  },
+  {
+    "objectID": "presentations/Week01.html#course-structure",
+    "href": "presentations/Week01.html#course-structure",
+    "title": "Week 1",
+    "section": "Course Structure",
+    "text": "Course Structure\n\n\nFundamentals, EEG, Self-Transcendent practices, applications, reproducibility, broader scope, guest lecture\nLearning outcomes\nLecturers\nTextbook/readings"
+  },
+  {
+    "objectID": "presentations/Week01.html#assessments",
+    "href": "presentations/Week01.html#assessments",
+    "title": "Week 1",
+    "section": "Assessments",
+    "text": "Assessments\n\n\n\nAssessment\nDue\n% of final mark\n\n\n\n\nWritten labs\nDue Fridays\n20%\n\n\nClass participation\nDuring lectures\n10%\n\n\nLit Review/Essay\n17 Mar\n10%\n\n\nOral group presentation\nWeek 10 (15 May)\n20%\n\n\nLab Report\n2 Jun\n40%"
+  },
+  {
+    "objectID": "presentations/Week01.html#class-participation-10",
+    "href": "presentations/Week01.html#class-participation-10",
+    "title": "Week 1",
+    "section": "Class Participation 10%",
+    "text": "Class Participation 10%\nDuring 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark."
+  },
+  {
+    "objectID": "presentations/Week01.html#class-participation",
+    "href": "presentations/Week01.html#class-participation",
+    "title": "Week 1",
+    "section": "Class Participation",
+    "text": "Class Participation"
+  },
+  {
+    "objectID": "presentations/Week01.html#written-labs-20",
+    "href": "presentations/Week01.html#written-labs-20",
+    "title": "Week 1",
+    "section": "Written Labs 20%",
+    "text": "Written Labs 20%\nThis course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report."
+  },
+  {
+    "objectID": "presentations/Week01.html#written-labs",
+    "href": "presentations/Week01.html#written-labs",
+    "title": "Week 1",
+    "section": "Written Labs",
+    "text": "Written Labs"
+  },
+  {
+    "objectID": "presentations/Week01.html#literature-reviewessay-10",
+    "href": "presentations/Week01.html#literature-reviewessay-10",
+    "title": "Week 1",
+    "section": "Literature Review/Essay 10%",
+    "text": "Literature Review/Essay 10%\nA 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc."
+  },
+  {
+    "objectID": "presentations/Week01.html#literature-reviewessay",
+    "href": "presentations/Week01.html#literature-reviewessay",
+    "title": "Week 1",
+    "section": "Literature Review/Essay",
+    "text": "Literature Review/Essay"
+  },
+  {
+    "objectID": "presentations/Week01.html#oral-group-presentation-20",
+    "href": "presentations/Week01.html#oral-group-presentation-20",
+    "title": "Week 1",
+    "section": "Oral Group Presentation 20%",
+    "text": "Oral Group Presentation 20%\n\nPresent on a topic of your choice relevant to neuroscience as part of a group - from Week 5-9 or Week 11.\nEach member will get their own grade\nUse Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings."
+  },
+  {
+    "objectID": "presentations/Week01.html#oral-group-presentation",
+    "href": "presentations/Week01.html#oral-group-presentation",
+    "title": "Week 1",
+    "section": "Oral Group Presentation",
+    "text": "Oral Group Presentation"
+  },
+  {
+    "objectID": "presentations/Week01.html#oral-group-presentation-1",
+    "href": "presentations/Week01.html#oral-group-presentation-1",
+    "title": "Week 1",
+    "section": "Oral Group Presentation …",
+    "text": "Oral Group Presentation …\n\nPlan ahead and set clear goals and objectives.\nDivide the work and assign roles and responsibilities.\nConduct thorough research and organize information logically.\nCreate a visually appealing and engaging presentation.\nRehearse several times, individually and as a group.\nAnticipate questions and challenges and prepare appropriate responses.\nKeep track of time and adhere to the allotted time."
+  },
+  {
+    "objectID": "presentations/Week01.html#oral-group-presentation-2",
+    "href": "presentations/Week01.html#oral-group-presentation-2",
+    "title": "Week 1",
+    "section": "Oral Group Presentation …",
+    "text": "Oral Group Presentation …\n\nDeliver the presentation with confidence and enthusiasm.\nEnd with a strong conclusion and thank the audience.\nReflect on the performance and use feedback to improve future presentations."
+  },
+  {
+    "objectID": "presentations/Week01.html#individual-lab-report-40",
+    "href": "presentations/Week01.html#individual-lab-report-40",
+    "title": "Week 1",
+    "section": "Individual Lab Report 40%",
+    "text": "Individual Lab Report 40%\n\nAPA-styled scientific report\nIntro: the neuroscience of self-transcendent practices\nMethod: Method of your own EEG data collected in Week 7.\nResults: Analysis of your EEG data shall be reported.\nDiscussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc."
+  },
+  {
+    "objectID": "presentations/Week01.html#individual-lab-report",
+    "href": "presentations/Week01.html#individual-lab-report",
+    "title": "Week 1",
+    "section": "Individual Lab Report",
+    "text": "Individual Lab Report"
+  },
+  {
+    "objectID": "presentations/Week01.html#week-7-data-collection",
+    "href": "presentations/Week01.html#week-7-data-collection",
+    "title": "Week 1",
+    "section": "Week 7 Data Collection",
+    "text": "Week 7 Data Collection\nWe might not be able to collect data from all of you within the one hour of weekly lab. Volunteering for data collection during the week or even during the term break are encouraged and appreciated."
+  },
+  {
+    "objectID": "presentations/Week01.html#final-exam",
+    "href": "presentations/Week01.html#final-exam",
+    "title": "Week 1",
+    "section": "Final Exam",
+    "text": "Final Exam"
+  },
+  {
+    "objectID": "presentations/Week01.html#late-work",
+    "href": "presentations/Week01.html#late-work",
+    "title": "Week 1",
+    "section": "Late Work",
+    "text": "Late Work\n\n\nNot accepted for Written Labs, Class Participation, or Oral Presentation\n10% penalty per each 24-hour delay for large assignments\nWhat if you have genuine reasons stopping you from submitting on-time?"
+  },
+  {
+    "objectID": "presentations/Week01.html#how-to-seek-help",
+    "href": "presentations/Week01.html#how-to-seek-help",
+    "title": "Week 1",
+    "section": "How to seek help?",
+    "text": "How to seek help?\n\n\nUse forum extensively\nAttend weekly hui\nIssues: Check Learn or Course Outline. Not solved? Ask Usman\nIf you email me or make a forum post, give me up to 24 hours to respond"
+  },
+  {
+    "objectID": "presentations/Week01.html#mean-of-communication",
+    "href": "presentations/Week01.html#mean-of-communication",
+    "title": "Week 1",
+    "section": "Mean of Communication",
+    "text": "Mean of Communication\n\nForum\nAsk directly\nEmail\n\n\n\n\n\n\n\nEmail\n\n\nPlease use your UC email address and my staff email address usman.afzali@canterbury.ac.nz"
+  },
+  {
+    "objectID": "presentations/Week01.html#break-time",
+    "href": "presentations/Week01.html#break-time",
+    "title": "Week 1",
+    "section": "BREAK TIME",
+    "text": "BREAK TIME"
+  },
+  {
+    "objectID": "presentations/Week01.html#fundamentals-of-neuroscience",
+    "href": "presentations/Week01.html#fundamentals-of-neuroscience",
+    "title": "Week 1",
+    "section": "Fundamentals of Neuroscience",
+    "text": "Fundamentals of Neuroscience\nDiscussion"
   }
 ]

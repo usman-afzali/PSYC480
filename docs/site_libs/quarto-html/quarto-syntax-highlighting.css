@@ -1,34 +1,32 @@
 /* quarto syntax highlight colors */
 :root {
-  --quarto-hl-al-color: #ff5555;
-  --quarto-hl-an-color: #6a737d;
-  --quarto-hl-at-color: #d73a49;
-  --quarto-hl-bn-color: #005cc5;
-  --quarto-hl-bu-color: #d73a49;
-  --quarto-hl-ch-color: #032f62;
-  --quarto-hl-co-color: #6a737d;
-  --quarto-hl-cv-color: #6a737d;
-  --quarto-hl-cn-color: #005cc5;
-  --quarto-hl-cf-color: #d73a49;
-  --quarto-hl-dt-color: #d73a49;
-  --quarto-hl-dv-color: #005cc5;
-  --quarto-hl-do-color: #6a737d;
-  --quarto-hl-er-color: #ff5555;
-  --quarto-hl-ex-color: #d73a49;
-  --quarto-hl-fl-color: #005cc5;
-  --quarto-hl-fu-color: #6f42c1;
-  --quarto-hl-im-color: #032f62;
-  --quarto-hl-in-color: #6a737d;
-  --quarto-hl-kw-color: #d73a49;
-  --quarto-hl-op-color: #24292e;
-  --quarto-hl-pp-color: #d73a49;
-  --quarto-hl-re-color: #6a737d;
-  --quarto-hl-sc-color: #005cc5;
-  --quarto-hl-ss-color: #032f62;
-  --quarto-hl-st-color: #032f62;
-  --quarto-hl-va-color: #e36209;
-  --quarto-hl-vs-color: #032f62;
-  --quarto-hl-wa-color: #ff5555;
+  --quarto-hl-at-color: inherit;
+  --quarto-hl-ss-color: #049b0a;
+  --quarto-hl-an-color: #0066ff;
+  --quarto-hl-fu-color: #ff9358;
+  --quarto-hl-st-color: #049b0a;
+  --quarto-hl-cf-color: #43a8ed;
+  --quarto-hl-op-color: inherit;
+  --quarto-hl-er-color: #ffff00;
+  --quarto-hl-bn-color: #44aa43;
+  --quarto-hl-al-color: #ffff00;
+  --quarto-hl-va-color: inherit;
+  --quarto-hl-bu-color: inherit;
+  --quarto-hl-ex-color: inherit;
+  --quarto-hl-pp-color: inherit;
+  --quarto-hl-in-color: #0066ff;
+  --quarto-hl-vs-color: #049b0a;
+  --quarto-hl-wa-color: #ffff00;
+  --quarto-hl-do-color: #0066ff;
+  --quarto-hl-im-color: inherit;
+  --quarto-hl-ch-color: #049b0a;
+  --quarto-hl-dt-color: inherit;
+  --quarto-hl-fl-color: #44aa43;
+  --quarto-hl-co-color: #0066ff;
+  --quarto-hl-cn-color: inherit;
+  --quarto-hl-sc-color: #049b0a;
+  --quarto-hl-dv-color: #44aa43;
+  --quarto-hl-kw-color: #43a8ed;
 }
 
 /* other quarto variables */
@@ -36,140 +34,96 @@
   --quarto-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-code span.al {
-  font-weight: bold;
-  color: #ff5555;
+code span.ss {
+  color: #049b0a;
 }
 
 code span.an {
-  color: #6a737d;
-}
-
-code span.at {
-  color: #d73a49;
-}
-
-code span.bn {
-  color: #005cc5;
-}
-
-code span.bu {
-  color: #d73a49;
-}
-
-code span.ch {
-  color: #032f62;
-}
-
-code span.co {
-  color: #6a737d;
-}
-
-code span.cv {
-  color: #6a737d;
-}
-
-code span.cn {
-  color: #005cc5;
-}
-
-code span.cf {
-  color: #d73a49;
-}
-
-code span.dt {
-  color: #d73a49;
-}
-
-code span.dv {
-  color: #005cc5;
-}
-
-code span.do {
-  color: #6a737d;
-}
-
-code span.er {
-  color: #ff5555;
-  text-decoration: underline;
-}
-
-code span.ex {
+  color: #0066ff;
   font-weight: bold;
-  color: #d73a49;
-}
-
-code span.fl {
-  color: #005cc5;
+  font-style: italic;
 }
 
 code span.fu {
-  color: #6f42c1;
-}
-
-code span.im {
-  color: #032f62;
-}
-
-code span.in {
-  color: #6a737d;
-}
-
-code span.kw {
-  color: #d73a49;
-}
-
-pre > code.sourceCode > span {
-  color: #24292e;
-}
-
-code span {
-  color: #24292e;
-}
-
-code.sourceCode > span {
-  color: #24292e;
-}
-
-div.sourceCode,
-div.sourceCode pre.sourceCode {
-  color: #24292e;
-}
-
-code span.op {
-  color: #24292e;
-}
-
-code span.pp {
-  color: #d73a49;
-}
-
-code span.re {
-  color: #6a737d;
-}
-
-code span.sc {
-  color: #005cc5;
-}
-
-code span.ss {
-  color: #032f62;
+  color: #ff9358;
+  font-weight: bold;
 }
 
 code span.st {
-  color: #032f62;
+  color: #049b0a;
 }
 
-code span.va {
-  color: #e36209;
+code span.cf {
+  color: #43a8ed;
+  font-weight: bold;
+}
+
+code span.er {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+code span.bn {
+  color: #44aa43;
+}
+
+code span.al {
+  color: #ffff00;
+}
+
+code span.pp {
+  font-weight: bold;
+}
+
+code span.in {
+  color: #0066ff;
+  font-weight: bold;
+  font-style: italic;
 }
 
 code span.vs {
-  color: #032f62;
+  color: #049b0a;
 }
 
 code span.wa {
-  color: #ff5555;
+  color: #ffff00;
+  font-weight: bold;
+}
+
+code span.do {
+  color: #0066ff;
+  font-style: italic;
+}
+
+code span.ch {
+  color: #049b0a;
+}
+
+code span.dt {
+  text-decoration: underline;
+}
+
+code span.fl {
+  color: #44aa43;
+}
+
+code span.co {
+  color: #0066ff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+code span.sc {
+  color: #049b0a;
+}
+
+code span.dv {
+  color: #44aa43;
+}
+
+code span.kw {
+  color: #43a8ed;
+  font-weight: bold;
 }
 
 .prevent-inlining {

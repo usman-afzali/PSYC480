@@ -1,0 +1,28 @@
+[
+  {
+    "listing": "/intro.html",
+    "items": []
+  },
+  {
+    "listing": "/how-to-use.html",
+    "items": []
+  },
+  {
+    "listing": "/labs.html",
+    "items": []
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/Week01.html"
+    ]
+  },
+  {
+    "listing": "/outline.html",
+    "items": []
+  },
+  {
+    "listing": "/presentations/presentations.html",
+    "items": []
+  }
+]
