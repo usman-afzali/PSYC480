@@ -11,7 +11,7 @@ This website contains `labs`, `information` and `slides` of the Year 4 course [S
 
 ## Website
 
-Please access the [PSYC480 website](https://github.com/usman-afzali/PSYC480) to see this code live.
+Please access the [PSYC480 website](https://usman-afzali.github.io/PSYC480/) to see this code live.
 
 
 ## Note
