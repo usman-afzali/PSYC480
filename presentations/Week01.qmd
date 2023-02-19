@@ -246,7 +246,7 @@ Please use your UC email address and my staff email address [usman.afzali@canter
 
 ::: {layout="[[1,1], [1]]"}
 
-![](/figs/CNS.png)
+![](/figs/cns2.png)
 
 
 ![](/figs/neuron.png) 
