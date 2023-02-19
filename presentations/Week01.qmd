@@ -11,20 +11,22 @@ format:
     slide-number: c/t
 ---
 
-# Kauhau {background-color=#346bc8}
+# Kauhau {background-color=orange}
 ::: incremental
 -   Introductions
 -   Introduction to the course: Understand the overall scope and intention of PSYC480
 -   Fundamentals of Neuroscience
 :::
 
-## Introductions {background-color=#346bc8}
+# Introductions {background-color=orange}
 
 ## Class reps {background-color=#346bc8}
 
 400 Level needs 2 class reps
 
 Link to registration system: [https://ucsa.org.nz/support/classrepresentatives/](https://ucsa.org.nz/support/classrepresentatives/)
+
+# Course Introduction {background-color=orange}
 
 ## Course Structure {background-color=#346bc8}
 
@@ -76,7 +78,7 @@ A 1000 word (3 pages) literature review/essay covering fundamentals of and metho
 -   Each member will get their own grade
 -   Use Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. 
 
-## Oral Group Presentation
+## Oral Group Presentation {background-color=orange}
 
 ![](/figs/groupPres.png)
 
@@ -135,7 +137,7 @@ We might not be able to collect data from all of you within the one hour of week
 -   If you email me or make a forum post, give me up to 24 hours to respond
 :::
 
-## Mean of Communication {background-color=#346bc8}
+## Means of Communication {background-color=#346bc8}
 
 -   Forum
 -   Ask directly
@@ -152,8 +154,17 @@ Please use your UC email address and my staff email address [usman.afzali@canter
 
 [PSYC480 Open Science Website](https://usman-afzali.github.io/PSYC480/)
 
+## Note Taking (from SAS)
 
-## BREAK TIME
+
+![](/figs/Advertisement for SAS Peer notetaking (PNT)- Feb 2023-1.jpg)
+
+## Note Taking (from SAS) ...
+
+
+![](/figs/Advertisement for SAS Peer Notetaking-Feb 2023-3.jpg)
+
+# BREAK TIME {background-color=orange}
 
 ## Fundamentals of Neuroscience {background-color=#346bc8}
 
