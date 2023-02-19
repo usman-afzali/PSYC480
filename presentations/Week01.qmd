@@ -51,7 +51,7 @@ Link to registration system: [https://ucsa.org.nz/support/classrepresentatives/]
 
 During 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark.
 
-## Class Participation
+## Class Participation {background-color=#346bc8}
 
 ![](/figs/classParticipation.png)
 
@@ -59,7 +59,7 @@ During 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be requir
 
 This course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report.
 
-## Written Labs
+## Written Labs {background-color=#346bc8}
 
 ![](/figs/writtenLabs.png)
 
@@ -68,21 +68,26 @@ This course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with pr
 
 A 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.
 
-## Literature Review/Essay
+## Literature Review/Essay {background-color=#346bc8}
 
 ![](/figs/litRevEssay.png)
 
 ## Oral Group Presentation 20% {background-color=#346bc8}
 
+::: incremental
+
 -   Present on a topic of your choice relevant to neuroscience as part of a group - from Week 5-9 or Week 11.
 -   Each member will get their own grade
 -   Use Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. 
 
-## Oral Group Presentation {background-color=orange}
+:::
+
+## Oral Group Presentation {background-color=#346bc8}
 
 ![](/figs/groupPres.png)
 
 ## Oral Group Presentation ... {background-color=#346bc8}
+::: incremental
 1. Plan ahead and set clear goals and objectives.
 2. Divide the work and assign roles and responsibilities.
 3. Conduct thorough research and organize information logically.
@@ -90,16 +95,21 @@ A 1000 word (3 pages) literature review/essay covering fundamentals of and metho
 5. Rehearse several times, individually and as a group.
 6. Anticipate questions and challenges and prepare appropriate responses.
 7. Keep track of time and adhere to the allotted time.
+:::
 
 ## Oral Group Presentation ... {background-color=#346bc8}
+
+::: incremental
 
 8. Deliver the presentation with confidence and enthusiasm.
 8. End with a strong conclusion and thank the audience.
 9. Reflect on the performance and use feedback to improve future presentations.
-
+:::
 
 
 ## Individual Lab Report 40% {background-color=#346bc8}
+
+::: incremental
 
 -   APA-styled scientific report
 -   Intro: the neuroscience of self-transcendent practices
@@ -107,7 +117,9 @@ A 1000 word (3 pages) literature review/essay covering fundamentals of and metho
 -   Results: Analysis of your EEG data shall be reported. 
 -   Discussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc.
 
-## Individual Lab Report
+:::
+
+## Individual Lab Report {background-color=#346bc8}
 
 ![](/figs/labReport.png)
 
@@ -124,7 +136,7 @@ We might not be able to collect data from all of you within the one hour of week
 
 ::: incremental
 -   Not accepted for Written Labs, Class Participation, or Oral Presentation
--   10% penalty per each 24-hour delay for large assignments
+-   5% penalty per each 24-hour delay for large assignments
 -   What if you have genuine reasons stopping you from submitting on-time?
 :::
 
@@ -132,7 +144,7 @@ We might not be able to collect data from all of you within the one hour of week
 
 ::: incremental
 -   Use forum extensively
--   Attend weekly hui
+-   Attend weekly hui (Tuesdays 11am - 12pm)
 -   Issues: Check Learn or Course Outline. Not solved? Ask Usman
 -   If you email me or make a forum post, give me up to 24 hours to respond
 :::
@@ -166,13 +178,143 @@ Please use your UC email address and my staff email address [usman.afzali@canter
 
 # BREAK TIME {background-color=orange}
 
-## Fundamentals of Neuroscience {background-color=#346bc8}
+# Fundamentals of Neuroscience {background-color=orange}
 
-Discussion
+## What is Neuroscience? {background-color=#346bc8}
+
+::: incremental
+
+-   Perception, thinking, understanding, control of movement
+-   Experimental psychology + physiology
+-   Research: perception, control of movement, sleep and walking, reproductive/ingestive/emotional behaviour, learning, memory
+-   Examples of neuroscience subfields
+-   Computational neuroscience
+-   Tools to conduct neuroscientific research
+
+:::
+
+## History {background-color=#346bc8}
+
+::: incremental
+
+-   7th Century: Descartes and control of behaviour
+-   19th Century: Muller and removing organs for study
+-   Contemporary neuroscience
+-   Evolution and brain
+:::
+
+
+## Ethical Issues {background-color=#346bc8}
+
+
+-   Animal research
+-   Human research
+
+# Neuron {background-color=orange}
+
+## Structure {background-color=#346bc8}
+
+
+-   Axon
+-   Dendrite
+-   Cell body
+
+
+## Neuron, CNS and PNS {background-color=#346bc8}
+
+::: {layout="[[1,1], [1]]"}
+
+![](/figs/CNS.png){width=75%}
+
+
+![](/figs/neuron.png) 
+
+:::
 
 
 
 
+## Physiology of Neuron {background-color=#346bc8}
+
+![](/figs/physio.png)
+
+## Supporting cells of Neuron {background-color=#346bc8}
+
+::: {layout="[[60, 40], [100]]"}
+-   Glia: nerve glue
+-   Astrocyte: physical support and clean debris
+-   Oligodendrocyte: support axons and produce myelin sheath
+-   Schwann cells: PNS
+
+![](/figs/olig.png)
+:::
+
+## Neuron communication 1 {background-color=#346bc8}
+
+Withdrawal reflex
+
+![](/figs/wr.png)
 
 
+## Neuron communication 2 {background-color=#346bc8}
+
+Inhibition
+
+![](/figs/inhibition.png)
+
+## Action Potential {background-color=#346bc8}
+
+Electrical event in the neuron
+
+::: {layout="[[60, 40], [100]]"}
+
+-   Negative charge of -70mV inside the axon membrane - resting potential
+-   Any difference: membrane potential
+-   hyperpolarisation vs. depolarisation
+
+![](/figs/ap.png)
+
+:::
+
+## Synapse {background-color=#346bc8}
+
+::: incremental
+
+-   The role of neurotransmitters
+-   Presynaptic membrane, synaptic cleft, postsynaptic membrane
+-   Postsynaptic potentials: EPSP and IPSP
+-   Termination of postsynaptic potentials
+
+:::
+
+
+## Synapse types {background-color=#346bc8}
+
+![](/figs/st.png)
+
+# CNS Structure {background-color=orange}
+
+## Brain Development {background-color=#346bc8}
+
+Pre- and post-natal
+
+![](/figs/db.png)
+
+## Sub-divisions {background-color=#346bc8}
+
+![](/figs/sd.png)
+
+## Cerebral Cortex {background-color=#346bc8}
+
+-   Surrounds the cerebral hemispheres
+-   Greatly convoluted; consisting of sulci (small grooves), fissures (large grooves), and gyri (bulges between adjacent sulci or fissures)
+-   Greatly enlarged surface area of the cortex, compared with a smooth brain
+
+## Four Lobes {background-color=#346bc8}
+
+::: {layout="[[1,1], [1]]"}
+
+![](/figs/1.png)
+![](/figs/2.png)
+:::
 
