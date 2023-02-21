@@ -19,7 +19,7 @@ format:
 -   Matrix manipulations, plotting, implementing algorithms etc.
 -   Toolboxes and apps
 
-## What is MATLAB? {background-color=#346bc8}
+## What is EEGLab? {background-color=#346bc8}
 
 -   A MATLAB toolbox
 -   Used for processing and analysing EEG, MEG and other electrophysiological signals.

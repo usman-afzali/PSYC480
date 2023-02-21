@@ -1132,5 +1132,12 @@
     "title": "Lab 01",
     "section": "To submit",
     "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?\nSubmit this as a pdf on Learn."
+  },
+  {
+    "objectID": "labs/Lab01.html#what-is-eeglab",
+    "href": "labs/Lab01.html#what-is-eeglab",
+    "title": "Lab 01",
+    "section": "What is EEGLab?",
+    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
   }
 ]
