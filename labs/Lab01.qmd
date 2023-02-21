@@ -57,12 +57,15 @@ format:
 
 # Exercise {background-color=orange}
 
+## To submit {background-color=#346bc8}
+
 -   Use the the `Lab 1 exercise` dataset on Learn.
 -   Read it in to the EEGLab
 -   Report all attributes
 -   Insert a screenshot of the attributes
 -   Plot data using the scroll option
 -   Insert a screenshot
+-   Report your observation: do the data look similar to `demonstration`? What do you see as a potential difference?
 -   Submit this as a pdf on Learn.
 
 # The END {background-color=orange}

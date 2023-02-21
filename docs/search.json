@@ -1125,5 +1125,12 @@
     "title": "Lab 01",
     "section": "Visualising EEG data",
     "text": "Visualising EEG data\n\nUse Plot -> Channel data (scroll)"
+  },
+  {
+    "objectID": "labs/Lab01.html#to-submit",
+    "href": "labs/Lab01.html#to-submit",
+    "title": "Lab 01",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?\nSubmit this as a pdf on Learn."
   }
 ]
