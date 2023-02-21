@@ -9,7 +9,9 @@
   },
   {
     "listing": "/labs.html",
-    "items": []
+    "items": [
+      "/labs/Lab01.html"
+    ]
   },
   {
     "listing": "/presentations.html",
