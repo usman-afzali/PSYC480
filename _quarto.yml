@@ -25,10 +25,10 @@ website:
         file: intro.qmd
       - text: "How to Use?"
         file: how-to-use.qmd
+      - text: "Presentations"
+        file: presentations.qmd        
       - text: "Labs"
         file: labs.qmd
-      - text: "Presentations"
-        file: presentations.qmd
       - text: "Course Outline"
         file: outline.qmd
     right:
