@@ -354,7 +354,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations.html",
@@ -1440,5 +1440,61 @@
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Karakia Whakatūwhera",
     "text": "Karakia Whakatūwhera\n\n\n\nUnuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea\n\n\nRemove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/"
+  },
+  {
+    "objectID": "labs/Lab02.html#what-is-matlab",
+    "href": "labs/Lab02.html#what-is-matlab",
+    "title": "Lab 02",
+    "section": "What is MATLAB?",
+    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
+  },
+  {
+    "objectID": "labs/Lab02.html#what-is-eeglab",
+    "href": "labs/Lab02.html#what-is-eeglab",
+    "title": "Lab 02",
+    "section": "What is EEGLab?",
+    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
+  },
+  {
+    "objectID": "labs/Lab02.html#processing-and-analysing-eeg-data",
+    "href": "labs/Lab02.html#processing-and-analysing-eeg-data",
+    "title": "Lab 02",
+    "section": "Processing and analysing EEG data",
+    "text": "Processing and analysing EEG data\n\nMATLAB command line\nThe standalone EEGLab software\nUse EEGLab in association with MATLAB"
+  },
+  {
+    "objectID": "labs/Lab02.html#how-to-process-using-eeglab",
+    "href": "labs/Lab02.html#how-to-process-using-eeglab",
+    "title": "Lab 02",
+    "section": "How to process using EEGLab",
+    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab demo dataset.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
+  },
+  {
+    "objectID": "labs/Lab02.html#how-to-process-using-eeglab-1",
+    "href": "labs/Lab02.html#how-to-process-using-eeglab-1",
+    "title": "Lab 02",
+    "section": "How to process using EEGLab",
+    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
+  },
+  {
+    "objectID": "labs/Lab02.html#attributes-contd",
+    "href": "labs/Lab02.html#attributes-contd",
+    "title": "Lab 02",
+    "section": "Attributes contd…",
+    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
+  },
+  {
+    "objectID": "labs/Lab02.html#visualising-eeg-data",
+    "href": "labs/Lab02.html#visualising-eeg-data",
+    "title": "Lab 02",
+    "section": "Visualising EEG data",
+    "text": "Visualising EEG data\n\nUse Plot -> Channel data (scroll)"
+  },
+  {
+    "objectID": "labs/Lab02.html#to-submit",
+    "href": "labs/Lab02.html#to-submit",
+    "title": "Lab 02",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?\nSubmit this as a pdf on Learn."
   }
 ]

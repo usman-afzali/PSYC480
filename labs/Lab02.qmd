@@ -1,0 +1,52 @@
+---
+title: "Lab 02"
+subtitle: "PSYC480"
+author: "Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 03 01
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+---
+
+# Demonstration from Last week {background-color=orange}
+
+## How to process using EEGLab {background-color=#346bc8}
+
+-   Use the available dataset from Learn `Lab demo dataset`.
+-   Note "Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes.
+
+## How to process using EEGLab {background-color=#346bc8}
+
+-   Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus.
+![](/figs/Figure 6.png)
+
+## Attributes contd... {background-color=#346bc8}
+-   Event: a visual stimuli or a task
+-   Sampling rate (Hz): the number of samples (of electrical activity) recorded per second
+-   Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)
+-   Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference). 
+
+## Visualising EEG data {background-color=#346bc8}
+
+-   Use Plot -> Channel data (scroll)
+
+![](/figs/eeg1.png)
+
+# Exercise {background-color=orange}
+
+## To submit {background-color=#346bc8}
+
+-   Use the the `Lab 1 exercise` dataset on Learn.
+-   Read it in to the EEGLab
+-   Report all attributes
+-   Insert a screenshot of the attributes
+-   Plot data using the scroll option
+-   Insert a screenshot
+-   Report your observation: do the data look similar to `demonstration`? What do you see as a potential difference?
+-   Submit this as a pdf on Learn.
+
+# The END {background-color=orange}
+
