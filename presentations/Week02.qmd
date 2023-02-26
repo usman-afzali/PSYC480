@@ -204,7 +204,7 @@ Pre- and post-natal
 
 -   Introduction and function
 -   Uses
--   Limitations
+-   Limitations (functional, spatial, and temporal)
 
 :::
 
