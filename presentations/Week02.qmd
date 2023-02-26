@@ -192,10 +192,9 @@ Pre- and post-natal
 
 ::: incremental
 
--   The role of neurotransmitters
--   Presynaptic membrane, synaptic cleft, postsynaptic membrane
--   Postsynaptic potentials: EPSP and IPSP
--   Termination of postsynaptic potentials
+-   Introduction and function
+-   Uses
+-   Limitations
 
 :::
 
@@ -203,10 +202,9 @@ Pre- and post-natal
 
 ::: incremental
 
--   The role of neurotransmitters
--   Presynaptic membrane, synaptic cleft, postsynaptic membrane
--   Postsynaptic potentials: EPSP and IPSP
--   Termination of postsynaptic potentials
+-   Introduction and function
+-   Uses
+-   Limitations
 
 :::
 
