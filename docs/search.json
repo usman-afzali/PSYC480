@@ -1516,21 +1516,21 @@
     "href": "presentations/Week02.html#functional-neuroimagining---15-mins",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Functional Neuroimagining - 15 mins",
-    "text": "Functional Neuroimagining - 15 mins\n\n\nIntroduction and function\nUses\nLimitations"
+    "text": "Functional Neuroimagining - 15 mins\n\n\nIntroduction and function\nUses\nLimitations (functional, spatial, and temporal)"
   },
   {
     "objectID": "presentations/Week02.html#eegerp---15-mins",
     "href": "presentations/Week02.html#eegerp---15-mins",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "EEG/ERP - 15 mins",
-    "text": "EEG/ERP - 15 mins\n\n\nIntroduction and function\nUses\nLimitations (functional, spatial, and temporal)"
+    "text": "EEG/ERP - 15 mins\n\n\nIntroduction and function\nUses\nLimitations"
   },
   {
     "objectID": "presentations/Week02.html#high-performance-microsegmentation---15-mins",
     "href": "presentations/Week02.html#high-performance-microsegmentation---15-mins",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "High Performance microsegmentation - 15 mins",
-    "text": "High Performance microsegmentation - 15 mins\n\n\nThe role of neurotransmitters\nPresynaptic membrane, synaptic cleft, postsynaptic membrane\nPostsynaptic potentials: EPSP and IPSP\nTermination of postsynaptic potentials"
+    "text": "High Performance microsegmentation - 15 mins\n\n\nIntroduction and Use\nExamples"
   },
   {
     "objectID": "presentations/Week02.html#lit-reviewessay---5-mins",
@@ -1538,5 +1538,12 @@
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Lit review/essay - 5 mins",
     "text": "Lit review/essay - 5 mins\n\n\nThe role of neurotransmitters\nPresynaptic membrane, synaptic cleft, postsynaptic membrane\nPostsynaptic potentials: EPSP and IPSP\nTermination of postsynaptic potentials"
+  },
+  {
+    "objectID": "presentations/Week02.html#microstates",
+    "href": "presentations/Week02.html#microstates",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "Microstates",
+    "text": "Microstates"
   }
 ]

@@ -190,15 +190,6 @@ Pre- and post-natal
 
 ## Functional Neuroimagining - 15 mins {background-color=#346bc8}
 
-::: incremental
-
--   Introduction and function
--   Uses
--   Limitations
-
-:::
-
-## EEG/ERP - 15 mins {background-color=#346bc8}
 
 ::: incremental
 
@@ -208,27 +199,35 @@ Pre- and post-natal
 
 :::
 
+
+
+## EEG/ERP - 15 mins {background-color=#346bc8}
+
+::: incremental
+
+-   Introduction and function
+-   Uses
+-   Limitations
+
+:::
+![](/figs/Figure 6.png)
+
 ## High Performance microsegmentation - 15 mins {background-color=#346bc8}
 
 ::: incremental
 
--   The role of neurotransmitters
--   Presynaptic membrane, synaptic cleft, postsynaptic membrane
--   Postsynaptic potentials: EPSP and IPSP
--   Termination of postsynaptic potentials
+-   Introduction and Use
+-   Examples
 
 :::
 
-## Lit review/essay - 5 mins {background-color=#346bc8}
+## Microstates {background-color=#346bc8}
 
-::: incremental
+![](/figs/ms.png)
 
--   The role of neurotransmitters
--   Presynaptic membrane, synaptic cleft, postsynaptic membrane
--   Postsynaptic potentials: EPSP and IPSP
--   Termination of postsynaptic potentials
+## Literature Review/Essay 10% {background-color=#346bc8}
 
-:::
+A 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.
 
 
 ## Karakia Whakatūwhera {background-color=#346bc8}
