@@ -1545,5 +1545,26 @@
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Microstates",
     "text": "Microstates"
+  },
+  {
+    "objectID": "presentations/Week02.html#functional-neuroimagining",
+    "href": "presentations/Week02.html#functional-neuroimagining",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "Functional Neuroimagining",
+    "text": "Functional Neuroimagining\n\n\nIntroduction and function\nUses\nLimitations (functional, spatial, and temporal)"
+  },
+  {
+    "objectID": "presentations/Week02.html#eegerp",
+    "href": "presentations/Week02.html#eegerp",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "EEG/ERP",
+    "text": "EEG/ERP\n\n\nIntroduction and function\nUses\nLimitations"
+  },
+  {
+    "objectID": "presentations/Week02.html#high-performance-microsegmentation",
+    "href": "presentations/Week02.html#high-performance-microsegmentation",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "High Performance microsegmentation",
+    "text": "High Performance microsegmentation\n\n\nIntroduction and Use\nExamples"
   }
 ]

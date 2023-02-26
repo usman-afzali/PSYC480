@@ -188,7 +188,7 @@ Pre- and post-natal
 
 # Methods in Neuroscience {background-color=orange}
 
-## Functional Neuroimagining - 15 mins {background-color=#346bc8}
+## Functional Neuroimagining {background-color=#346bc8}
 
 
 ::: incremental
@@ -201,7 +201,7 @@ Pre- and post-natal
 
 
 
-## EEG/ERP - 15 mins {background-color=#346bc8}
+## EEG/ERP  {background-color=#346bc8}
 
 ::: incremental
 
@@ -212,7 +212,7 @@ Pre- and post-natal
 :::
 ![](/figs/Figure 6.png)
 
-## High Performance microsegmentation - 15 mins {background-color=#346bc8}
+## High Performance microsegmentation {background-color=#346bc8}
 
 ::: incremental
 
