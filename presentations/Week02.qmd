@@ -184,8 +184,53 @@ Pre- and post-natal
 
 ![](/figs/3.png)
 
+# BREAK TIME {background-color=orange}
 
 # Methods in Neuroscience {background-color=orange}
+
+## Functional Neuroimagining - 15 mins {background-color=#346bc8}
+
+::: incremental
+
+-   The role of neurotransmitters
+-   Presynaptic membrane, synaptic cleft, postsynaptic membrane
+-   Postsynaptic potentials: EPSP and IPSP
+-   Termination of postsynaptic potentials
+
+:::
+
+## EEG/ERP - 15 mins {background-color=#346bc8}
+
+::: incremental
+
+-   The role of neurotransmitters
+-   Presynaptic membrane, synaptic cleft, postsynaptic membrane
+-   Postsynaptic potentials: EPSP and IPSP
+-   Termination of postsynaptic potentials
+
+:::
+
+## High Performance microsegmentation - 15 mins {background-color=#346bc8}
+
+::: incremental
+
+-   The role of neurotransmitters
+-   Presynaptic membrane, synaptic cleft, postsynaptic membrane
+-   Postsynaptic potentials: EPSP and IPSP
+-   Termination of postsynaptic potentials
+
+:::
+
+## Lit review/essay - 5 mins {background-color=#346bc8}
+
+::: incremental
+
+-   The role of neurotransmitters
+-   Presynaptic membrane, synaptic cleft, postsynaptic membrane
+-   Postsynaptic potentials: EPSP and IPSP
+-   Termination of postsynaptic potentials
+
+:::
 
 
 ## Karakia Whakatūwhera {background-color=#346bc8}
