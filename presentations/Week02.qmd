@@ -9,97 +9,80 @@ format:
     theme: simple
     highlight-style: github
     slide-number: c/t
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-## Karakia Whakatūwhera {background-color=#346bc8}
+## Karakia Whakatūwhera {background-color="#346bc8"}
 
 ::: {layout="[[50, 50], [100]]"}
+Whakataka te hau ki te uru/ Whakataka te hau ki te tonga/ Kia mākinakina
+ki uta/ Kia mātaratara ki tai/ E hī ake ana te atakura/ He tio, he huka,
+he hau hū/ Tīhei mauri ora!
 
-Whakataka te hau ki te uru/
-Whakataka te hau ki te tonga/
-Kia mākinakina ki uta/
-Kia mātaratara ki tai/
-E hī ake ana te atakura/
-He tio, he huka, he hau hū/
-Tīhei mauri ora!
-
-Cease the winds from the west/
-Cease the winds from the south/
-Let the breeze blow over the land/
-Let the breeze blow over the ocean/
-Let the red-tipped dawn come with a sharpened air./
-A touch of frost, a promise of a glorious day.
-
+Cease the winds from the west/ Cease the winds from the south/ Let the
+breeze blow over the land/ Let the breeze blow over the ocean/ Let the
+red-tipped dawn come with a sharpened air./ A touch of frost, a promise
+of a glorious day.
 :::
 
+# Kauhau {background-color="orange"}
 
-# Kauhau {background-color=orange}
 ::: incremental
 -   Fundamentals of Neuroscience
 -   Methods in Neuroscience
 :::
 
-# Fundamentals of Neuroscience {background-color=orange}
+# Fundamentals of Neuroscience {background-color="orange"}
 
-## What is Neuroscience? {background-color=#346bc8}
+## What is Neuroscience? {background-color="#346bc8"}
 
 ::: incremental
-
 -   Perception, thinking, understanding, control of movement
 -   Experimental psychology + physiology
--   Research: perception, control of movement, sleep and walking, reproductive/ingestive/emotional behaviour, learning, memory
+-   Research: perception, control of movement, sleep and walking,
+    reproductive/ingestive/emotional behaviour, learning, memory
 -   Examples of neuroscience subfields
 -   Computational neuroscience
 -   Tools to conduct neuroscientific research
-
 :::
 
-## History {background-color=#346bc8}
+## History {background-color="#346bc8"}
 
 ::: incremental
-
 -   7th Century: Descartes and control of behaviour
 -   19th Century: Muller and removing organs for study
 -   Contemporary neuroscience
 -   Evolution and brain
 :::
 
-
-## Ethical Issues {background-color=#346bc8}
-
+## Ethical Issues {background-color="#346bc8"}
 
 -   Animal research
 -   Human research
 
-# Neuron {background-color=orange}
+# Neuron {background-color="orange"}
 
-## Structure {background-color=#346bc8}
-
+## Structure {background-color="#346bc8"}
 
 -   Axon
 -   Dendrite
 -   Cell body
 
-
-## Neuron, CNS and PNS {background-color=#346bc8}
+## Neuron, CNS and PNS {background-color="#346bc8"}
 
 ::: {layout="[[1,1], [1]]"}
-
 ![](/figs/cns2.png)
 
-
-![](/figs/neuron.png) 
-
+![](/figs/neuron.png)
 :::
 
-
-
-
-## Physiology of Neuron {background-color=#346bc8}
+## Physiology of Neuron {background-color="#346bc8"}
 
 ![](/figs/physio.png)
 
-## Supporting cells of Neuron {background-color=#346bc8}
+## Supporting cells of Neuron {background-color="#346bc8"}
 
 ::: {layout="[[60, 40], [100]]"}
 -   Glia: nerve glue
@@ -110,142 +93,129 @@ A touch of frost, a promise of a glorious day.
 ![](/figs/olig.png)
 :::
 
-## Neuron communication 1 {background-color=#346bc8}
+## Neuron communication 1 {background-color="#346bc8"}
 
 Withdrawal reflex
 
 ![](/figs/wr.png)
 
-
-## Neuron communication 2 {background-color=#346bc8}
+## Neuron communication 2 {background-color="#346bc8"}
 
 Inhibition
 
 ![](/figs/inhibition.png)
 
-## Action Potential {background-color=#346bc8}
+## Action Potential {background-color="#346bc8"}
 
 Electrical event in the neuron
 
 ::: {layout="[[60, 40], [100]]"}
-
--   Negative charge of -70mV inside the axon membrane - resting potential
+-   Negative charge of -70mV inside the axon membrane - resting
+    potential
 -   Any difference: membrane potential
 -   hyperpolarisation vs. depolarisation
 
 ![](/figs/ap.png)
-
 :::
 
-## Synapse {background-color=#346bc8}
+## Synapse {background-color="#346bc8"}
 
 ::: incremental
-
 -   The role of neurotransmitters
 -   Presynaptic membrane, synaptic cleft, postsynaptic membrane
 -   Postsynaptic potentials: EPSP and IPSP
 -   Termination of postsynaptic potentials
-
 :::
 
-
-## Synapse types {background-color=#346bc8}
+## Synapse types {background-color="#346bc8"}
 
 ![](/figs/st.png)
 
-# CNS Structure {background-color=orange}
+# CNS Structure {background-color="orange"}
 
-## Brain Development {background-color=#346bc8}
+## Brain Development {background-color="#346bc8"}
 
 Pre- and post-natal
 
 ![](/figs/db.png)
 
-## Sub-divisions {background-color=#346bc8}
+## Sub-divisions {background-color="#346bc8"}
 
 ![](/figs/sd.png)
 
-## Cerebral Cortex {background-color=#346bc8}
+## Cerebral Cortex {background-color="#346bc8"}
 
 -   Surrounds the cerebral hemispheres
--   Greatly convoluted; consisting of sulci (small grooves), fissures (large grooves), and gyri (bulges between adjacent sulci or fissures)
--   Greatly enlarged surface area of the cortex, compared with a smooth brain
+-   Greatly convoluted; consisting of sulci (small grooves), fissures
+    (large grooves), and gyri (bulges between adjacent sulci or
+    fissures)
+-   Greatly enlarged surface area of the cortex, compared with a smooth
+    brain
 
-## Four Lobes {background-color=#346bc8}
-
+## Four Lobes {background-color="#346bc8"}
 
 ![](/figs/1.png)
 
-## Four Lobes... {background-color=#346bc8}
+## Four Lobes... {background-color="#346bc8"}
 
 ![](/figs/2.png)
 
-## Four Lobes... {background-color=#346bc8}
+## Four Lobes... {background-color="#346bc8"}
 
 ![](/figs/3.png)
 
-# BREAK TIME {background-color=orange}
+# BREAK TIME {background-color="orange"}
 
-# Methods in Neuroscience {background-color=orange}
+# Methods in Neuroscience {background-color="orange"}
 
-## Functional Neuroimagining {background-color=#346bc8}
-
+## Functional Neuroimagining {background-color="#346bc8"}
 
 ::: incremental
-
 -   Introduction and function
 -   Uses
 -   Limitations (functional, spatial, and temporal)
-
 :::
 
-
-
-## EEG/ERP  {background-color=#346bc8}
+## EEG/ERP {background-color="#346bc8"}
 
 ::: incremental
-
 -   Introduction and function
 -   Uses
 -   Limitations
-
 :::
-![](/figs/Figure 6.png)
 
-## High Performance microsegmentation {background-color=#346bc8}
+![](/figs/Figure%206.png)
+
+## High Performance microsegmentation {background-color="#346bc8"}
 
 ::: incremental
-
 -   Introduction and Use
 -   Examples
-
 :::
 
-## Microstates {background-color=#346bc8}
+## Microstates {background-color="#346bc8"}
 
 ![](/figs/ms.png)
 
-## Literature Review/Essay 10% {background-color=#346bc8}
+## Literature Review/Essay 10% {background-color="#346bc8"}
 
-A 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.
+A 1000 word (3 pages) literature review/essay covering fundamentals of
+and methods in neuroscience. This exercise will help you dig deeper into
+the world of neuroscience and having a think about what processes and
+methods you might use in case you wanted to conduct neuroscientific
+research. You can select from variety of topics, including but not
+limited to the history of neuroscience, old methods, contemporary
+methods, the role of advanced computational modelling, the role of
+open-science in improving neuroscientific research, the role of online
+repository and version control tools such as Git and GitHub, etc.
 
-
-## Karakia Whakatūwhera {background-color=#346bc8}
+## Karakia Whakatūwhera {background-color="#346bc8"}
 
 ::: {layout="[[50, 50], [100]]"}
+Unuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea
 
-Unuhia, unuhia/
-Te pou, te pou/
-Kia wātea, kia wātea/
-Āe, kua wātea
-
-
-Remove, uplift/
-The posts/
-In order to be free/
-Yes, it has been cleared/
-
-
+Remove, uplift/ The posts/ In order to be free/ Yes, it has been
+cleared/
 :::
 
-# THE END {background-color=orange}
+# THE END {background-color="orange"}
