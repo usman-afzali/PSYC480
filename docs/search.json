@@ -1110,7 +1110,7 @@
     "href": "labs/Lab01.html#attributes-contd",
     "title": "Lab 01",
     "section": "Attributes contd…",
-    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
+    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference).\n\n[@handbook2016a]"
   },
   {
     "objectID": "labs/Lab01.html#next-slide",
@@ -1341,42 +1341,42 @@
     "href": "presentations/Week02.html#neuron-cns-and-pns",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Neuron, CNS and PNS",
-    "text": "Neuron, CNS and PNS"
+    "text": "Neuron, CNS and PNS\n\n\n\n\n\n\n\n\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#physiology-of-neuron",
     "href": "presentations/Week02.html#physiology-of-neuron",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Physiology of Neuron",
-    "text": "Physiology of Neuron"
+    "text": "Physiology of Neuron\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#supporting-cells-of-neuron",
     "href": "presentations/Week02.html#supporting-cells-of-neuron",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Supporting cells of Neuron",
-    "text": "Supporting cells of Neuron\n\n\n\n\nGlia: nerve glue\nAstrocyte: physical support and clean debris\nOligodendrocyte: support axons and produce myelin sheath\nSchwann cells: PNS"
+    "text": "Supporting cells of Neuron\n\n\n\n\nGlia: nerve glue\nAstrocyte: physical support and clean debris\nOligodendrocyte: support axons and produce myelin sheath\nSchwann cells: PNS\n\n\n\n\n\n\n\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#neuron-communication-1",
     "href": "presentations/Week02.html#neuron-communication-1",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Neuron communication 1",
-    "text": "Neuron communication 1\nWithdrawal reflex"
+    "text": "Neuron communication 1\nWithdrawal reflex\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#neuron-communication-2",
     "href": "presentations/Week02.html#neuron-communication-2",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Neuron communication 2",
-    "text": "Neuron communication 2\nInhibition"
+    "text": "Neuron communication 2\nInhibition\n (Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#action-potential",
     "href": "presentations/Week02.html#action-potential",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Action Potential",
-    "text": "Action Potential\nElectrical event in the neuron\n\n\n\n\nNegative charge of -70mV inside the axon membrane - resting potential\nAny difference: membrane potential\nhyperpolarisation vs. depolarisation"
+    "text": "Action Potential\nElectrical event in the neuron\n\n\n\n\nNegative charge of -70mV inside the axon membrane - resting potential\nAny difference: membrane potential\nhyperpolarisation vs. depolarisation\n\n\n\n\n\n\n\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#synapse",
@@ -1390,21 +1390,21 @@
     "href": "presentations/Week02.html#synapse-types",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Synapse types",
-    "text": "Synapse types"
+    "text": "Synapse types\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#brain-development",
     "href": "presentations/Week02.html#brain-development",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Brain Development",
-    "text": "Brain Development\nPre- and post-natal"
+    "text": "Brain Development\nPre- and post-natal\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#sub-divisions",
     "href": "presentations/Week02.html#sub-divisions",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Sub-divisions",
-    "text": "Sub-divisions"
+    "text": "Sub-divisions\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#cerebral-cortex",
@@ -1418,21 +1418,21 @@
     "href": "presentations/Week02.html#four-lobes",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Four Lobes",
-    "text": "Four Lobes"
+    "text": "Four Lobes\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#four-lobes-1",
     "href": "presentations/Week02.html#four-lobes-1",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Four Lobes…",
-    "text": "Four Lobes…"
+    "text": "Four Lobes…\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#four-lobes-2",
     "href": "presentations/Week02.html#four-lobes-2",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Four Lobes…",
-    "text": "Four Lobes…"
+    "text": "Four Lobes…\n\n(Carlson and Birkett 2017)"
   },
   {
     "objectID": "presentations/Week02.html#karakia-whakatūwhera-1",
@@ -1544,7 +1544,7 @@
     "href": "presentations/Week02.html#microstates",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Microstates",
-    "text": "Microstates"
+    "text": "Microstates\n\n(Nash et al. 2022)"
   },
   {
     "objectID": "presentations/Week02.html#functional-neuroimagining",
@@ -1558,7 +1558,7 @@
     "href": "presentations/Week02.html#eegerp",
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "EEG/ERP",
-    "text": "EEG/ERP\n\n\nIntroduction and function\nUses\nLimitations"
+    "text": "EEG/ERP\n\nIntroduction and function\nUses\nLimitations\n\n(Cacioppo, Tassinary, and Berntson 2016)\n\n(Afzali et al. 2022)"
   },
   {
     "objectID": "presentations/Week02.html#high-performance-microsegmentation",
@@ -1566,5 +1566,40 @@
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "High Performance microsegmentation",
     "text": "High Performance microsegmentation\n\n\nIntroduction and Use\nExamples"
+  },
+  {
+    "objectID": "presentations/Week02.html#handbook2016physiology-of-neuron",
+    "href": "presentations/Week02.html#handbook2016physiology-of-neuron",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "(Cacioppo, Tassinary, and Berntson 2016)Physiology of Neuron",
+    "text": "(Cacioppo, Tassinary, and Berntson 2016)Physiology of Neuron"
+  },
+  {
+    "objectID": "presentations/Week02.html#afzali2022microstates",
+    "href": "presentations/Week02.html#afzali2022microstates",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "(Afzali et al. 2022b)Microstates",
+    "text": "(Afzali et al. 2022b)Microstates"
+  },
+  {
+    "objectID": "presentations/Week02.html#afzali2022aeegerp",
+    "href": "presentations/Week02.html#afzali2022aeegerp",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "(Afzali et al. 2022a)EEG/ERP",
+    "text": "(Afzali et al. 2022a)EEG/ERP\n\nIntroduction and function\nUses\nLimitations\n\n(Cacioppo, Tassinary, and Berntson 2016)"
+  },
+  {
+    "objectID": "presentations/Week02.html#nash2022literature-reviewessay-10",
+    "href": "presentations/Week02.html#nash2022literature-reviewessay-10",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "(Nash et al. 2022)Literature Review/Essay 10%",
+    "text": "(Nash et al. 2022)Literature Review/Essay 10%\nA 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc."
+  },
+  {
+    "objectID": "presentations/Week02.html#carlson2017neuron-cns-and-pns",
+    "href": "presentations/Week02.html#carlson2017neuron-cns-and-pns",
+    "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
+    "section": "(Carlson and Birkett 2017)Neuron, CNS and PNS",
+    "text": "(Carlson and Birkett 2017)Neuron, CNS and PNS\n\n\n\n\n\n\n\n\n\n(Cacioppo, Tassinary, and Berntson 2016)"
   }
 ]

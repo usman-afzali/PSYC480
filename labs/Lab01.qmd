@@ -49,6 +49,8 @@ format:
 -   Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)
 -   Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference). 
 
+[@handbook2016a]
+
 ## Visualising EEG data {background-color=#346bc8}
 
 -   Use Plot -> Channel data (scroll)

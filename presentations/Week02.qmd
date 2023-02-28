@@ -12,6 +12,7 @@ format:
 editor: 
   markdown: 
     wrap: 72
+bibliography: references.bib
 ---
 
 ## Karakia Whakatūwhera {background-color="#346bc8"}
@@ -72,15 +73,19 @@ of a glorious day.
 
 ## Neuron, CNS and PNS {background-color="#346bc8"}
 
-::: {layout="[[1,1], [1]]"}
+::: {layout="[[1,1,1], [1]]"}
 ![](/figs/cns2.png)
 
 ![](/figs/neuron.png)
+
+[@carlson2017]
 :::
 
 ## Physiology of Neuron {background-color="#346bc8"}
 
 ![](/figs/physio.png)
+
+[@carlson2017]
 
 ## Supporting cells of Neuron {background-color="#346bc8"}
 
@@ -91,6 +96,8 @@ of a glorious day.
 -   Schwann cells: PNS
 
 ![](/figs/olig.png)
+
+[@carlson2017]
 :::
 
 ## Neuron communication 1 {background-color="#346bc8"}
@@ -99,11 +106,13 @@ Withdrawal reflex
 
 ![](/figs/wr.png)
 
+[@carlson2017]
+
 ## Neuron communication 2 {background-color="#346bc8"}
 
 Inhibition
 
-![](/figs/inhibition.png)
+![](/figs/inhibition.png) [@carlson2017]
 
 ## Action Potential {background-color="#346bc8"}
 
@@ -116,6 +125,8 @@ Electrical event in the neuron
 -   hyperpolarisation vs. depolarisation
 
 ![](/figs/ap.png)
+
+[@carlson2017]
 :::
 
 ## Synapse {background-color="#346bc8"}
@@ -131,6 +142,8 @@ Electrical event in the neuron
 
 ![](/figs/st.png)
 
+[@carlson2017]
+
 # CNS Structure {background-color="orange"}
 
 ## Brain Development {background-color="#346bc8"}
@@ -139,9 +152,13 @@ Pre- and post-natal
 
 ![](/figs/db.png)
 
+[@carlson2017]
+
 ## Sub-divisions {background-color="#346bc8"}
 
 ![](/figs/sd.png)
+
+[@carlson2017]
 
 ## Cerebral Cortex {background-color="#346bc8"}
 
@@ -156,13 +173,19 @@ Pre- and post-natal
 
 ![](/figs/1.png)
 
+[@carlson2017]
+
 ## Four Lobes... {background-color="#346bc8"}
 
 ![](/figs/2.png)
 
+[@carlson2017]
+
 ## Four Lobes... {background-color="#346bc8"}
 
 ![](/figs/3.png)
+
+[@carlson2017]
 
 # BREAK TIME {background-color="orange"}
 
@@ -178,13 +201,15 @@ Pre- and post-natal
 
 ## EEG/ERP {background-color="#346bc8"}
 
-::: incremental
 -   Introduction and function
 -   Uses
 -   Limitations
-:::
 
-![](/figs/Figure%206.png)
+[@handbook2016a]
+
+![](/figs/Figure%209.png)
+
+[@afzali2022a]
 
 ## High Performance microsegmentation {background-color="#346bc8"}
 
@@ -196,6 +221,8 @@ Pre- and post-natal
 ## Microstates {background-color="#346bc8"}
 
 ![](/figs/ms.png)
+
+[@nash2022]
 
 ## Literature Review/Essay 10% {background-color="#346bc8"}
 
@@ -219,3 +246,5 @@ cleared/
 :::
 
 # THE END {background-color="orange"}
+
+# References {background-color="orange"}
