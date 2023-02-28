@@ -41,7 +41,7 @@ format:
 ## How to process using EEGLab {background-color=#346bc8}
 
 -   Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus.
-![](/figs/Figure 6.png)
+![](/figs/Figure 9.png)
 
 ## Attributes contd... {background-color=#346bc8}
 -   Event: a visual stimuli or a task
@@ -49,11 +49,10 @@ format:
 -   Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)
 -   Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference). 
 
-[@handbook2016a]
 
 ## Visualising EEG data {background-color=#346bc8}
 
--   Use Plot -> Channel data (scroll)
+-   Use `Plot -> Channel data (scroll)`.
 
 ![](/figs/eeg1.png)
 

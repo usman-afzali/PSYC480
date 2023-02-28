@@ -29,6 +29,25 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -342,62 +361,85 @@ Dr Usman Afzali
   <p class="date">3/1/23</p>
 </section>
 <section>
-<section id="demonstration-from-last-week" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Demonstration from Last week</h1>
+<section id="recap" class="title-slide slide level1 center" data-background-color="orange">
+<h1>Recap</h1>
 
 </section>
-<section id="how-to-process-using-eeglab" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Use the available dataset from Learn <code>Lab demo dataset</code>.</li>
-<li>Note “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes.</li>
-</ul>
-</section>
-<section id="how-to-process-using-eeglab-1" class="slide level2" data-background-color="#346bc8">
-<h2>How to process using EEGLab</h2>
-<ul>
-<li>Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g.&nbsp;a visual stimulus. <img data-src="../figs/Figure 6.png"></li>
-</ul>
-</section>
-<section id="attributes-contd" class="slide level2" data-background-color="#346bc8">
-<h2>Attributes contd…</h2>
-<ul>
-<li>Event: a visual stimuli or a task</li>
-<li>Sampling rate (Hz): the number of samples (of electrical activity) recorded per second</li>
-<li>Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)</li>
-<li>Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference).</li>
-</ul>
-</section>
-<section id="visualising-eeg-data" class="slide level2" data-background-color="#346bc8">
-<h2>Visualising EEG data</h2>
-<ul>
-<li>Use Plot -&gt; Channel data (scroll)</li>
-</ul>
+<section id="pipeline" class="slide level2" data-background-color="#346bc8">
+<h2>Pipeline</h2>
 
-<img data-src="../figs/eeg1.png" class="r-stretch"></section></section>
+<img data-src="../figs/pipeline.png" class="r-stretch"><p><a href="https://youtu.be/gEk33jWB0MY">EEGLab Preprocessing - Delorme</a></p>
+</section></section>
 <section>
-<section id="exercise" class="title-slide slide level1 center" data-background-color="orange">
-<h1>Exercise</h1>
+<section id="referencing-and-filtering" class="title-slide slide level1 center" data-background-color="orange">
+<h1>Referencing and Filtering</h1>
 
 </section>
-<section id="to-submit" class="slide level2" data-background-color="#346bc8">
-<h2>To submit</h2>
+<section id="referencing" class="slide level2" data-background-color="#346bc8">
+<h2>Referencing</h2>
+<div>
 <ul>
-<li>Use the the <code>Lab 1 exercise</code> dataset on Learn.</li>
-<li>Read it in to the EEGLab</li>
-<li>Report all attributes</li>
-<li>Insert a screenshot of the attributes</li>
-<li>Plot data using the scroll option</li>
-<li>Insert a screenshot</li>
-<li>Report your observation: do the data look similar to <code>demonstration</code>? What do you see as a potential difference?</li>
+<li class="fragment">Why do we reference?</li>
+<li class="fragment">Procedure: Use the available dataset from Learn <code>Lab 2 demo dataset</code>.</li>
+<li class="fragment"><code>Task 1</code>: Read the dataset into EEGLab, and report attributes. Insert a screenshot of the attributes too.</li>
+<li class="fragment"><code>Task 2</code>: Elaborate on what the attributes say about referencing? And how we remedy that?</li>
+</ul>
+</div>
+</section>
+<section id="referencing-to-m2" class="slide level2" data-background-color="#346bc8">
+<h2>Referencing to M2</h2>
+<div>
+<ul>
+<li class="fragment">Use <code>Tools -&gt; re-reference the data</code>.</li>
+<li class="fragment"><code>Task 3</code>: Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?</li>
+<li class="fragment">If you haven’t picked answer to “why” yet, plot the data again and observe closely.</li>
+</ul>
+</div>
+</section>
+<section id="filtering" class="slide level2" data-background-color="#346bc8">
+<h2>Filtering</h2>
+<div>
+<ul>
+<li class="fragment">Why do we filter data?</li>
+<li class="fragment">Many sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz). <span class="citation" data-cites="handbook2016">(<a href="#/references" role="doc-biblioref" onclick="">Cacioppo, Tassinary, and Berntson 2016</a>)</span></li>
+</ul>
+</div>
+</section>
+<section id="filtering-contd." class="slide level2" data-background-color="#346bc8">
+<h2>Filtering contd….</h2>
+<div>
+<ul>
+<li class="fragment"><p>Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.</p></li>
+<li class="fragment"><p>Delorme recommends filtering at 0.5.</p></li>
+<li class="fragment"><p>Use <code>Tools -&gt; Filter data -&gt; basic FIR Filter</code>. Type 0.5 in the <code>Lower edge</code></p></li>
+<li class="fragment"><p>DC offset: <a href="https://relaytraining.com/what-is-dc-offset-ask-chris/">https://relaytraining.com/what-is-dc-offset-ask-chris/</a></p></li>
+</ul>
+</div>
+</section>
+<section id="visaul-inspection." class="slide level2" data-background-color="#346bc8">
+<h2>Visaul inspection….</h2>
+<ul>
+<li><code>Task 4</code>: From <code>Edit</code>, select <code>channel locations</code></li>
+<li>Plot channels as <code>2-D</code></li>
+<li>Do you see any anomaly? Comment!</li>
 <li>Submit this as a pdf on Learn.</li>
 </ul>
 </section></section>
 <section id="the-end" class="title-slide slide level1 center" data-background-color="orange">
 <h1>The END</h1>
 
+</section>
+
+<section id="references" class="title-slide slide level1 smaller scrollable" data-background-color="orange">
+<h1>References</h1>
+
 <div class="footer footer-default">
 
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-handbook2016" class="csl-entry" role="doc-biblioentry">
+Cacioppo, John T., Louis G. Tassinary, and Gary G. Berntson, eds. 2016. <em>Handbook of Psychophysiology</em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781107415782">https://doi.org/10.1017/9781107415782</a>.
+</div>
 </div>
 </section>
     </div>

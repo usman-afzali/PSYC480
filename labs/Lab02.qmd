@@ -9,44 +9,62 @@ format:
     theme: simple
     highlight-style: github
     slide-number: c/t
+bibliography: references.bib
 ---
 
-# Demonstration from Last week {background-color=orange}
+# Recap {background-color="orange"}
 
-## How to process using EEGLab {background-color=#346bc8}
+## Pipeline {background-color="#346bc8"}
 
--   Use the available dataset from Learn `Lab demo dataset`.
--   Note "Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes.
+![](/figs/pipeline.png)
 
-## How to process using EEGLab {background-color=#346bc8}
+[EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
 
--   Epoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus.
-![](/figs/Figure 6.png)
+# Referencing and Filtering {background-color="orange"}
 
-## Attributes contd... {background-color=#346bc8}
--   Event: a visual stimuli or a task
--   Sampling rate (Hz): the number of samples (of electrical activity) recorded per second
--   Frames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)
--   Referencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference). 
+## Referencing {background-color="#346bc8"}
 
-## Visualising EEG data {background-color=#346bc8}
+::: incremental
+-   Why do we reference?
+-   Procedure: Use the available dataset from Learn `Lab 2 demo dataset`.
+-   `Task 1`: Read the dataset into EEGLab, and report attributes. Insert a screenshot of the attributes too.
+-   `Task 2`: Elaborate on what the attributes say about referencing? And how we remedy that?
+:::
 
--   Use Plot -> Channel data (scroll)
+## Referencing to M2 {background-color="#346bc8"}
 
-![](/figs/eeg1.png)
+::: incremental
+-   Use `Tools -> re-reference the data`.
+-   `Task 3`: Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?
+-   If you haven't picked answer to "why" yet, plot the data again and observe closely.
+:::
 
-# Exercise {background-color=orange}
+## Filtering {background-color="#346bc8"}
 
-## To submit {background-color=#346bc8}
+::: incremental
+-   Why do we filter data?
+-   Many sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz). [@handbook2016]
+:::
 
--   Use the the `Lab 1 exercise` dataset on Learn.
--   Read it in to the EEGLab
--   Report all attributes
--   Insert a screenshot of the attributes
--   Plot data using the scroll option
--   Insert a screenshot
--   Report your observation: do the data look similar to `demonstration`? What do you see as a potential difference?
+## Filtering contd.... {background-color="#346bc8"}
+
+::: incremental
+-   Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.
+
+-   Delorme recommends filtering at 0.5.
+
+-   Use `Tools -> Filter data -> basic FIR Filter`. Type 0.5 in the `Lower edge`
+
+-   DC offset: [https://relaytraining.com/what-is-dc-offset-ask-chris/](https://relaytraining.com/what-is-dc-offset-ask-chris/)
+:::
+
+## Visaul inspection.... {background-color="#346bc8"}
+
+-   `Task 4`: From `Edit`, select `channel locations`
+-   Plot channels as `2-D`
+-   Do you see any anomaly? Comment!
 -   Submit this as a pdf on Learn.
 
-# The END {background-color=orange}
+# The END {background-color="orange"}
 
+# References {background-color="orange"}

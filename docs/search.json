@@ -1110,7 +1110,7 @@
     "href": "labs/Lab01.html#attributes-contd",
     "title": "Lab 01",
     "section": "Attributes contd…",
-    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference).\n\n[@handbook2016a]"
+    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
   },
   {
     "objectID": "labs/Lab01.html#next-slide",
@@ -1124,7 +1124,7 @@
     "href": "labs/Lab01.html#visualising-eeg-data",
     "title": "Lab 01",
     "section": "Visualising EEG data",
-    "text": "Visualising EEG data\n\nUse Plot -> Channel data (scroll)"
+    "text": "Visualising EEG data\n\nUse Plot -> Channel data (scroll)."
   },
   {
     "objectID": "labs/Lab01.html#to-submit",
@@ -1467,7 +1467,7 @@
     "href": "labs/Lab02.html#how-to-process-using-eeglab",
     "title": "Lab 02",
     "section": "How to process using EEGLab",
-    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab demo dataset.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
+    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
   },
   {
     "objectID": "labs/Lab02.html#how-to-process-using-eeglab-1",
@@ -1601,5 +1601,54 @@
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "(Carlson and Birkett 2017)Neuron, CNS and PNS",
     "text": "(Carlson and Birkett 2017)Neuron, CNS and PNS\n\n\n\n\n\n\n\n\n\n(Cacioppo, Tassinary, and Berntson 2016)"
+  },
+  {
+    "objectID": "labs/Lab02.html#referencing",
+    "href": "labs/Lab02.html#referencing",
+    "title": "Lab 02",
+    "section": "Referencing",
+    "text": "Referencing\n\n\nWhy do we reference?\nProcedure: Use the available dataset from Learn Lab 2 demo dataset.\nTask 1: Read the dataset into EEGLab, and report attributes. Insert a screenshot of the attributes too.\nTask 2: Elaborate on what the attributes say about referencing? And how we remedy that?"
+  },
+  {
+    "objectID": "labs/Lab02.html#referencing-to-m2",
+    "href": "labs/Lab02.html#referencing-to-m2",
+    "title": "Lab 02",
+    "section": "Referencing to M2",
+    "text": "Referencing to M2\n\n\nUse Tools -> re-reference the data.\nTask 3: Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
+  },
+  {
+    "objectID": "labs/Lab02.html#filtering",
+    "href": "labs/Lab02.html#filtering",
+    "title": "Lab 02",
+    "section": "Filtering",
+    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz). (Cacioppo, Tassinary, and Berntson 2016)"
+  },
+  {
+    "objectID": "labs/Lab02.html#pipleline",
+    "href": "labs/Lab02.html#pipleline",
+    "title": "Lab 02",
+    "section": "Pipleline",
+    "text": "Pipleline"
+  },
+  {
+    "objectID": "labs/Lab02.html#filtering-contd.",
+    "href": "labs/Lab02.html#filtering-contd.",
+    "title": "Lab 02",
+    "section": "Filtering contd….",
+    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -> Filter data -> basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
+  },
+  {
+    "objectID": "labs/Lab02.html#pipeline",
+    "href": "labs/Lab02.html#pipeline",
+    "title": "Lab 02",
+    "section": "Pipeline",
+    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+  },
+  {
+    "objectID": "labs/Lab02.html#visaul-inspection.",
+    "href": "labs/Lab02.html#visaul-inspection.",
+    "title": "Lab 02",
+    "section": "Visaul inspection….",
+    "text": "Visaul inspection….\n\nTask 4: From Edit, select channel locations\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nSubmit this as a pdf on Learn."
   }
 ]
