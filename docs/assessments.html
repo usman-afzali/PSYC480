@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Computational Contemplative-Neuroscience - Labs</title>
+<title>Computational Contemplative-Neuroscience - Assessments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,20 +63,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-labs-listings .list');
+    const listingTargetEl = window.document.querySelector('#listing-intro-listings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-labs-listings'] = new List('listing-labs-listings', options);
+    window['quarto-listings']['listing-intro-listings'] = new List('listing-intro-listings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -124,12 +124,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Classes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./labs.html" aria-current="page">
+    <a class="nav-link" href="./labs.html">
  <span class="menu-text">Labs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./outline.html">
  <span class="menu-text">Course Outline</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./assessments.html" aria-current="page">
+ <span class="menu-text">Assessments</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./how-to-use.html">
@@ -158,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Labs</h1>
+<h1 class="title">Assessments</h1>
 </div>
 
 
@@ -173,74 +177,109 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div id="listing-labs-listings" class="quarto-listing quarto-listing-container-default">
+<section id="class-participation-10" class="level2">
+<h2 class="anchored" data-anchor-id="class-participation-10">Class Participation (10%)</h2>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Due date/time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>During classes</p>
+</div>
+</div>
+<p>During 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark.</p>
+</section>
+<section id="written-labs-20" class="level2">
+<h2 class="anchored" data-anchor-id="written-labs-20">Written Labs (20%)</h2>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Due date/time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fridays 11:59pm</p>
+</div>
+</div>
+<p>The course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report.</p>
+</section>
+<section id="literature-reviewessay-10" class="level2">
+<h2 class="anchored" data-anchor-id="literature-reviewessay-10">Literature Review/Essay (10%)</h2>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Due date/time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Friday, 17 March, 11:59pm</p>
+</div>
+</div>
+<p>By the end of Week 4, you will be required to submit a 1000 word (3 pages) literature review/essay covering fundamentals of neuroscience and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from a variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc. Don’t worry. These will be covered in the first two weeks of the course :)</p>
+</section>
+<section id="oral-group-presentation-20" class="level2">
+<h2 class="anchored" data-anchor-id="oral-group-presentation-20">Oral Group Presentation (20%)</h2>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Due date/time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Monday, 15 May, 10:00am - 12:00pm</p>
+</div>
+</div>
+<p>Prepare a talk individually or as part of a group of two - depending upon the breadth of the topic.</p>
+<p>Although you can present as part of a group, each of you will get their own grade.</p>
+<p>Select a topic from Week 5-9 or Week 11. The readings will be added soon.</p>
+<p>Each person should take between 12 - 15 mins. If you are presenting as part of the group, the two of you will present one after another for 25 - 30 mins. If you exceed your allocated time, you will have your presentation terminated at the end of the allocated period.</p>
+<p>These presentations happen during Week 10 at the class time 10:00am - 12:00 noon.</p>
+<p>Use Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. The whole class will gain more from a presentation if everyone is prepared. When preparing a topic, you may arrange to discuss your proposed presentation with Usman beforehand.</p>
+</section>
+<section id="individual-lab-report-40" class="level2">
+<h2 class="anchored" data-anchor-id="individual-lab-report-40">Individual Lab Report (40%)</h2>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Due date/time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Friday, 2 Jun, 11:59pm</p>
+</div>
+</div>
+<p>You will write an APA-styled scientific report focusing on the neuroscience of self-transcendent practices in the Introduction. Then you will report the method of your own EEG data collected in Week 7. Analysis of this data shall be reported in Results. The Discussion section should focus on the analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc.</p>
+<hr>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-intro-listings">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1676977200000" data-listing-file-modified-sort="1677623667968" data-listing-reading-time-sort="1.685">
-<div class="thumbnail">
-<p><a href="./labs/Lab01.html"> <img src="./figs/Figure 9.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab01.html">
-<h3 class="no-anchor listing-title">
-Lab 01
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab01.html">
-<div class="listing-date">
-Feb 22, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1677582000000" data-listing-file-modified-sort="1677627746414" data-listing-reading-time-sort="1.345">
-<div class="thumbnail">
-<p><a href="./labs/Lab02.html"> <img src="./figs/pipeline.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab02.html">
-<h3 class="no-anchor listing-title">
-Lab 02
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab02.html">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

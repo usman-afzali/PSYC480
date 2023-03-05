@@ -23,14 +23,16 @@ website:
         file: index.qmd
       - text: "Introduction"
         file: intro.qmd
-      - text: "How to Use?"
-        file: how-to-use.qmd
+      - text: "Classes"
+        file: presentations.qmd            
       - text: "Labs"
         file: labs.qmd
-      - text: "Presentations"
-        file: presentations.qmd        
       - text: "Course Outline"
         file: outline.qmd
+      - text: "Assessments"
+        file: assessments.qmd
+      - text: "How to Use?"
+        file: how-to-use.qmd        
     right:
       - icon: github
         href: https://github.com/usman-afzali/psyc344

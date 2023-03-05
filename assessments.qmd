@@ -1,0 +1,82 @@
+---
+title: "Assessments"
+listing:
+  id: intro-listings
+  image-align: right
+  contents: intro
+  sort: "title asc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+## Class Participation (10%)
+
+::: {.callout-tip}
+
+## Due date/time
+
+During classes
+:::
+
+During 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark.
+
+## Written Labs (20%)
+
+::: {.callout-tip}
+
+## Due date/time
+
+Fridays 11:59pm
+:::
+
+The course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report.
+
+## Literature Review/Essay (10%)
+
+::: {.callout-tip}
+
+## Due date/time
+
+Friday, 17 March, 11:59pm
+:::
+
+
+By the end of Week 4, you will be required to submit a 1000 word (3 pages) literature review/essay covering fundamentals of neuroscience and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from a variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc. Don't worry. These will be covered in the first two weeks of the course :)
+
+## Oral Group Presentation (20%)
+
+::: {.callout-tip}
+
+## Due date/time
+
+Monday, 15 May, 10:00am - 12:00pm
+:::
+
+Prepare a talk individually or as part of a group of two - depending upon the breadth of the topic.
+
+Although you can present as part of a group, each of you will get their own grade.
+
+Select a topic from Week 5-9 or Week 11. The readings will be added soon.
+
+Each person should take between 12 - 15 mins. If you are presenting as part of the group, the two of you will present one after another for 25 - 30 mins. If you exceed your allocated time, you will have your presentation terminated at the end of the allocated period.
+
+These presentations happen during Week 10 at the class time 10:00am - 12:00 noon.
+
+Use Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. The whole class will gain more from a presentation if everyone is prepared. When preparing a topic, you may arrange to discuss your proposed presentation with Usman beforehand.
+
+## Individual Lab Report (40%)
+
+::: {.callout-tip}
+
+## Due date/time
+
+Friday, 2 Jun, 11:59pm
+:::
+
+You will write an APA-styled scientific report focusing on the neuroscience of self-transcendent practices in the Introduction. Then you will report the method of your own EEG data collected in Week 7. Analysis of this data shall be reported in Results. The Discussion section should focus on the analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc.
+
+------------------------------------------------------------------------
