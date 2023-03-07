@@ -1,0 +1,52 @@
+---
+title: "Lab 03"
+subtitle: "PSYC480"
+author: "Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 03 08
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+bibliography: references.bib
+---
+
+# Recap {background-color="orange"}
+
+## Pipeline {background-color="#346bc8"}
+
+![](/figs/pipeline.png)
+
+[EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
+
+
+## Referencing and Filtering {background-color="#346bc8"}
+
+## Removing unwanted channels {background-color="#346bc8"}
+
+Use `Edit -> Select data`. Select the `Channel range` that you want to remove.
+
+
+## Examining raw data {background-color="#346bc8"}
+
+::: {layout="[[60, 40], [100]]"}
+
+-   To identify artefacts
+-   And to reject them
+-   Use `Tools -> Inspect/reject data by eye.` Use your mouse to highlight the part you want to reject, and click the `REJECT` button.
+
+![](/figs/messydata.png)
+
+:::
+
+## Automatic artefact rejection {background-color="#346bc8"}
+
+Use `Tools -> Reject data using Clean Rawdata and ASR.` Generally, we'd use all `default choices`
+-   Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.
+
+-   Delorme's [video](https://www.youtube.com/watch?v=5BTT-L2Ab04&list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&index=6) and another [video](https://www.youtube.com/watch?v=ZvbRiX84mgc&list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&index=7) on these.
+
+# The END {background-color="orange"}
+
+# References {background-color="orange"}

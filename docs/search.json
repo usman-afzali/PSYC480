@@ -354,7 +354,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations.html",
@@ -1902,5 +1902,82 @@
     "title": "Assessments",
     "section": "Individual Lab Report (40%)",
     "text": "Individual Lab Report (40%)\n\n\n\n\n\n\nDue date/time\n\n\n\nFriday, 2 Jun, 11:59pm\n\n\nYou will write an APA-styled scientific report focusing on the neuroscience of self-transcendent practices in the Introduction. Then you will report the method of your own EEG data collected in Week 7. Analysis of this data shall be reported in Results. The Discussion section should focus on the analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc."
+  },
+  {
+    "objectID": "labs/Lab03.html#pipeline",
+    "href": "labs/Lab03.html#pipeline",
+    "title": "Lab 03",
+    "section": "Pipeline",
+    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+  },
+  {
+    "objectID": "labs/Lab03.html#referencing",
+    "href": "labs/Lab03.html#referencing",
+    "title": "Lab 02",
+    "section": "Referencing",
+    "text": "Referencing\n\n\nWhy do we reference?\nProcedure: Use the available dataset from Learn Lab 2 demo dataset.\nTask 1: Read the dataset into EEGLab, and report attributes. Insert a screenshot of the attributes too.\nTask 2: Elaborate on what the attributes say about referencing? And how we remedy that?"
+  },
+  {
+    "objectID": "labs/Lab03.html#referencing-to-m2",
+    "href": "labs/Lab03.html#referencing-to-m2",
+    "title": "Lab 02",
+    "section": "Referencing to M2",
+    "text": "Referencing to M2\n\n\nUse Tools -> re-reference the data.\nTask 3: Compare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
+  },
+  {
+    "objectID": "labs/Lab03.html#filtering",
+    "href": "labs/Lab03.html#filtering",
+    "title": "Lab 03",
+    "section": "Filtering",
+    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz). (Cacioppo, Tassinary, and Berntson 2016)"
+  },
+  {
+    "objectID": "labs/Lab03.html#filtering-contd.",
+    "href": "labs/Lab03.html#filtering-contd.",
+    "title": "Lab 03",
+    "section": "Filtering contd….",
+    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -> Filter data -> basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
+  },
+  {
+    "objectID": "labs/Lab03.html#visaul-inspection.",
+    "href": "labs/Lab03.html#visaul-inspection.",
+    "title": "Lab 03",
+    "section": "Visaul inspection….",
+    "text": "Visaul inspection….\n\nTask 4: From Edit, select channel locations\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nSubmit this as a pdf on Learn."
+  },
+  {
+    "objectID": "labs/Lab03.html#referencing-and-filtering",
+    "href": "labs/Lab03.html#referencing-and-filtering",
+    "title": "Lab 03",
+    "section": "Referencing and Filtering",
+    "text": "Referencing and Filtering"
+  },
+  {
+    "objectID": "labs/Lab03.html#examining-raw-data",
+    "href": "labs/Lab03.html#examining-raw-data",
+    "title": "Lab 03",
+    "section": "Examining raw data",
+    "text": "Examining raw data\n\n\n\n\nTo identify artefacts\nAnd to reject them\nUse Tools -> Inspect/reject data by eye. Use your mouse to highlight the part you want to reject, and click the REJECT button."
+  },
+  {
+    "objectID": "labs/Lab03.html#automatic-rejection-of-bad-channels",
+    "href": "labs/Lab03.html#automatic-rejection-of-bad-channels",
+    "title": "Lab 03",
+    "section": "Automatic rejection of bad channels",
+    "text": "Automatic rejection of bad channels\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -> Filter data -> basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
+  },
+  {
+    "objectID": "labs/Lab03.html#automatic-artefact-rejection",
+    "href": "labs/Lab03.html#automatic-artefact-rejection",
+    "title": "Lab 03",
+    "section": "Automatic artefact rejection",
+    "text": "Automatic artefact rejection\nUse Tools -> Reject data using Clean Rawdata and ASR. Generally, we’d use all default choices - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\n\nDelorme’s video and another video on these."
+  },
+  {
+    "objectID": "labs/Lab03.html#removing-unwanted-channels",
+    "href": "labs/Lab03.html#removing-unwanted-channels",
+    "title": "Lab 03",
+    "section": "Removing unwanted channels",
+    "text": "Removing unwanted channels\nUse Edit -> Select data. Select the Channel range that you want to remove."
   }
 ]
