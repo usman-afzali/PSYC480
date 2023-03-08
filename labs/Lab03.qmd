@@ -47,6 +47,12 @@ Use `Tools -> Reject data using Clean Rawdata and ASR.` Generally, we'd use all 
 
 -   Delorme's [video](https://www.youtube.com/watch?v=5BTT-L2Ab04&list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&index=6) and another [video](https://www.youtube.com/watch?v=ZvbRiX84mgc&list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae&index=7) on these.
 
+## To submit {background-color=#346bc8}
+
+-   Use the the `Lab 1 exercise` dataset on Learn.
+-   Conduct automatic rejection with ASR.
+-   Report your findings in comparison with before artefact rejection.
+
 # The END {background-color="orange"}
 
 # References {background-color="orange"}

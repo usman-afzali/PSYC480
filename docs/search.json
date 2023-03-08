@@ -1979,5 +1979,12 @@
     "title": "Lab 03",
     "section": "Removing unwanted channels",
     "text": "Removing unwanted channels\nUse Edit -> Select data. Select the Channel range that you want to remove."
+  },
+  {
+    "objectID": "labs/Lab03.html#to-submit",
+    "href": "labs/Lab03.html#to-submit",
+    "title": "Lab 03",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection."
   }
 ]
