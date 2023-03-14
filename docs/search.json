@@ -2048,7 +2048,7 @@
     "href": "labs/Lab04.html#running-ica",
     "title": "Lab 04",
     "section": "Running ICA",
-    "text": "Running ICA\n\n\nUse the the Lab 4 demo dataset on Learn.\nUse Tools -> Decompose data by ICA. Select runica, extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -> Inspect/label components by map.\nUse Tools -> Remove components from data.\nOr, do this automatically: Tools -> Classify components using ICLabel, then flag components are artefacts."
+    "text": "Running ICA\n\n\nUse the the Lab 4 demo dataset on Learn.\nUse Tools -> Decompose data by ICA. Select runica, extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -> Inspect/label components by map.\nUse Tools -> Remove components from data."
   },
   {
     "objectID": "labs/Lab04.html#important",
@@ -2056,5 +2056,12 @@
     "title": "Lab 04",
     "section": "Important",
     "text": "Important\n\nImportant: DON’T remove/reject components if you are conducting group level analysis."
+  },
+  {
+    "objectID": "labs/Lab04.html#continued",
+    "href": "labs/Lab04.html#continued",
+    "title": "Lab 04",
+    "section": "Continued",
+    "text": "Continued\n\n\nOr, do this automatically: Tools -> Classify components using ICLabel, then flag components as artefacts.\nImportant: DON’T remove/reject components if you are conducting group level analysis."
   }
 ]

@@ -49,12 +49,17 @@ bibliography: references.bib
 -   You can also plot all or individual component maps from the `Plot` menu. 
 -   Use `Tools -> Inspect/label components by map`. 
 -   Use `Tools -> Remove components from data`.
--   Or, do this automatically: `Tools -> Classify components using ICLabel`, then flag components are artefacts.
 
 :::
 
-## Important {background-color="#346bc8"}
+## Continued {background-color="#346bc8"}
+
+::: incremental
+
+-   Or, do this automatically: `Tools -> Classify components using ICLabel`, then flag components as artefacts.
 -   Important: DON'T remove/reject components if you are conducting group level analysis.
+
+:::
 
 ## To submit {background-color=#346bc8}
 
