@@ -44,7 +44,7 @@ bibliography: references.bib
 
 ::: incremental
 
--   Use the the `Lab 4` dataset on Learn.
+-   Use the the `Lab 4 demo` dataset on Learn.
 -   Use `Tools -> Decompose data by ICA`. Select `runica`, `extended 1` (helps to detect line noise).
 -   You can also plot all or individual component maps from the `Plot` menu. 
 -   Use `Tools -> Inspect/label components by map`. 
@@ -61,7 +61,7 @@ bibliography: references.bib
 -   Use the the `Lab 4 exercise` dataset on Learn.
 -   Conduct pipeline processing as per usual.
 -   Run ICA, share a screenshot.
--   Remove componenets, share a screenshot.
+-   Remove components, share a screenshot.
 -   Compare pre- and post-analysis attributes.
 -   Compare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not?
 

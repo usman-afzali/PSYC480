@@ -2027,7 +2027,7 @@
     "href": "labs/Lab04.html#to-submit",
     "title": "Lab 04",
     "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 4 exercise dataset on Learn.\nConduct pipeline processing as per usual.\nRun ICA, share a screenshot.\nRemove componenets, share a screenshot.\nCompare pre- and post-analysis attributes.\nCompare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not?"
+    "text": "To submit\n\nUse the the Lab 4 exercise dataset on Learn.\nConduct pipeline processing as per usual.\nRun ICA, share a screenshot.\nRemove components, share a screenshot.\nCompare pre- and post-analysis attributes.\nCompare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not?"
   },
   {
     "objectID": "labs/Lab04.html#recap-1",
@@ -2048,7 +2048,7 @@
     "href": "labs/Lab04.html#running-ica",
     "title": "Lab 04",
     "section": "Running ICA",
-    "text": "Running ICA\n\n\nUse the the Lab 4 dataset on Learn.\nUse Tools -> Decompose data by ICA. Select runica, extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -> Inspect/label components by map.\nUse Tools -> Remove components from data.\nOr, do this automatically: Tools -> Classify components using ICLabel, then flag components are artefacts."
+    "text": "Running ICA\n\n\nUse the the Lab 4 demo dataset on Learn.\nUse Tools -> Decompose data by ICA. Select runica, extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -> Inspect/label components by map.\nUse Tools -> Remove components from data.\nOr, do this automatically: Tools -> Classify components using ICLabel, then flag components are artefacts."
   },
   {
     "objectID": "labs/Lab04.html#important",
