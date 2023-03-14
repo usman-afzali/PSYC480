@@ -68,7 +68,7 @@ bibliography: references.bib
 -   Run ICA, share a screenshot.
 -   Remove components, share a screenshot.
 -   Compare pre- and post-analysis attributes.
--   Compare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not?
+-   Compare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not? (consists 25% of today's mark).
 
 # The END {background-color="orange"}
 
