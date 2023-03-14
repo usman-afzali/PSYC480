@@ -1,0 +1,70 @@
+---
+title: "Lab 04"
+subtitle: "PSYC480"
+author: "Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 03 15
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+bibliography: references.bib
+---
+
+# Recap {background-color="orange"}
+
+## Pipeline {background-color="#346bc8"}
+
+![](/figs/pipeline.png)
+
+[EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
+
+
+## Recap {background-color="#346bc8"}
+
+-   Referencing and filtering
+-   Removing unwanted channels
+-   Removing artefacts
+
+## Independent Component Analysis (ICA) {background-color="#346bc8"}
+
+
+::: incremental
+
+-   Why we need ICA?
+-   ICA is a signal processing method to separate independent sources linearly mixed in several sensors (ICA for Dummies - By Delorme)
+-   Let's watch the video together: [ICA by Delorme](https://www.youtube.com/watch?v=kWAjhXr7pT4)
+-   Remove artefacts, make sure you have enough data (20 * square of number of channels), high pass filter at 0.5, remove bad channels.
+
+::: 
+
+
+## Running ICA {background-color="#346bc8"}
+
+::: incremental
+
+-   Use the the `Lab 4` dataset on Learn.
+-   Use `Tools -> Decompose data by ICA`. Select `runica`, `extended 1` (helps to detect line noise).
+-   You can also plot all or individual component maps from the `Plot` menu. 
+-   Use `Tools -> Inspect/label components by map`. 
+-   Use `Tools -> Remove components from data`.
+-   Or, do this automatically: `Tools -> Classify components using ICLabel`, then flag components are artefacts.
+
+:::
+
+## Important {background-color="#346bc8"}
+-   Important: DON'T remove/reject components if you are conducting group level analysis.
+
+## To submit {background-color=#346bc8}
+
+-   Use the the `Lab 4 exercise` dataset on Learn.
+-   Conduct pipeline processing as per usual.
+-   Run ICA, share a screenshot.
+-   Remove componenets, share a screenshot.
+-   Compare pre- and post-analysis attributes.
+-   Compare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not?
+
+# The END {background-color="orange"}
+
+# References {background-color="orange"}
