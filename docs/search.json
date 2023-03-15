@@ -2063,5 +2063,12 @@
     "title": "Lab 04",
     "section": "Continued",
     "text": "Continued\n\n\nOr, do this automatically: Tools -> Classify components using ICLabel, then flag components as artefacts.\nImportant: DON’T remove/reject components if you are conducting group level analysis."
+  },
+  {
+    "objectID": "power.html",
+    "href": "power.html",
+    "title": "Power analysis",
+    "section": "",
+    "text": "Parameters that affect power of a study.\n\ntest being used\ndirectionality of hypothesis\nStudy design\nsignificance level\neffect size\nthe number of conditions\nbetween subjects design needs more subjects\n\n\nlibrary(pwr)\n\nPower for ANOVA\n\npwr.anova.test(k=4,f=.5,sig.level=.05,power=.8)\n\n\n     Balanced one-way analysis of variance power calculation \n\n              k = 4\n              n = 11.92611\n              f = 0.5\n      sig.level = 0.05\n          power = 0.8\n\nNOTE: n is number in each group"
   }
 ]
