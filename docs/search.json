@@ -361,7 +361,7 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Introduction to Neuroscience - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Neuroscience - 2 + Methods in Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nFundamentals of Electroencephalography (EEG)\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 6, 2023\n\n\nDr Roland Pfister\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to Neuroscience - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Neuroscience - 2 + Methods in Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nFundamentals of Electroencephalography (EEG)\n\n\nPSYC480 Weeks 3 and 4\n\n\n\n\n\n\n\n\n\nMar 6, 2023\n\n\nDr Roland Pfister\n\n\n\n\n\n\n  \n\n\n\n\nDSP & The neuroscience of contemplation - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nDr Roland Pfister and Dr Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "outline.html",
@@ -2070,5 +2070,194 @@
     "title": "Power analysis",
     "section": "",
     "text": "Parameters that affect power of a study.\n\ntest being used\ndirectionality of hypothesis\nStudy design\nsignificance level\neffect size\nthe number of conditions\nbetween subjects design needs more subjects\n\n\nlibrary(pwr)\n\nPower for ANOVA\n\npwr.anova.test(k=4,f=.5,sig.level=.05,power=.8)\n\n\n     Balanced one-way analysis of variance power calculation \n\n              k = 4\n              n = 11.92611\n              f = 0.5\n      sig.level = 0.05\n          power = 0.8\n\nNOTE: n is number in each group"
+  },
+  {
+    "objectID": "presentations/Week05.html#karakia-whakatūwhera",
+    "href": "presentations/Week05.html#karakia-whakatūwhera",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Karakia Whakatūwhera",
+    "text": "Karakia Whakatūwhera\n\n\n\nWhakataka te hau ki te uru/ Whakataka te hau ki te tonga/ Kia mākinakina ki uta/ Kia mātaratara ki tai/ E hī ake ana te atakura/ He tio, he huka, he hau hū/ Tīhei mauri ora!\n\n\nCease the winds from the west/ Cease the winds from the south/ Let the breeze blow over the land/ Let the breeze blow over the ocean/ Let the red-tipped dawn come with a sharpened air./ A touch of frost, a promise of a glorious day."
+  },
+  {
+    "objectID": "presentations/Week05.html#class-reps",
+    "href": "presentations/Week05.html#class-reps",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Class reps",
+    "text": "Class reps\n400 Level needs 2 class reps\nLink to registration system: https://ucsa.org.nz/support/classrepresentatives/"
+  },
+  {
+    "objectID": "presentations/Week05.html#course-structure",
+    "href": "presentations/Week05.html#course-structure",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Course Structure",
+    "text": "Course Structure\n\n\nFundamentals, EEG, Self-Transcendent practices, applications, reproducibility, broader scope, guest lecture\nLearning outcomes\nLecturers\nTextbook/readings"
+  },
+  {
+    "objectID": "presentations/Week05.html#assessments",
+    "href": "presentations/Week05.html#assessments",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Assessments",
+    "text": "Assessments\n\n\n\nAssessment\nDue\n% of final mark\n\n\n\n\nWritten labs\nDue Fridays\n20%\n\n\nClass participation\nDuring lectures\n10%\n\n\nLit Review/Essay\n17 Mar\n10%\n\n\nOral group presentation\nWeek 10 (15 May)\n20%\n\n\nLab Report\n2 Jun\n40%"
+  },
+  {
+    "objectID": "presentations/Week05.html#class-participation-10",
+    "href": "presentations/Week05.html#class-participation-10",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Class Participation 10%",
+    "text": "Class Participation 10%\nDuring 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark."
+  },
+  {
+    "objectID": "presentations/Week05.html#class-participation",
+    "href": "presentations/Week05.html#class-participation",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Class Participation",
+    "text": "Class Participation"
+  },
+  {
+    "objectID": "presentations/Week05.html#written-labs-20",
+    "href": "presentations/Week05.html#written-labs-20",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Written Labs 20%",
+    "text": "Written Labs 20%\nThis course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report."
+  },
+  {
+    "objectID": "presentations/Week05.html#written-labs",
+    "href": "presentations/Week05.html#written-labs",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Written Labs",
+    "text": "Written Labs"
+  },
+  {
+    "objectID": "presentations/Week05.html#literature-reviewessay-10",
+    "href": "presentations/Week05.html#literature-reviewessay-10",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Literature Review/Essay 10%",
+    "text": "Literature Review/Essay 10%\nA 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc."
+  },
+  {
+    "objectID": "presentations/Week05.html#literature-reviewessay",
+    "href": "presentations/Week05.html#literature-reviewessay",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Literature Review/Essay",
+    "text": "Literature Review/Essay"
+  },
+  {
+    "objectID": "presentations/Week05.html#oral-group-presentation-20",
+    "href": "presentations/Week05.html#oral-group-presentation-20",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Oral Group Presentation 20%",
+    "text": "Oral Group Presentation 20%\n\n\nPresent on a topic of your choice relevant to neuroscience as part of a group - from Week 5-9 or Week 11.\nEach member will get their own grade\nUse Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings."
+  },
+  {
+    "objectID": "presentations/Week05.html#oral-group-presentation",
+    "href": "presentations/Week05.html#oral-group-presentation",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Oral Group Presentation",
+    "text": "Oral Group Presentation"
+  },
+  {
+    "objectID": "presentations/Week05.html#oral-group-presentation-1",
+    "href": "presentations/Week05.html#oral-group-presentation-1",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Oral Group Presentation …",
+    "text": "Oral Group Presentation …\n\nPlan ahead and set clear goals and objectives.\nDivide the work and assign roles and responsibilities.\nConduct thorough research and organize information logically.\nCreate a visually appealing and engaging presentation.\nRehearse several times, individually and as a group.\nAnticipate questions and challenges and prepare appropriate responses.\nKeep track of time and adhere to the allotted time."
+  },
+  {
+    "objectID": "presentations/Week05.html#oral-group-presentation-2",
+    "href": "presentations/Week05.html#oral-group-presentation-2",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Oral Group Presentation …",
+    "text": "Oral Group Presentation …\n\nDeliver the presentation with confidence and enthusiasm.\nEnd with a strong conclusion and thank the audience.\nReflect on the performance and use feedback to improve future presentations."
+  },
+  {
+    "objectID": "presentations/Week05.html#individual-lab-report-40",
+    "href": "presentations/Week05.html#individual-lab-report-40",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Individual Lab Report 40%",
+    "text": "Individual Lab Report 40%\n\n\nAPA-styled scientific report\nIntro: the neuroscience of self-transcendent practices\nMethod: Method of your own EEG data collected in Week 7.\nResults: Analysis of your EEG data shall be reported.\nDiscussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc."
+  },
+  {
+    "objectID": "presentations/Week05.html#individual-lab-report",
+    "href": "presentations/Week05.html#individual-lab-report",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Individual Lab Report",
+    "text": "Individual Lab Report"
+  },
+  {
+    "objectID": "presentations/Week05.html#week-7-data-collection",
+    "href": "presentations/Week05.html#week-7-data-collection",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Week 7 Data Collection",
+    "text": "Week 7 Data Collection\nWe might not be able to collect data from all of you within the one hour of weekly lab. Volunteering for data collection during the week or even during the term break are encouraged and appreciated."
+  },
+  {
+    "objectID": "presentations/Week05.html#final-exam",
+    "href": "presentations/Week05.html#final-exam",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Final Exam",
+    "text": "Final Exam"
+  },
+  {
+    "objectID": "presentations/Week05.html#late-work",
+    "href": "presentations/Week05.html#late-work",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Late Work",
+    "text": "Late Work\n\n\nNot accepted for Written Labs, Class Participation, or Oral Presentation\n5% penalty per each 24-hour delay for large assignments\nWhat if you have genuine reasons stopping you from submitting on-time?"
+  },
+  {
+    "objectID": "presentations/Week05.html#how-to-seek-help",
+    "href": "presentations/Week05.html#how-to-seek-help",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "How to seek help?",
+    "text": "How to seek help?\n\n\nUse forum extensively\nAttend weekly hui (Tuesdays 11am - 12pm)\nIssues: Check Learn or Course Outline. Not solved? Ask Usman\nIf you email me or make a forum post, give me up to 24 hours to respond"
+  },
+  {
+    "objectID": "presentations/Week05.html#means-of-communication",
+    "href": "presentations/Week05.html#means-of-communication",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Means of Communication",
+    "text": "Means of Communication\n\nForum\nAsk directly\nEmail\n\n\n\n\n\n\n\nEmail\n\n\nPlease use your UC email address and my staff email address usman.afzali@canterbury.ac.nz"
+  },
+  {
+    "objectID": "presentations/Week05.html#if-you-are-up-for-open-science",
+    "href": "presentations/Week05.html#if-you-are-up-for-open-science",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "If you are up for Open Science",
+    "text": "If you are up for Open Science\nPSYC480 Open Science Website"
+  },
+  {
+    "objectID": "presentations/Week05.html#note-taking-from-sas",
+    "href": "presentations/Week05.html#note-taking-from-sas",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Note Taking (from SAS)",
+    "text": "Note Taking (from SAS)"
+  },
+  {
+    "objectID": "presentations/Week05.html#note-taking-from-sas-1",
+    "href": "presentations/Week05.html#note-taking-from-sas-1",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Note Taking (from SAS) …",
+    "text": "Note Taking (from SAS) …"
+  },
+  {
+    "objectID": "presentations/Week05.html#what-is-neuroscience",
+    "href": "presentations/Week05.html#what-is-neuroscience",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "What is Neuroscience?",
+    "text": "What is Neuroscience?\n\n\nPerception, thinking, understanding, control of movement\nExperimental psychology + physiology\nResearch: perception, control of movement, sleep and walking, reproductive/ingestive/emotional behaviour, learning, memory\nExamples of neuroscience subfields\nComputational neuroscience\nTools to conduct neuroscientific research"
+  },
+  {
+    "objectID": "presentations/Week05.html#karakia-whakatūwhera-1",
+    "href": "presentations/Week05.html#karakia-whakatūwhera-1",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Karakia Whakatūwhera",
+    "text": "Karakia Whakatūwhera\n\n\n\nUnuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea\n\n\nRemove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/"
+  },
+  {
+    "objectID": "presentations/Week05.html#discussion",
+    "href": "presentations/Week05.html#discussion",
+    "title": "DSP & The neuroscience of contemplation - 1",
+    "section": "Discussion",
+    "text": "Discussion\n\nDiscussion"
   }
 ]

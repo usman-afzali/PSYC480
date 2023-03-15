@@ -10,8 +10,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.313">
 
-  <meta name="author" content="Dr Roland Pfister">
-  <title>Computational Contemplative-Neuroscience - Fundamentals of Electroencephalography (EEG)</title>
+  <meta name="author" content="Dr Usman Afzali">
+  <title>Computational Contemplative-Neuroscience - Introduction to Neuroscience - 2 + Methods in Neuroscience</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,6 +28,25 @@
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
+    }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
     }
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
@@ -325,18 +344,21 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Fundamentals of Electroencephalography (EEG)</h1>
-  <p class="subtitle">PSYC480 Weeks 3 and 4</p>
+  <h1 class="title">Introduction to Neuroscience - 2 + Methods in Neuroscience</h1>
+  <p class="subtitle">PSYC480</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr Roland Pfister 
+Dr Usman Afzali 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            University of Canterbury
+          </p>
+    </div>
 </div>
 
-  <p class="date">3/6/23</p>
+  <p class="date">2/27/23</p>
 </section>
 <section id="karakia-whakatūwhera" class="slide level2" data-background-color="#346bc8">
 <h2>Karakia Whakatūwhera</h2>
@@ -351,24 +373,246 @@ Dr Roland Pfister
 </div>
 </div>
 </section>
-<section>
 <section id="kauhau" class="title-slide slide level1 center" data-background-color="orange">
 <h1>Kauhau</h1>
 <div>
 <ul>
-<li class="fragment">House Keeping</li>
-<li class="fragment">Over to Dr Pfister</li>
+<li class="fragment">Fundamentals of Neuroscience</li>
+<li class="fragment">Methods in Neuroscience</li>
 </ul>
 </div>
 </section>
-<section id="sensible-covid-advice" class="slide level2" data-background-color="#346bc8">
-<h2>Sensible Covid Advice</h2>
 
-<img data-src="../figs/COMR4025_Traffic_Light_LCDs.png" class="r-stretch"></section></section>
 <section>
-<section id="over-to-roland" class="title-slide slide level1 center" data-background-color="#346bc8">
-<h1>Over to Roland</h1>
-<p>Slides on Learn</p>
+<section id="fundamentals-of-neuroscience" class="title-slide slide level1 center" data-background-color="orange">
+<h1>Fundamentals of Neuroscience</h1>
+
+</section>
+<section id="what-is-neuroscience" class="slide level2" data-background-color="#346bc8">
+<h2>What is Neuroscience?</h2>
+<div>
+<ul>
+<li class="fragment">Perception, thinking, understanding, control of movement</li>
+<li class="fragment">Experimental psychology + physiology</li>
+<li class="fragment">Research: perception, control of movement, sleep and walking, reproductive/ingestive/emotional behaviour, learning, memory</li>
+<li class="fragment">Examples of neuroscience subfields</li>
+<li class="fragment">Computational neuroscience</li>
+<li class="fragment">Tools to conduct neuroscientific research</li>
+</ul>
+</div>
+</section>
+<section id="history" class="slide level2" data-background-color="#346bc8">
+<h2>History</h2>
+<div>
+<ul>
+<li class="fragment">7th Century: Descartes and control of behaviour</li>
+<li class="fragment">19th Century: Muller and removing organs for study</li>
+<li class="fragment">Contemporary neuroscience</li>
+<li class="fragment">Evolution and brain</li>
+</ul>
+</div>
+</section>
+<section id="ethical-issues" class="slide level2" data-background-color="#346bc8">
+<h2>Ethical Issues</h2>
+<ul>
+<li>Animal research</li>
+<li>Human research</li>
+</ul>
+</section></section>
+<section>
+<section id="neuron" class="title-slide slide level1 center" data-background-color="orange">
+<h1>Neuron</h1>
+
+</section>
+<section id="structure" class="slide level2" data-background-color="#346bc8">
+<h2>Structure</h2>
+<ul>
+<li>Axon</li>
+<li>Dendrite</li>
+<li>Cell body</li>
+</ul>
+</section>
+<section id="neuron-cns-and-pns" class="slide level2" data-background-color="#346bc8">
+<h2>Neuron, CNS and PNS</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="../figs/cns2.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="../figs/neuron.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="physiology-of-neuron" class="slide level2" data-background-color="#346bc8">
+<h2>Physiology of Neuron</h2>
+
+<img data-src="../figs/physio.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="supporting-cells-of-neuron" class="slide level2" data-background-color="#346bc8">
+<h2>Supporting cells of Neuron</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<ul>
+<li>Glia: nerve glue</li>
+<li>Astrocyte: physical support and clean debris</li>
+<li>Oligodendrocyte: support axons and produce myelin sheath</li>
+<li>Schwann cells: PNS</li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
+<p><img data-src="../figs/olig.png"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="neuron-communication-1" class="slide level2" data-background-color="#346bc8">
+<h2>Neuron communication 1</h2>
+<p>Withdrawal reflex</p>
+
+<img data-src="../figs/wr.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="neuron-communication-2" class="slide level2" data-background-color="#346bc8">
+<h2>Neuron communication 2</h2>
+<p>Inhibition</p>
+<p><img data-src="../figs/inhibition.png"> <span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="action-potential" class="slide level2" data-background-color="#346bc8">
+<h2>Action Potential</h2>
+<p>Electrical event in the neuron</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<ul>
+<li>Negative charge of -70mV inside the axon membrane - resting potential</li>
+<li>Any difference: membrane potential</li>
+<li>hyperpolarisation vs.&nbsp;depolarisation</li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
+<p><img data-src="../figs/ap.png"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="synapse" class="slide level2" data-background-color="#346bc8">
+<h2>Synapse</h2>
+<div>
+<ul>
+<li class="fragment">The role of neurotransmitters</li>
+<li class="fragment">Presynaptic membrane, synaptic cleft, postsynaptic membrane</li>
+<li class="fragment">Postsynaptic potentials: EPSP and IPSP</li>
+<li class="fragment">Termination of postsynaptic potentials</li>
+</ul>
+</div>
+</section>
+<section id="synapse-types" class="slide level2" data-background-color="#346bc8">
+<h2>Synapse types</h2>
+
+<img data-src="../figs/st.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section></section>
+<section>
+<section id="cns-structure" class="title-slide slide level1 center" data-background-color="orange">
+<h1>CNS Structure</h1>
+
+</section>
+<section id="brain-development" class="slide level2" data-background-color="#346bc8">
+<h2>Brain Development</h2>
+<p>Pre- and post-natal</p>
+
+<img data-src="../figs/db.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="sub-divisions" class="slide level2" data-background-color="#346bc8">
+<h2>Sub-divisions</h2>
+
+<img data-src="../figs/sd.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="cerebral-cortex" class="slide level2" data-background-color="#346bc8">
+<h2>Cerebral Cortex</h2>
+<ul>
+<li>Surrounds the cerebral hemispheres</li>
+<li>Greatly convoluted; consisting of sulci (small grooves), fissures (large grooves), and gyri (bulges between adjacent sulci or fissures)</li>
+<li>Greatly enlarged surface area of the cortex, compared with a smooth brain</li>
+</ul>
+</section>
+<section id="four-lobes" class="slide level2" data-background-color="#346bc8">
+<h2>Four Lobes</h2>
+
+<img data-src="../figs/1.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="four-lobes-1" class="slide level2" data-background-color="#346bc8">
+<h2>Four Lobes…</h2>
+
+<img data-src="../figs/2.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section>
+<section id="four-lobes-2" class="slide level2" data-background-color="#346bc8">
+<h2>Four Lobes…</h2>
+
+<img data-src="../figs/3.png" class="r-stretch"><p><span class="citation" data-cites="carlson2017">(<a href="#/references" role="doc-biblioref" onclick="">Carlson and Birkett 2017</a>)</span></p>
+</section></section>
+<section id="break-time" class="title-slide slide level1 center" data-background-color="orange">
+<h1>BREAK TIME</h1>
+
+</section>
+
+<section>
+<section id="methods-in-neuroscience" class="title-slide slide level1 center" data-background-color="orange">
+<h1>Methods in Neuroscience</h1>
+
+</section>
+<section id="functional-neuroimagining" class="slide level2" data-background-color="#346bc8">
+<h2>Functional Neuroimagining</h2>
+<div>
+<ul>
+<li class="fragment">Introduction and function</li>
+<li class="fragment">Uses</li>
+<li class="fragment">Limitations (functional, spatial, and temporal)</li>
+</ul>
+</div>
+</section>
+<section id="eegerp" class="slide level2" data-background-color="#346bc8">
+<h2>EEG/ERP</h2>
+<ul>
+<li>Introduction and function</li>
+<li>Uses</li>
+<li>Limitations</li>
+</ul>
+<p><span class="citation" data-cites="handbook2016a">(<a href="#/references" role="doc-biblioref" onclick="">Cacioppo, Tassinary, and Berntson 2016</a>)</span></p>
+
+<img data-src="../figs/Figure 9.png" class="r-stretch"><p><span class="citation" data-cites="afzali2022a">(<a href="#/references" role="doc-biblioref" onclick="">Afzali et al. 2022</a>)</span></p>
+</section>
+<section id="high-performance-microsegmentation" class="slide level2" data-background-color="#346bc8">
+<h2>High Performance microsegmentation</h2>
+<div>
+<ul>
+<li class="fragment">Introduction and Use</li>
+<li class="fragment">Examples</li>
+</ul>
+</div>
+</section>
+<section id="microstates" class="slide level2" data-background-color="#346bc8">
+<h2>Microstates</h2>
+
+<img data-src="../figs/ms.png" class="r-stretch"><p><span class="citation" data-cites="nash2022">(<a href="#/references" role="doc-biblioref" onclick="">Nash et al. 2022</a>)</span></p>
+</section>
+<section id="literature-reviewessay-10" class="slide level2" data-background-color="#346bc8">
+<h2>Literature Review/Essay 10%</h2>
+<p>A 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc.</p>
 </section>
 <section id="karakia-whakatūwhera-1" class="slide level2" data-background-color="#346bc8">
 <h2>Karakia Whakatūwhera</h2>
@@ -386,8 +630,27 @@ Dr Roland Pfister
 <section id="the-end" class="title-slide slide level1 center" data-background-color="orange">
 <h1>THE END</h1>
 
+</section>
+
+<section id="references" class="title-slide slide level1 smaller scrollable" data-background-color="orange">
+<h1>References</h1>
+
 <div class="footer footer-default">
 
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-afzali2022a" class="csl-entry" role="doc-biblioentry">
+Afzali, M. Usman, Alex P. Seren-Grace, Robin W. Palmer, Ewald Neumann, Sarah Makarious, Debra Wilson, and Richard D. Jones. 2022. <span>“Detection of Concealed Knowledge via the ERP <span>-</span>Based Technique <span><em>Brain Fingerprinting</em></span> : Real<span>-</span>Life and Real<span>-</span>Crime Incidents.”</span> <em>Psychophysiology</em> 59 (11). <a href="https://doi.org/10.1111/psyp.14110">https://doi.org/10.1111/psyp.14110</a>.
+</div>
+<div id="ref-handbook2016a" class="csl-entry" role="doc-biblioentry">
+Cacioppo, John T., Louis G. Tassinary, and Gary G. Berntson, eds. 2016. <em>Handbook of Psychophysiology</em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781107415782">https://doi.org/10.1017/9781107415782</a>.
+</div>
+<div id="ref-carlson2017" class="csl-entry" role="doc-biblioentry">
+Carlson, Neil R., and Melissa A. Birkett. 2017. <em>Physiology of Behavior</em>. Twelfth;Global; Book, Whole. Harlow, Essex: Pearson. <a href="https://go.exlibris.link/wyZtfK4C">https://go.exlibris.link/wyZtfK4C</a>.
+</div>
+<div id="ref-nash2022" class="csl-entry" role="doc-biblioentry">
+Nash, Kyle, Tobias Kleinert, Josh Leota, Andy Scott, and Jeff Schimel. 2022. <span>“Resting-State Networks of Believers and Non-Believers: An EEG Microstate Study.”</span> <em>Biological Psychology</em> 169 (March): 108283. <a href="https://doi.org/10.1016/j.biopsycho.2022.108283">https://doi.org/10.1016/j.biopsycho.2022.108283</a>.
+</div>
 </div>
 </section>
     </div>

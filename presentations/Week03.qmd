@@ -1,6 +1,6 @@
 ---
 title: "Fundamentals of Electroencephalography (EEG)"
-subtitle: "PSYC480"
+subtitle: "PSYC480 Weeks 3 and 4"
 author: "Dr Roland Pfister"
 
 date: 2023 03 06

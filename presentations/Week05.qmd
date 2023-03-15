@@ -1,0 +1,103 @@
+---
+title: "DSP & The neuroscience of contemplation - 1"
+subtitle: "PSYC480"
+author: "Dr Roland Pfister and Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 03 20
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+---
+
+## Karakia Whakatūwhera {background-color=#346bc8}
+
+::: {layout="[[50, 50], [100]]"}
+
+Whakataka te hau ki te uru/
+Whakataka te hau ki te tonga/
+Kia mākinakina ki uta/
+Kia mātaratara ki tai/
+E hī ake ana te atakura/
+He tio, he huka, he hau hū/
+Tīhei mauri ora!
+
+Cease the winds from the west/
+Cease the winds from the south/
+Let the breeze blow over the land/
+Let the breeze blow over the ocean/
+Let the red-tipped dawn come with a sharpened air./
+A touch of frost, a promise of a glorious day.
+
+:::
+
+
+# Kauhau {background-color=orange}
+::: incremental
+-   Presentations - the next assignment
+-   Digital Signal Processing
+-   The neuroscience of self transcendent/contemplative practices
+:::
+
+## Oral Group Presentation 20% {background-color=#346bc8}
+
+::: incremental
+
+-   Present on a topic of your choice relevant to neuroscience as part of a group - from Week 5-9 or Week 11.
+-   Each member will get their own grade
+-   Use Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. 
+
+:::
+
+## Oral Group Presentation {background-color=#346bc8}
+
+![](/figs/groupPres.png)
+
+## Oral Group Presentation ... {background-color=#346bc8}
+
+1. Plan ahead and set clear goals and objectives.
+2. Divide the work and assign roles and responsibilities.
+3. Conduct thorough research and organize information logically.
+4. Create a visually appealing and engaging presentation.
+5. Rehearse several times, individually and as a group.
+6. Anticipate questions and challenges and prepare appropriate responses.
+7. Keep track of time and adhere to the allotted time.
+
+
+## Oral Group Presentation ... {background-color=#346bc8}
+
+8. Deliver the presentation with confidence and enthusiasm.
+8. End with a strong conclusion and thank the audience.
+9. Reflect on the performance and use feedback to improve future presentations.
+
+
+# Digital Signal Processing {background-color=orange}
+
+# The neuroscience of self transcendent/contemplative practices {background-color=orange}
+
+
+## Discussion {background-color=#346bc8}
+
+-   Discussion
+
+
+## Karakia Whakatūwhera {background-color=#346bc8}
+
+::: {layout="[[50, 50], [100]]"}
+
+Unuhia, unuhia/
+Te pou, te pou/
+Kia wātea, kia wātea/
+Āe, kua wātea
+
+
+Remove, uplift/
+The posts/
+In order to be free/
+Yes, it has been cleared/
+
+:::
+
+
+# THE END {background-color=orange}
