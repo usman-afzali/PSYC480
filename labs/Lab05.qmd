@@ -1,0 +1,65 @@
+---
+title: "Lab 05"
+subtitle: "PSYC480"
+author: "Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 03 22
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+bibliography: references.bib
+---
+
+# Recap {background-color="orange"}
+
+## Pipeline {background-color="#346bc8"}
+
+![](/figs/pipeline.png)
+
+[EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
+
+
+## Processing {background-color="#346bc8"}
+
+-   Referencing and filtering
+-   Removing unwanted channels
+-   Removing artefacts
+-   ICA
+
+## Microstates {background-color="#346bc8"}
+
+
+::: incremental
+
+-   Definition
+-   Use
+-   Re-processing
+
+::: 
+
+
+## Obtaining microstates {background-color="#346bc8"}
+
+::: incremental
+
+-   Use `Lab 5 demo` dataset on Learn.
+-   Conduct the necessary processing.
+-   Filter data 1.5-20 Hz, ICA, interpolation and re-referencing to average.
+-   Use `Tools -> Microstates -> Identify microstates maps`.
+-   See next slide for `options`
+:::
+
+## Obtaining microstates continued {background-color="#346bc8"}
+
+![](/figs/ms.png)
+
+## To submit {background-color=#346bc8}
+
+-   Use the the `Lab 5 exercise` dataset on Learn.
+-   Conduct necessary processing.
+-   Identify microstate maps
+
+# The END {background-color="orange"}
+
