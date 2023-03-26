@@ -45,13 +45,13 @@ A touch of frost, a promise of a glorious day.
 -   [Process EEG data on the San Diego supercomputer (for free) in 10 minutes](https://www.youtube.com/watch?v=1_h8NFS_ipI&list=WL&index=30)
 
 
-## Korero {background-color=#346bc8}
+## Kōrero {background-color=#346bc8}
 
 ::: incremental
 
 -   What does contemplation mean to you?
--   Braboszcz et al. (2017)
 -   Yaden et al. (2017)
+-   Braboszcz et al. (2017)
 -   Nash et al. (2022). Resting-state networks of believers and non-believers: An EEG microstate study
 -   Nash et al. (2022). Anxiety disrupts performance monitoring: integrating behavioral, event-related potential, EEG microstate, and sLORETA evidence
 
