@@ -38,14 +38,14 @@ A touch of frost, a promise of a glorious day.
 -   Keeping up with Delorme
 -   The neuroscience of self transcendent/contemplative practices
 
-## Keeping up with Delorme {background-color=orange}
+## Keeping up with Delorme {background-color=#346bc8}
 
 -   [Process EEG data in MNE then build an automated pipeline](https://youtu.be/31N8WHioQ3U)
 -   [Process EEG data then build a pipeline in EEGLAB](https://youtu.be/yaA1wq2nSIc)
 -   [Process EEG data on the San Diego supercomputer (for free) in 10 minutes](https://www.youtube.com/watch?v=1_h8NFS_ipI&list=WL&index=30)
 
 
-## Korero {background-color=orange}
+## Korero {background-color=#346bc8}
 
 ::: incremental
 
