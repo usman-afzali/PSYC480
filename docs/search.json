@@ -2426,7 +2426,7 @@
     "href": "labs/Lab06.html#microstates",
     "title": "Lab 06",
     "section": "Microstates",
-    "text": "Microstates\n\nDifferences between Windows and Mac versions\nWhat else is needed for microstates analysis?"
+    "text": "Microstates\n\nDifferences between Windows and Mac versions\nWhat else is needed for microstates analysis?\n\n\nMac MS"
   },
   {
     "objectID": "labs/Lab06.html#obtaining-microstates",
@@ -2447,7 +2447,7 @@
     "href": "labs/Lab06.html#to-submit",
     "title": "Lab 06",
     "section": "To submit",
-    "text": "To submit\n\nUse the the Lab 6 exercise dataset on Learn.\nConduct pre-processing.\nAttempt identifying microstate maps."
+    "text": "To submit\n\nUse the the Lab 6 exercise dataset on Learn.\nConduct pre-processing.\nIdentify average microstate maps."
   },
   {
     "objectID": "labs/Lab06.html#processing-multiple-datasets",
@@ -2455,5 +2455,19 @@
     "title": "Lab 06",
     "section": "Processing multiple datasets",
     "text": "Processing multiple datasets\n\n\nUse Lab 6 demo dataset on Learn.\nLet’s process according to the pipeline!"
+  },
+  {
+    "objectID": "labs/Lab06.html#group-level-analysis",
+    "href": "labs/Lab06.html#group-level-analysis",
+    "title": "Lab 06",
+    "section": "Group level analysis",
+    "text": "Group level analysis\n\n\nUse Lab 6 demo dataset on Learn.\nLet’s process according to the pipeline!\nWatch Delorme’s video for a comprehensive tutorial."
+  },
+  {
+    "objectID": "labs/Lab06.html#group-level-analysis-continued",
+    "href": "labs/Lab06.html#group-level-analysis-continued",
+    "title": "Lab 06",
+    "section": "Group level analysis continued",
+    "text": "Group level analysis continued\n\n\nRemove non-EEG channels\nCompute average reference\nUse ASR: by removing channel drift around 1 (0.75 and 1.25), recommended for ICA. Change the the minimum correlation to 0.7.\nAverage reference again, and interpolate removed channel(s).\nRun ICA (with Picard) and the rest of the processing.\nGet average microstates."
   }
 ]

@@ -14,13 +14,6 @@ bibliography: references.bib
 
 # Recap {background-color="orange"}
 
-## Pipeline {background-color="#346bc8"}
-
-![](/figs/pipeline.png)
-
-[EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
-
-
 ## Processing {background-color="#346bc8"}
 
 -   Referencing and filtering
@@ -34,24 +27,33 @@ bibliography: references.bib
 -   Differences between Windows and Mac versions
 -   What else is needed for microstates analysis?
 
-![](/figs/ms.png)
+![Mac MS](/figs/ms-mac.png)
 
-## Processing multiple datasets {background-color="#346bc8"}
+## Group level analysis {background-color="#346bc8"}
 
 ::: incremental
 
 -   Use `Lab 6 demo` dataset on Learn.
 -   Let's process according to the pipeline!
+-   Watch Delorme's [video](https://eeglab.org/tutorials/10_Group_analysis/multiple_subject_proccessing_overview.html) for a comprehensive tutorial.
 :::
 
-## Obtaining microstates continued {background-color="#346bc8"}
+##  Group level analysis continued {background-color="#346bc8"}
 
+::: incremental
+-   Remove non-EEG channels
+-   Compute average reference
+-   Use ASR: by removing channel drift around 1 (0.75 and 1.25), recommended for ICA. Change the the minimum correlation to 0.7.
+-   Average reference again, and interpolate removed channel(s).
+-   Run ICA (with Picard) and the rest of the processing.
+-   Get average microstates.
+:::
 
 ## To submit {background-color=#346bc8}
 
 -   Use the the `Lab 6 exercise` dataset on Learn.
 -   Conduct pre-processing.
--   Attempt identifying microstate maps.
+-   Identify average microstate maps.
 
 # The END {background-color="orange"}
 

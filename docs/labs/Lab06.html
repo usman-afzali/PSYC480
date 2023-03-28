@@ -348,11 +348,6 @@ Usman Afzali
 <h1>Recap</h1>
 
 </section>
-<section id="pipeline" class="slide level2" data-background-color="#346bc8">
-<h2>Pipeline</h2>
-
-<img data-src="../figs/pipeline.png" class="r-stretch"><p><a href="https://youtu.be/gEk33jWB0MY">EEGLab Preprocessing - Delorme</a></p>
-</section>
 <section id="processing" class="slide level2" data-background-color="#346bc8">
 <h2>Processing</h2>
 <ul>
@@ -369,25 +364,36 @@ Usman Afzali
 <li>What else is needed for microstates analysis?</li>
 </ul>
 
-<img data-src="../figs/ms.png" class="r-stretch"></section>
-<section id="processing-multiple-datasets" class="slide level2" data-background-color="#346bc8">
-<h2>Processing multiple datasets</h2>
+<img data-src="../figs/ms-mac.png" class="r-stretch quarto-figure-center"><p class="caption">Mac MS</p></section>
+<section id="group-level-analysis" class="slide level2" data-background-color="#346bc8">
+<h2>Group level analysis</h2>
 <div>
 <ul>
 <li class="fragment">Use <code>Lab 6 demo</code> dataset on Learn.</li>
 <li class="fragment">Let’s process according to the pipeline!</li>
+<li class="fragment">Watch Delorme’s <a href="https://eeglab.org/tutorials/10_Group_analysis/multiple_subject_proccessing_overview.html">video</a> for a comprehensive tutorial.</li>
 </ul>
 </div>
 </section>
-<section id="obtaining-microstates-continued" class="slide level2" data-background-color="#346bc8">
-<h2>Obtaining microstates continued</h2>
+<section id="group-level-analysis-continued" class="slide level2" data-background-color="#346bc8">
+<h2>Group level analysis continued</h2>
+<div>
+<ul>
+<li class="fragment">Remove non-EEG channels</li>
+<li class="fragment">Compute average reference</li>
+<li class="fragment">Use ASR: by removing channel drift around 1 (0.75 and 1.25), recommended for ICA. Change the the minimum correlation to 0.7.</li>
+<li class="fragment">Average reference again, and interpolate removed channel(s).</li>
+<li class="fragment">Run ICA (with Picard) and the rest of the processing.</li>
+<li class="fragment">Get average microstates.</li>
+</ul>
+</div>
 </section>
 <section id="to-submit" class="slide level2" data-background-color="#346bc8">
 <h2>To submit</h2>
 <ul>
 <li>Use the the <code>Lab 6 exercise</code> dataset on Learn.</li>
 <li>Conduct pre-processing.</li>
-<li>Attempt identifying microstate maps.</li>
+<li>Identify average microstate maps.</li>
 </ul>
 </section></section>
 <section id="the-end" class="title-slide slide level1 center" data-background-color="orange">
