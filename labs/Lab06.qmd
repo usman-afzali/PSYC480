@@ -1,0 +1,57 @@
+---
+title: "Lab 06"
+subtitle: "PSYC480"
+author: "Usman Afzali"
+institute: "University of Canterbury"
+date: 2023 03 29
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+bibliography: references.bib
+---
+
+# Recap {background-color="orange"}
+
+## Pipeline {background-color="#346bc8"}
+
+![](/figs/pipeline.png)
+
+[EEGLab Preprocessing - Delorme](https://youtu.be/gEk33jWB0MY)
+
+
+## Processing {background-color="#346bc8"}
+
+-   Referencing and filtering
+-   Removing unwanted channels
+-   Removing artefacts
+-   ICA
+
+## Microstates {background-color="#346bc8"}
+
+
+-   Differences between Windows and Mac versions
+-   What else is needed for microstates analysis?
+
+![](/figs/ms.png)
+
+## Processing multiple datasets {background-color="#346bc8"}
+
+::: incremental
+
+-   Use `Lab 6 demo` dataset on Learn.
+-   Let's process according to the pipeline!
+:::
+
+## Obtaining microstates continued {background-color="#346bc8"}
+
+
+## To submit {background-color=#346bc8}
+
+-   Use the the `Lab 6 exercise` dataset on Learn.
+-   Conduct pre-processing.
+-   Attempt identifying microstate maps.
+
+# The END {background-color="orange"}
+

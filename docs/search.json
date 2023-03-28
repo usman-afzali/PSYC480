@@ -354,7 +354,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations.html",
@@ -2406,5 +2406,54 @@
     "title": "Untitled",
     "section": "",
     "text": "\\[\nP(E) = {n \\choose k} p^k (2-p)^{n-k}\n\\]"
+  },
+  {
+    "objectID": "labs/Lab06.html#pipeline",
+    "href": "labs/Lab06.html#pipeline",
+    "title": "Lab 06",
+    "section": "Pipeline",
+    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+  },
+  {
+    "objectID": "labs/Lab06.html#processing",
+    "href": "labs/Lab06.html#processing",
+    "title": "Lab 06",
+    "section": "Processing",
+    "text": "Processing\n\nReferencing and filtering\nRemoving unwanted channels\nRemoving artefacts\nICA"
+  },
+  {
+    "objectID": "labs/Lab06.html#microstates",
+    "href": "labs/Lab06.html#microstates",
+    "title": "Lab 06",
+    "section": "Microstates",
+    "text": "Microstates\n\nDifferences between Windows and Mac versions\nWhat else is needed for microstates analysis?"
+  },
+  {
+    "objectID": "labs/Lab06.html#obtaining-microstates",
+    "href": "labs/Lab06.html#obtaining-microstates",
+    "title": "Lab 06",
+    "section": "Obtaining microstates",
+    "text": "Obtaining microstates\n\n\nUse Lab 5 demo dataset on Learn.\nConduct the necessary processing.\nFilter data 1.5-20 Hz, ICA, interpolation and re-referencing to average.\nUse Tools -> Microstates -> Identify microstates maps.\nSee next slide for options"
+  },
+  {
+    "objectID": "labs/Lab06.html#obtaining-microstates-continued",
+    "href": "labs/Lab06.html#obtaining-microstates-continued",
+    "title": "Lab 06",
+    "section": "Obtaining microstates continued",
+    "text": "Obtaining microstates continued"
+  },
+  {
+    "objectID": "labs/Lab06.html#to-submit",
+    "href": "labs/Lab06.html#to-submit",
+    "title": "Lab 06",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 6 exercise dataset on Learn.\nConduct pre-processing.\nAttempt identifying microstate maps."
+  },
+  {
+    "objectID": "labs/Lab06.html#processing-multiple-datasets",
+    "href": "labs/Lab06.html#processing-multiple-datasets",
+    "title": "Lab 06",
+    "section": "Processing multiple datasets",
+    "text": "Processing multiple datasets\n\n\nUse Lab 6 demo dataset on Learn.\nLet’s process according to the pipeline!"
   }
 ]
