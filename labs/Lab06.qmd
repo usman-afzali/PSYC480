@@ -65,6 +65,7 @@ bibliography: references.bib
 
 -   Use the the `Lab 6 exercise` dataset on Learn.
 -   Conduct pre-processing.
--   Identify average microstate maps.
+-   Write the steps of pre-processing taken.
+-   Share the first screenshot (before any processing) and the final screenshot (post processing).
 
 # The END {background-color="orange"}
