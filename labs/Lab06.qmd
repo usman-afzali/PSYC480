@@ -23,11 +23,22 @@ bibliography: references.bib
 
 ## Microstates {background-color="#346bc8"}
 
-
 -   Differences between Windows and Mac versions
 -   What else is needed for microstates analysis?
 
 ![Mac MS](/figs/ms-mac.png)
+
+## Microstates with Windows {background-color="#346bc8"}
+
+![Menu](/figs/ms-win3.png)
+
+## Microstates with Windows... {background-color="#346bc8"}
+
+![Step 1](/figs/ms-win1.png)
+
+## Microstates with Windows... {background-color="#346bc8"}
+
+![Step 2](/figs/ms-win2.png)
 
 ## Group level analysis {background-color="#346bc8"}
 
@@ -56,4 +67,3 @@ bibliography: references.bib
 -   Identify average microstate maps.
 
 # The END {background-color="orange"}
-
