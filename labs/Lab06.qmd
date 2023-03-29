@@ -58,8 +58,16 @@ bibliography: references.bib
 -   Reference 2-20 for microstates
 -   Average reference again, and interpolate removed channel(s).
 -   Run ICA (with Picard) and the rest of the processing.
--   Get average microstates.
+-   Get average microstates (for both sets together).
 :::
+
+##  Group level microstates {background-color="#346bc8"}
+
+Should look similar to this figure.
+
+![](/figs/ms-ave.jpg)
+
+
 
 ## To submit {background-color=#346bc8}
 
