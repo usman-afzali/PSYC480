@@ -75,5 +75,6 @@ Should look similar to this figure.
 -   Conduct pre-processing.
 -   Write the steps of pre-processing taken.
 -   Share the first screenshot (before any processing) and the final screenshot (post processing).
+-   You don't need to include microstate analysis in this submission.
 
 # The END {background-color="orange"}
