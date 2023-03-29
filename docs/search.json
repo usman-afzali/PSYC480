@@ -2468,7 +2468,7 @@
     "href": "labs/Lab06.html#group-level-analysis-continued",
     "title": "Lab 06",
     "section": "Group level analysis continued",
-    "text": "Group level analysis continued\n\n\nRemove non-EEG channels\nCompute average reference\nUse ASR: by removing channel drift around 1 (0.75 and 1.25), recommended for ICA. Change the the minimum correlation to 0.7.\nReference 2-20 for microstates\nAverage reference again, and interpolate removed channel(s).\nRun ICA (with Picard) and the rest of the processing.\nGet average microstates (for both sets together)."
+    "text": "Group level analysis continued\n\n\nRemove non-EEG channels\nCompute average reference\nUse ASR: by removing channel drift around 1 (0.75 and 1.25), recommended for ICA. Change the the minimum correlation to 0.7.\nFilter 2-20 for microstates\nAverage reference again, and interpolate removed channel(s).\nRun ICA (with Picard) and the rest of the processing.\nGet average microstates (for both sets together)."
   },
   {
     "objectID": "labs/Lab06.html#microstates-with-windows",

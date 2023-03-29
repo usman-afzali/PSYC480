@@ -55,7 +55,7 @@ bibliography: references.bib
 -   Remove non-EEG channels
 -   Compute average reference
 -   Use ASR: by removing channel drift around 1 (0.75 and 1.25), recommended for ICA. Change the the minimum correlation to 0.7.
--   Reference 2-20 for microstates
+-   Filter 2-20 for microstates
 -   Average reference again, and interpolate removed channel(s).
 -   Run ICA (with Picard) and the rest of the processing.
 -   Get average microstates (for both sets together).
