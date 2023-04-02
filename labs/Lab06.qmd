@@ -43,13 +43,12 @@ bibliography: references.bib
 ## Group level analysis {background-color="#346bc8"}
 
 ::: incremental
-
 -   Use `Lab 6 demo` dataset on Learn.
 -   Let's process according to the pipeline!
 -   Watch Delorme's [video](https://eeglab.org/tutorials/10_Group_analysis/multiple_subject_proccessing_overview.html) for a comprehensive tutorial.
 :::
 
-##  Group level analysis continued {background-color="#346bc8"}
+## Group level analysis continued {background-color="#346bc8"}
 
 ::: incremental
 -   Remove non-EEG channels
@@ -61,15 +60,13 @@ bibliography: references.bib
 -   Get average microstates (for both sets together).
 :::
 
-##  Group level microstates {background-color="#346bc8"}
+## Group level microstates {background-color="#346bc8"}
 
 Should look similar to this figure.
 
 ![](/figs/ms-ave.jpg)
 
-
-
-## To submit {background-color=#346bc8}
+## To submit {background-color="#346bc8"}
 
 -   Use the the `Lab 6 exercise` dataset on Learn.
 -   Conduct pre-processing.
