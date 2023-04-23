@@ -48,6 +48,9 @@ A touch of frost, a promise of a glorious day.
 
 :::
 
+## Lab report {background-color=#346bc8}
+
+![](/figs/labReport.png)
 
 ## Kōrero {background-color=#346bc8}
 
