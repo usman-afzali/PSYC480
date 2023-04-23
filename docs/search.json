@@ -361,7 +361,7 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Introduction to Neuroscience - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Neuroscience - 2 + Methods in Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nFundamentals of Electroencephalography (EEG)\n\n\nPSYC480 Weeks 3 and 4\n\n\n\n\n\n\n\n\n\nMar 6, 2023\n\n\nDr Roland Pfister\n\n\n\n\n\n\n  \n\n\n\n\nDSP & The neuroscience of contemplation - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nDr Roland Pfister and Dr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe neuroscience of contemplation - 2\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to Neuroscience - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Neuroscience - 2 + Methods in Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nFundamentals of Electroencephalography (EEG)\n\n\nPSYC480 Weeks 3 and 4\n\n\n\n\n\n\n\n\n\nMar 6, 2023\n\n\nDr Roland Pfister\n\n\n\n\n\n\n  \n\n\n\n\nDSP & The neuroscience of contemplation - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nDr Roland Pfister and Dr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe neuroscience of contemplation - 2\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrain computer interface\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nApr 23, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "outline.html",
@@ -2497,5 +2497,40 @@
     "title": "Lab 06",
     "section": "Group level microstates",
     "text": "Group level microstates\nShould look similar to this figure."
+  },
+  {
+    "objectID": "presentations/Week07.html#karakia-whakatūwhera",
+    "href": "presentations/Week07.html#karakia-whakatūwhera",
+    "title": "Brain computer interface",
+    "section": "Karakia Whakatūwhera",
+    "text": "Karakia Whakatūwhera\n\n\n\nWhakataka te hau ki te uru/ Whakataka te hau ki te tonga/ Kia mākinakina ki uta/ Kia mātaratara ki tai/ E hī ake ana te atakura/ He tio, he huka, he hau hū/ Tīhei mauri ora!\n\n\nCease the winds from the west/ Cease the winds from the south/ Let the breeze blow over the land/ Let the breeze blow over the ocean/ Let the red-tipped dawn come with a sharpened air./ A touch of frost, a promise of a glorious day."
+  },
+  {
+    "objectID": "presentations/Week07.html#keeping-up-with-delorme",
+    "href": "presentations/Week07.html#keeping-up-with-delorme",
+    "title": "Brain computer interface",
+    "section": "Keeping up with Delorme",
+    "text": "Keeping up with Delorme\n\nProcess EEG data in MNE then build an automated pipeline\nProcess EEG data then build a pipeline in EEGLAB\nProcess EEG data on the San Diego supercomputer (for free) in 10 minutes"
+  },
+  {
+    "objectID": "presentations/Week07.html#kōrero",
+    "href": "presentations/Week07.html#kōrero",
+    "title": "Brain computer interface",
+    "section": "Kōrero",
+    "text": "Kōrero\n\n\nNicolas-Alonso and Gomez-Gil (2012)\nFarwell and Donchin (1998)\nAnderson et al. (2022)\nKangassalo et al. (2020)\nMattout (2012).\nCheron et al. (2016)"
+  },
+  {
+    "objectID": "presentations/Week07.html#karakia-whakatūwhera-1",
+    "href": "presentations/Week07.html#karakia-whakatūwhera-1",
+    "title": "Brain computer interface",
+    "section": "Karakia Whakatūwhera",
+    "text": "Karakia Whakatūwhera\n\n\n\nUnuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea\n\n\nRemove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/"
+  },
+  {
+    "objectID": "presentations/Week07.html#housekeeping",
+    "href": "presentations/Week07.html#housekeeping",
+    "title": "Brain computer interface",
+    "section": "Housekeeping",
+    "text": "Housekeeping\n\n\nWelcome back\nPresentations - in three weeks\nIndividual lab report in less than 6 weeks"
   }
 ]
