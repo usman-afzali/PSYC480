@@ -45,6 +45,7 @@ A touch of frost, a promise of a glorious day.
 -   Data collection
 -   Presentation topics - due this Friday
 -   Individual lab report instructions added <https://learn.canterbury.ac.nz/course/view.php?id=16816&section=2#labrep>
+-   Setting up MATLAB/EEGLab on lab computers
 
 :::
 
