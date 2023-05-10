@@ -396,7 +396,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assessments.html",
@@ -1090,5 +1090,12 @@
     "title": "EEG data acquistion, processing, and analysis",
     "section": "How to actually do things",
     "text": "How to actually do things\nHow to create a study\n(Used to process multiple datasets at once)\n\nLoad in datasets\nFile -> Create Study -> Using all loaded datasets\n\nHow to remove non-EEG channels\n\nEdit -> Select Data -> Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)\n\nHow to compute the average reference for microstate analysis\n\nTools -> Basic FIR filter -> Set lower edge to 2 and upper edge to 20 and run\n\nHow to run artifact correction (ASR)\n\nTools -> Reject data using clean rawdata and ASR\nTick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)\nUncheck the “Remove channel if it is flat for more than …” box\nChange the min acceptable correlation with nearby chans from 0.8 to 0.7\n\nApparently we now average reference again, but this time we also interpolate removed channels\nHow to run ICA with Picard\n\nTools -> Decompose data by ICA\nChange from “runica” to “picard”\nUncheck the reorder components by variance box\nAfter that is finished, go back to Tools -> Classify components using ICLabel-> label components (leave as default) and run\nThen Tools -> Classify components using ICLabel-> Flag components as artifacts\nThen Tools -> remove components from data\n\nHow to actually run microstate analysis (Windows edition)\n\nTools -> Microstate analysis toolbox -> select data for microstate analysis\nChange ERP – Concatenate datasets to Spontaneous GFP Peaks\nTools -> Microstate analysis toolbox -> Segment into microstates\nCopy this (Shamelessly stolen from Usman’s slides)\n\n\n\nCopy this\n\n\nYou should be able to plot them after doing this."
+  },
+  {
+    "objectID": "labs/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
+    "href": "labs/eeg-acq-process.html#eeg-headset-maintenance-and-cleaning",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "EEG Headset maintenance and cleaning",
+    "text": "EEG Headset maintenance and cleaning\nhttps://youtu.be/FOgfR0QI9_A"
   }
 ]

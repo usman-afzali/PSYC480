@@ -86,3 +86,7 @@ Apparently we now average reference again, but this time we also interpolate rem
 
 You should be able to plot them after doing this.
 
+## EEG Headset maintenance and cleaning
+
+<https://youtu.be/FOgfR0QI9_A>
+
