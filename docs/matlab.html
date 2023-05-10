@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Usman">
 
-<title>Computational Contemplative-Neuroscience - Presentations</title>
+<title>Computational Contemplative-Neuroscience - MATLAB add-ons</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./erp.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,42 +61,12 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recap-listings2 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recap-listings2'] = new List('listing-recap-listings2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.scss">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./presentations.html" aria-current="page">
+    <a class="nav-link" href="./presentations.html">
  <span class="menu-text">Classes</span></a>
   </li>  
   <li class="nav-item">
@@ -155,22 +124,28 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
+<h1 class="title">MATLAB add-ons</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Usman </p>
+          </div>
+  </div>
     
   
     
@@ -179,284 +154,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div id="listing-recap-listings2" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1676804400000" data-listing-file-modified-sort="1677153176533" data-listing-reading-time-sort="5.095">
-<div class="thumbnail">
-<p><a href="./presentations/Week01.html"> <img src="./figs/classParticipation.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week01.html">
-<h3 class="no-anchor listing-title">
-Introduction to Neuroscience - 1
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week01.html">
-<div class="listing-date">
-Feb 20, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1677409200000" data-listing-file-modified-sort="1677619323256" data-listing-reading-time-sort="2.9">
-<div class="thumbnail">
-<p><a href="./presentations/Week02.html"> <img src="./figs/cns2.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week02.html">
-<h3 class="no-anchor listing-title">
-Introduction to Neuroscience - 2 + Methods in Neuroscience
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week02.html">
-<div class="listing-date">
-Feb 27, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1678014000000" data-listing-file-modified-sort="1678874382702" data-listing-reading-time-sort="0.67">
-<div class="thumbnail">
-<p><a href="./presentations/Week03.html"> <img src="./figs/COMR4025_Traffic_Light_LCDs.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week03.html">
-<h3 class="no-anchor listing-title">
-Fundamentals of Electroencephalography (EEG)
-</h3>
-<div class="listing-subtitle">
-PSYC480 Weeks 3 and 4
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week03.html">
-<div class="listing-date">
-Mar 6, 2023
-</div>
-<div class="listing-author">
-Dr Roland Pfister
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1679223600000" data-listing-file-modified-sort="1678874929145" data-listing-reading-time-sort="1.47">
-<div class="thumbnail">
-<p><a href="./presentations/Week05.html"> <img src="./figs/groupPres.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week05.html">
-<h3 class="no-anchor listing-title">
-DSP &amp; The neuroscience of contemplation - 1
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week05.html">
-<div class="listing-date">
-Mar 20, 2023
-</div>
-<div class="listing-author">
-Dr Roland Pfister and Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1679828400000" data-listing-file-modified-sort="1679865631746" data-listing-reading-time-sort="1.085">
-<div class="thumbnail">
-<a href="./presentations/Week06.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./presentations/Week06.html"></a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week06.html">
-<h3 class="no-anchor listing-title">
-The neuroscience of contemplation - 2
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week06.html">
-<div class="listing-date">
-Mar 27, 2023
-</div>
-<div class="listing-author">
-Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1682251200000" data-listing-file-modified-sort="1682283124243" data-listing-reading-time-sort="0.885">
-<div class="thumbnail">
-<p><a href="./presentations/Week07.html"> <img src="./figs/labReport.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week07.html">
-<h3 class="no-anchor listing-title">
-Brain computer interface
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week07.html">
-<div class="listing-date">
-Apr 24, 2023
-</div>
-<div class="listing-author">
-Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1682856000000" data-listing-file-modified-sort="1682846574137" data-listing-reading-time-sort="0.755">
-<div class="thumbnail">
-<a href="./presentations/Week08.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./presentations/Week08.html"></a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week08.html">
-<h3 class="no-anchor listing-title">
-Brain Fingerprinting
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week08.html">
-<div class="listing-date">
-May 1, 2023
-</div>
-<div class="listing-author">
-Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1683460800000" data-listing-file-modified-sort="1683452761893" data-listing-reading-time-sort="0.83">
-<div class="thumbnail">
-<a href="./presentations/Week09.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./presentations/Week09.html"></a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week09.html">
-<h3 class="no-anchor listing-title">
-Reproducibility in neuroscience
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week09.html">
-<div class="listing-date">
-May 8, 2023
-</div>
-<div class="listing-author">
-Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1684670400000" data-listing-file-modified-sort="1683467225148" data-listing-reading-time-sort="0.86">
-<div class="thumbnail">
-<a href="./presentations/Week11.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./presentations/Week11.html"></a></p>
-</div>
-<div class="body">
-<a href="./presentations/Week11.html">
-<h3 class="no-anchor listing-title">
-4E Cognition
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./presentations/Week11.html">
-<div class="listing-date">
-May 22, 2023
-</div>
-<div class="listing-author">
-Usman Afzali
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p>I prompted <code>chatGPT</code> to ensure we are adding <code>add-ons</code> correctly, detailed as follows:</p>
+<section id="prompt-1" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-1">Prompt 1</h2>
+<p>How to get matlab create its addon folder automatically?</p>
+</section>
+<section id="chatgpt" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt">ChatGPT</h2>
+<p>To create an add-on folder in MATLAB automatically, you can follow these steps:</p>
+<ol type="1">
+<li>Create a MATLAB project by going to the Home tab and selecting New Project.</li>
+<li>In the New Project dialog box, give your project a name and select a location to save it.</li>
+<li>Choose Add Folder from the Project Shortcuts menu or right-click on the project name and select Add Folder.</li>
+<li>In the Add Folder dialog box, select “Add with Subfolders” and browse to the folder where you want to create the add-on folder.</li>
+<li>In the folder selection dialog box, enter the name of your add-on folder, then click on the “New Folder” button.</li>
+<li>MATLAB will create the new folder for you and add it to your project. You can now add your files to the add-on folder.</li>
+</ol>
+<p>Alternatively, you can also create the add-on folder manually by navigating to the folder where you want to create the add-on folder and then creating a new folder with the name “addons”. Then, add this folder to your MATLAB path by going to the Home tab and selecting Set Path. In the Set Path dialog box, click on the “Add Folder” button and select the add-on folder you just created.</p>
+</section>
+<section id="prompt-2" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-2">Prompt 2</h2>
+<p>I am not asking about a manual add on folder, but the one that is automatically created with matlab</p>
+</section>
+<section id="chatgpt-1" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-1">ChatGPT</h2>
+<p>I apologize for the confusion.</p>
+<p>In MATLAB, the default folder for add-ons is typically located in the “userpath” folder, which is a folder that MATLAB creates and sets based on your system configuration.</p>
+<p>To find the path to your MATLAB user folder, you can run the following command in the MATLAB command window:</p>
+<pre><code>&gt;&gt; userpath</code></pre>
+<p>This will return a string that represents the path to your user folder. By default, MATLAB should create an “Add-Ons” folder within this directory where you can install and manage MATLAB Add-Ons.</p>
+<p>If you do not see an “Add-Ons” folder in your user directory, you can create one manually, or you can also use the MATLAB Add-On Explorer to install and manage add-ons, which will automatically create the necessary folder structure for you. To open the Add-On Explorer, go to the “APPS” tab in MATLAB and select “Get Add-Ons.”</p>
+</section>
+<section id="prompt-3" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-3">Prompt 3:</h2>
+<p>What should I do if matlab does not have this folder?</p>
+</section>
+<section id="chatgpt-2" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-2">ChatGPT:</h2>
+<p>If MATLAB does not have the “Add-Ons” folder in your user directory, you can create one manually. Here’s how:</p>
+<ol type="1">
+<li>Open MATLAB and type the following command in the Command Window to get your user directory path:</li>
+</ol>
+<pre><code>userpath</code></pre>
+<ol start="2" type="1">
+<li><p>Create a new folder in your user directory with the name “Add-Ons”.</p></li>
+<li><p>After creating the “Add-Ons” folder, close and re-open MATLAB to allow MATLAB to recognize the new folder.</p></li>
+<li><p>You can now use the “Add-Ons” folder to install and manage MATLAB Add-Ons.</p></li>
+</ol>
+<p>Note that if you use the MATLAB Add-On Explorer to install and manage add-ons, it will automatically create the necessary folder structure for you.</p>
+</section>
+<section id="prompt-4" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-4">Prompt 4:</h2>
+<p>If it is manually created, will it disrupt matlab in some way?</p>
+</section>
+<section id="chatgpt-3" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-3">ChatGPT:</h2>
+<p>No, creating an “Add-Ons” folder manually in your user directory should not disrupt MATLAB in any way. The “Add-Ons” folder is a user-specific folder and is not used or accessed by MATLAB itself, but rather by the MATLAB Add-On Explorer and other MATLAB add-on management tools.</p>
+<p>However, it is always a good idea to make a backup of any critical data before making any significant changes to your system or file structure, just in case something unexpected happens.</p>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
