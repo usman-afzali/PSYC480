@@ -354,7 +354,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nUsman\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations.html",
@@ -2690,6 +2690,69 @@
   {
     "objectID": "matlab.html#chatgpt-3",
     "href": "matlab.html#chatgpt-3",
+    "title": "MATLAB add-ons",
+    "section": "ChatGPT:",
+    "text": "ChatGPT:\nNo, creating an “Add-Ons” folder manually in your user directory should not disrupt MATLAB in any way. The “Add-Ons” folder is a user-specific folder and is not used or accessed by MATLAB itself, but rather by the MATLAB Add-On Explorer and other MATLAB add-on management tools.\nHowever, it is always a good idea to make a backup of any critical data before making any significant changes to your system or file structure, just in case something unexpected happens."
+  },
+  {
+    "objectID": "labs/matlab.html",
+    "href": "labs/matlab.html",
+    "title": "MATLAB add-ons",
+    "section": "",
+    "text": "I prompted chatGPT to ensure we are adding add-ons correctly, detailed as follows:"
+  },
+  {
+    "objectID": "labs/matlab.html#prompt-1",
+    "href": "labs/matlab.html#prompt-1",
+    "title": "MATLAB add-ons",
+    "section": "Prompt 1",
+    "text": "Prompt 1\nHow to get matlab create its addon folder automatically?"
+  },
+  {
+    "objectID": "labs/matlab.html#chatgpt",
+    "href": "labs/matlab.html#chatgpt",
+    "title": "MATLAB add-ons",
+    "section": "ChatGPT",
+    "text": "ChatGPT\nTo create an add-on folder in MATLAB automatically, you can follow these steps:\n\nCreate a MATLAB project by going to the Home tab and selecting New Project.\nIn the New Project dialog box, give your project a name and select a location to save it.\nChoose Add Folder from the Project Shortcuts menu or right-click on the project name and select Add Folder.\nIn the Add Folder dialog box, select “Add with Subfolders” and browse to the folder where you want to create the add-on folder.\nIn the folder selection dialog box, enter the name of your add-on folder, then click on the “New Folder” button.\nMATLAB will create the new folder for you and add it to your project. You can now add your files to the add-on folder.\n\nAlternatively, you can also create the add-on folder manually by navigating to the folder where you want to create the add-on folder and then creating a new folder with the name “addons”. Then, add this folder to your MATLAB path by going to the Home tab and selecting Set Path. In the Set Path dialog box, click on the “Add Folder” button and select the add-on folder you just created."
+  },
+  {
+    "objectID": "labs/matlab.html#prompt-2",
+    "href": "labs/matlab.html#prompt-2",
+    "title": "MATLAB add-ons",
+    "section": "Prompt 2",
+    "text": "Prompt 2\nI am not asking about a manual add on folder, but the one that is automatically created with matlab"
+  },
+  {
+    "objectID": "labs/matlab.html#chatgpt-1",
+    "href": "labs/matlab.html#chatgpt-1",
+    "title": "MATLAB add-ons",
+    "section": "ChatGPT",
+    "text": "ChatGPT\nI apologize for the confusion.\nIn MATLAB, the default folder for add-ons is typically located in the “userpath” folder, which is a folder that MATLAB creates and sets based on your system configuration.\nTo find the path to your MATLAB user folder, you can run the following command in the MATLAB command window:\n>> userpath\nThis will return a string that represents the path to your user folder. By default, MATLAB should create an “Add-Ons” folder within this directory where you can install and manage MATLAB Add-Ons.\nIf you do not see an “Add-Ons” folder in your user directory, you can create one manually, or you can also use the MATLAB Add-On Explorer to install and manage add-ons, which will automatically create the necessary folder structure for you. To open the Add-On Explorer, go to the “APPS” tab in MATLAB and select “Get Add-Ons.”"
+  },
+  {
+    "objectID": "labs/matlab.html#prompt-3",
+    "href": "labs/matlab.html#prompt-3",
+    "title": "MATLAB add-ons",
+    "section": "Prompt 3:",
+    "text": "Prompt 3:\nWhat should I do if matlab does not have this folder?"
+  },
+  {
+    "objectID": "labs/matlab.html#chatgpt-2",
+    "href": "labs/matlab.html#chatgpt-2",
+    "title": "MATLAB add-ons",
+    "section": "ChatGPT:",
+    "text": "ChatGPT:\nIf MATLAB does not have the “Add-Ons” folder in your user directory, you can create one manually. Here’s how:\n\nOpen MATLAB and type the following command in the Command Window to get your user directory path:\n\nuserpath\n\nCreate a new folder in your user directory with the name “Add-Ons”.\nAfter creating the “Add-Ons” folder, close and re-open MATLAB to allow MATLAB to recognize the new folder.\nYou can now use the “Add-Ons” folder to install and manage MATLAB Add-Ons.\n\nNote that if you use the MATLAB Add-On Explorer to install and manage add-ons, it will automatically create the necessary folder structure for you."
+  },
+  {
+    "objectID": "labs/matlab.html#prompt-4",
+    "href": "labs/matlab.html#prompt-4",
+    "title": "MATLAB add-ons",
+    "section": "Prompt 4:",
+    "text": "Prompt 4:\nIf it is manually created, will it disrupt matlab in some way?"
+  },
+  {
+    "objectID": "labs/matlab.html#chatgpt-3",
+    "href": "labs/matlab.html#chatgpt-3",
     "title": "MATLAB add-ons",
     "section": "ChatGPT:",
     "text": "ChatGPT:\nNo, creating an “Add-Ons” folder manually in your user directory should not disrupt MATLAB in any way. The “Add-Ons” folder is a user-specific folder and is not used or accessed by MATLAB itself, but rather by the MATLAB Add-On Explorer and other MATLAB add-on management tools.\nHowever, it is always a good idea to make a backup of any critical data before making any significant changes to your system or file structure, just in case something unexpected happens."

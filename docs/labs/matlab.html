@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Usman">
+
+<title>Computational Contemplative-Neuroscience - MATLAB add-ons</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../erp.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.scss">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Computational Contemplative-Neuroscience</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../intro.html">
+ <span class="menu-text">Introduction</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../presentations.html">
+ <span class="menu-text">Classes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../labs.html">
+ <span class="menu-text">Labs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../outline.html">
+ <span class="menu-text">Course Outline</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessments.html">
+ <span class="menu-text">Assessments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../how-to-use.html">
+ <span class="menu-text">How to Use?</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/usman-afzali/psyc344"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">MATLAB add-ons</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Usman </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>I prompted <code>chatGPT</code> to ensure we are adding <code>add-ons</code> correctly, detailed as follows:</p>
+<section id="prompt-1" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-1">Prompt 1</h2>
+<p>How to get matlab create its addon folder automatically?</p>
+</section>
+<section id="chatgpt" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt">ChatGPT</h2>
+<p>To create an add-on folder in MATLAB automatically, you can follow these steps:</p>
+<ol type="1">
+<li>Create a MATLAB project by going to the Home tab and selecting New Project.</li>
+<li>In the New Project dialog box, give your project a name and select a location to save it.</li>
+<li>Choose Add Folder from the Project Shortcuts menu or right-click on the project name and select Add Folder.</li>
+<li>In the Add Folder dialog box, select “Add with Subfolders” and browse to the folder where you want to create the add-on folder.</li>
+<li>In the folder selection dialog box, enter the name of your add-on folder, then click on the “New Folder” button.</li>
+<li>MATLAB will create the new folder for you and add it to your project. You can now add your files to the add-on folder.</li>
+</ol>
+<p>Alternatively, you can also create the add-on folder manually by navigating to the folder where you want to create the add-on folder and then creating a new folder with the name “addons”. Then, add this folder to your MATLAB path by going to the Home tab and selecting Set Path. In the Set Path dialog box, click on the “Add Folder” button and select the add-on folder you just created.</p>
+</section>
+<section id="prompt-2" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-2">Prompt 2</h2>
+<p>I am not asking about a manual add on folder, but the one that is automatically created with matlab</p>
+</section>
+<section id="chatgpt-1" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-1">ChatGPT</h2>
+<p>I apologize for the confusion.</p>
+<p>In MATLAB, the default folder for add-ons is typically located in the “userpath” folder, which is a folder that MATLAB creates and sets based on your system configuration.</p>
+<p>To find the path to your MATLAB user folder, you can run the following command in the MATLAB command window:</p>
+<pre><code>&gt;&gt; userpath</code></pre>
+<p>This will return a string that represents the path to your user folder. By default, MATLAB should create an “Add-Ons” folder within this directory where you can install and manage MATLAB Add-Ons.</p>
+<p>If you do not see an “Add-Ons” folder in your user directory, you can create one manually, or you can also use the MATLAB Add-On Explorer to install and manage add-ons, which will automatically create the necessary folder structure for you. To open the Add-On Explorer, go to the “APPS” tab in MATLAB and select “Get Add-Ons.”</p>
+</section>
+<section id="prompt-3" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-3">Prompt 3:</h2>
+<p>What should I do if matlab does not have this folder?</p>
+</section>
+<section id="chatgpt-2" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-2">ChatGPT:</h2>
+<p>If MATLAB does not have the “Add-Ons” folder in your user directory, you can create one manually. Here’s how:</p>
+<ol type="1">
+<li>Open MATLAB and type the following command in the Command Window to get your user directory path:</li>
+</ol>
+<pre><code>userpath</code></pre>
+<ol start="2" type="1">
+<li><p>Create a new folder in your user directory with the name “Add-Ons”.</p></li>
+<li><p>After creating the “Add-Ons” folder, close and re-open MATLAB to allow MATLAB to recognize the new folder.</p></li>
+<li><p>You can now use the “Add-Ons” folder to install and manage MATLAB Add-Ons.</p></li>
+</ol>
+<p>Note that if you use the MATLAB Add-On Explorer to install and manage add-ons, it will automatically create the necessary folder structure for you.</p>
+</section>
+<section id="prompt-4" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-4">Prompt 4:</h2>
+<p>If it is manually created, will it disrupt matlab in some way?</p>
+</section>
+<section id="chatgpt-3" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-3">ChatGPT:</h2>
+<p>No, creating an “Add-Ons” folder manually in your user directory should not disrupt MATLAB in any way. The “Add-Ons” folder is a user-specific folder and is not used or accessed by MATLAB itself, but rather by the MATLAB Add-On Explorer and other MATLAB add-on management tools.</p>
+<p>However, it is always a good idea to make a backup of any critical data before making any significant changes to your system or file structure, just in case something unexpected happens.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><span class="faux-block">Made with <i class="fa-brands fa-r-project" aria-hidden="true"></i> and <a href="https://quarto.org/">Quarto</a></span></div>   
+    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/usman-afzali/PSYC480">View the source at <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></span></div>
+  </div>
+</footer>
+
+
+
+</body></html>
