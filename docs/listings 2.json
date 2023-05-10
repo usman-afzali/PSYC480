@@ -4,6 +4,10 @@
     "items": []
   },
   {
+    "listing": "/how-to-use.html",
+    "items": []
+  },
+  {
     "listing": "/labs.html",
     "items": [
       "/labs/Lab01.html",
@@ -15,14 +19,6 @@
       "/labs/matlab.html",
       "/labs/eeg-acq-process.html"
     ]
-  },
-  {
-    "listing": "/assessments.html",
-    "items": []
-  },
-  {
-    "listing": "/how-to-use.html",
-    "items": []
   },
   {
     "listing": "/presentations.html",
@@ -40,6 +36,14 @@
   },
   {
     "listing": "/outline.html",
+    "items": []
+  },
+  {
+    "listing": "/presentations/presentations.html",
+    "items": []
+  },
+  {
+    "listing": "/assessments.html",
     "items": []
   }
 ]

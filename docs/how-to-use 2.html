@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Computational Contemplative-Neuroscience - Labs</title>
+<title>Computational Contemplative-Neuroscience - How to use this website?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,20 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-labs-listings .list');
+    const listingTargetEl = window.document.querySelector('#listing-intro-listings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-labs-listings'] = new List('listing-labs-listings', options);
+    window['quarto-listings']['listing-intro-listings'] = new List('listing-intro-listings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Classes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./labs.html" aria-current="page">
+    <a class="nav-link" href="./labs.html">
  <span class="menu-text">Labs</span></a>
   </li>  
   <li class="nav-item">
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Assessments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./how-to-use.html">
+    <a class="nav-link active" href="./how-to-use.html" aria-current="page">
  <span class="menu-text">How to Use?</span></a>
   </li>  
 </ul>
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Labs</h1>
+<h1 class="title">How to use this website?</h1>
 </div>
 
 
@@ -179,240 +179,82 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div id="listing-labs-listings" class="quarto-listing quarto-listing-container-default">
+<section id="labs" class="level2">
+<h2 class="anchored" data-anchor-id="labs">Labs</h2>
+<p>Besides Learn, lab instructions will be made available here too. They are exact match, but can be at the tip of your fingers when you need to access them via website. Simply bookmark this website on to your browser.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Repo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><code>Lab files</code> are within the <code>labs</code> folder in <a href="https://github.com/usman-afzali/PSYC344">Github Repo</a>.</p>
+</div>
+</div>
+<p>Labs files are made with <code>Quarto</code>. If you want to access the very <code>.qmd</code> documents to use and replicate the code, you should:</p>
+<ol type="1">
+<li><p>Use the latest version of <code>RStudio</code>, at least <code>Version: 2022.12.0+353</code> or later on your computer.</p></li>
+<li><p>Within <code>RStudio</code>, click on <code>new file</code> drop down menu and open a new <code>Quarto Document</code> (see the first figure), and name it.</p></li>
+<li><p>Once the <code>.qmd</code> document is opened, go to the <code>source</code> tab, erase the default code and paste the code from the corresponding lab file (from line 1 up to the final line). Then hit <code>Render</code>. You will see output in the <code>Viewer</code> menu.</p></li>
+<li><p>You can click <code>Show in a new window</code> to open rendered code in your local browser window (see the second figure for highlighted commands).</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="r-interface.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">RStudio Interface</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="rstudio-interf-2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">RStudio Interface 2</figcaption><p></p>
+</figure>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+More to come
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lab files are yet to be added.</p>
+</div>
+</div>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>Slides are made using <code>revealjs</code> on <code>Quarto</code>. There are three ways to use them:</p>
+<ol type="1">
+<li><p>Use live: From <a href="https://usman-afzali.github.io/PSYC480/presentations.html">Presentations</a>, click the corresponding presentation. They can be displayed live simply by clicking on them and using the keyboard <code>arrow keys</code>.</p></li>
+<li><p>Save as pdf: Get to the corresponding presentation as explained above. This option only works with <code>Google Chrome</code> as explained <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf">here</a>.</p></li>
+<li><p>The <code>revealjs</code> files: The original code files on <a href="https://github.com/usman-afzali/PSYC480">Github Repo</a> are inside the <code>presentations</code> folder.</p></li>
+</ol>
+<p>The process of using them is similar as using any other <code>.qmd</code> documents explained above. Once they are opened in <code>RStudio</code>, the <code>Present</code> button from the <code>Presentation</code> tab can be used to open the presentation in the local browser - that can be presented from there.</p>
+<section id="week-1" class="level4">
+<h4 class="anchored" data-anchor-id="week-1">Week 1</h4>
+<p>Use <code>Week01.qmd</code>.</p>
+<hr>
+
+
+
+</section>
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-intro-listings">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1676977200000" data-listing-file-modified-sort="1677623667968" data-listing-reading-time-sort="1.685">
-<div class="thumbnail">
-<p><a href="./labs/Lab01.html"> <img src="./figs/Figure 9.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab01.html">
-<h3 class="no-anchor listing-title">
-Lab 01
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab01.html">
-<div class="listing-date">
-Feb 22, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1677582000000" data-listing-file-modified-sort="1677627746414" data-listing-reading-time-sort="1.345">
-<div class="thumbnail">
-<p><a href="./labs/Lab02.html"> <img src="./figs/pipeline.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab02.html">
-<h3 class="no-anchor listing-title">
-Lab 02
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab02.html">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1678186800000" data-listing-file-modified-sort="1678443590319" data-listing-reading-time-sort="0.805">
-<div class="thumbnail">
-<p><a href="./labs/Lab03.html"> <img src="./figs/pipeline.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab03.html">
-<h3 class="no-anchor listing-title">
-Lab 03
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab03.html">
-<div class="listing-date">
-Mar 8, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1678791600000" data-listing-file-modified-sort="1678872691543" data-listing-reading-time-sort="1.33">
-<div class="thumbnail">
-<p><a href="./labs/Lab04.html"> <img src="./figs/pipeline.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab04.html">
-<h3 class="no-anchor listing-title">
-Lab 04
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab04.html">
-<div class="listing-date">
-Mar 15, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1679396400000" data-listing-file-modified-sort="1679444507484" data-listing-reading-time-sort="0.585">
-<div class="thumbnail">
-<p><a href="./labs/Lab05.html"> <img src="./figs/pipeline.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab05.html">
-<h3 class="no-anchor listing-title">
-Lab 05
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab05.html">
-<div class="listing-date">
-Mar 22, 2023
-</div>
-<div class="listing-author">
-Dr Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1680001200000" data-listing-file-modified-sort="1680401476038" data-listing-reading-time-sort="1.125">
-<div class="thumbnail">
-<p><a href="./labs/Lab06.html"> <img src="./figs/ms-mac.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/Lab06.html">
-<h3 class="no-anchor listing-title">
-Lab 06
-</h3>
-<div class="listing-subtitle">
-PSYC480
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/Lab06.html">
-<div class="listing-date">
-Mar 29, 2023
-</div>
-<div class="listing-author">
-Usman Afzali
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1683693877275" data-listing-reading-time-sort="3.015">
-<div class="thumbnail">
-<a href="./labs/matlab.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./labs/matlab.html"></a></p>
-</div>
-<div class="body">
-<a href="./labs/matlab.html">
-<h3 class="no-anchor listing-title">
-MATLAB add-ons
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-I prompted <code>chatGPT</code> to ensure we are adding <code>add-ons</code> correctly, detailed as follows:
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/matlab.html">
-<div class="listing-author">
-Usman
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-file-modified-sort="1683722978784" data-listing-reading-time-sort="2.355">
-<div class="thumbnail">
-<p><a href="./labs/eeg-acq-process.html"> <img src="./figs/matlab.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./labs/eeg-acq-process.html">
-<h3 class="no-anchor listing-title">
-EEG data acquistion, processing, and analysis
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-This is workd under progress and more information will be added.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./labs/eeg-acq-process.html">
-<div class="listing-author">
-Charlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
