@@ -1,6 +1,7 @@
 ---
 title: "EEG data acquistion, processing, and analysis"
 author: "Charlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali"
+date: 2023 05 11
 format: html
 ---
 
