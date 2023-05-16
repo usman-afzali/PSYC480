@@ -23,7 +23,18 @@ A large variety of software are available for EEG data processing and analysis. 
 ![](/figs/matlab.png)
 The alternative free programme is Python -- whereas the relevant library is called [MNE](https://mne.tools/stable/index.html).
 
+
+
 ## EEGLab
+
+1.    Use updated versions of MATLAB and EEGLab.
+2.    Unzip EEGLab and `Microstates1.2`, and paste `Microstates1.2` inside `EEGLab -> plugins`.
+3.    Make sure that you do not have any extra - old copies of the software on your computer.
+4.    From MATLAB `Home` tab, click `Preferences -> Add-Ons` and click on three dots beside the installation folder path. This shows you the folder where MATLAB has been installed. If you see a `MATLAB Add-Ons` folder within `Mathworks`, the EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it `MATLAB Add-Ons`, then paste the EEGLab folder here. Creating this folder should not be [problematic](https://usman-afzali.github.io/PSYC480/labs/matlab.html).
+5.    From MATLAB `Home` tab, click `Set Path -> Default`. This deletes all old paths. Once the process completes, click `Save`. Then, click `Add with Subfolders` and find the path to EEGLab folder based on point 4, then click `Save`.
+6.    Type `eeglab` in MATLAB `Command Window` and EEGLab shall open.
+
+
 
 Plugins
 

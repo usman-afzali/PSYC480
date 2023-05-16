@@ -312,7 +312,7 @@
     "href": "labs/eeg-acq-process.html#eeglab",
     "title": "EEG data acquistion, processing, and analysis",
     "section": "EEGLab",
-    "text": "EEGLab\nPlugins\n\nclean_rawdata\nFirfilt\nICLabel\nDipfit\nMicrostates\nPICARD"
+    "text": "EEGLab\n\nUse updated versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.2, and paste Microstates1.2 inside EEGLab -> plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -> Add-Ons and click on three dots beside the installation folder path. This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, the EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematic.\nFrom MATLAB Home tab, click Set Path -> Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\nPlugins\n\nclean_rawdata\nFirfilt\nICLabel\nDipfit\nMicrostates\nPICARD"
   },
   {
     "objectID": "labs/eeg-acq-process.html#how-to-actually-do-things",
