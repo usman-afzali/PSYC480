@@ -564,14 +564,14 @@
     "href": "presentations/Week11.html#housekeeping",
     "title": "4E Cognition",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\n\nGuest lecture next week\nData collection\nPresentation topics - due this Friday\nIndividual lab report instructions added https://learn.canterbury.ac.nz/course/view.php?id=16816&section=2#labrep\nSetting up MATLAB/EEGLab on lab computers"
+    "text": "Housekeeping\n\n\nWell done on figuring MS!\nGuest lecture next week\nData collection"
   },
   {
     "objectID": "presentations/Week11.html#kōrero",
     "href": "presentations/Week11.html#kōrero",
     "title": "4E Cognition",
     "section": "Kōrero",
-    "text": "Kōrero\n\n\nWingen (2022)\nHaig (2022)\nJenkinson 92021)\nMilkowski et al. (2018)\nMarek et al. (2022)"
+    "text": "Kōrero\n\n\nWhy 4E and MoBI: Usman - 10:20 - 10:25\nParada and Rossi (2020): Daniela, Sheena, Charlie, and Cambria - 10:25 - 10:40\nLadouce et al. (2022): Peer, Azadeh, Lucas, Charlie, and Cambria - 10:40 - 10:55\nBreak - 10:55 - 11:00\nJungnickel et al. (2019): Daniela, Sheena, Harriet, and Priya - 11:00 - 11:15"
   },
   {
     "objectID": "presentations/Week11.html#karakia-whakatūwhera-1",
@@ -1097,5 +1097,19 @@
     "title": "EEG data acquistion, processing, and analysis",
     "section": "EEG Headset maintenance and cleaning",
     "text": "EEG Headset maintenance and cleaning\nhttps://youtu.be/FOgfR0QI9_A"
+  },
+  {
+    "objectID": "presentationMarking.html",
+    "href": "presentationMarking.html",
+    "title": "Presentation Marking",
+    "section": "",
+    "text": "data2 <- readxl::read_xlsx(\"Grades.xlsx\", sheet = \"Harriet\")\n\nNew names:\n• `` -> `...2`\n• `` -> `...3`\n• `` -> `...4`\n• `` -> `...5`\n\ndata2\n\n# A tibble: 13 × 5\n   `PSYC480 Presentation Feedback`                       ...2  ...3   ...4  ...5\n   <chr>                                                 <chr> <chr> <dbl> <dbl>\n 1 Each of the items below is rated using the following… <NA>  <NA>     NA    NA\n 2 1   Below Expectations Significantly below criteria … <NA>  <NA>     NA    NA\n 3 2   Slightly Below Expectations Generally does not m… <NA>  <NA>     NA    NA\n 4 3  Meets Expectations Meets criteria for successful … <NA>  <NA>     NA    NA\n 5 4  Slightly Above Expectations Exceeds criteria for … <NA>  <NA>     NA    NA\n 6 5  Exceeds Expectations Significantly exceeds criter… <NA>  <NA>     NA    NA\n 7 <NA>                                                  <NA>  <NA>     NA    NA\n 8 5                                                     1. T… <NA>      5     5\n 9 3.5                                                   2. C… Alth…     4     5\n10 5                                                     3. U… dupl…     2     5\n11 5                                                     4. C… colo…     4     5\n12 5                                                     5. T… <NA>      3     5\n13 4                                                     6. E… you …     3     3\n\n\n\nSelect columns 1, 4, and 5\n\nselected_columns <- data2[, c(1, 4, 5)]\n\nselected_rows <- selected_columns[8:13, ]\n\n\nSelect rows 9 to 14 from the selected columns\nselected_rows <- data.frame(lapply(selected_rows, as.numeric))\nselected_rows\naverage <- rowSums(selected_rows) / 3\naverage\n\n\nCreate the weights column\nweights <- c(4, 4, 4, 4, 2, 2)\nweighted_average <- average * weights\nweighted_average\ndata$Weighted_Average <- NA\nweighted_average\nweighted_average_sum <- sum(weighted_average)\ndata[8:13, “Weighted_Average”] <- weighted_average\ndata[8:13, c(1, 4, 5)] <- NA\nweighted_average_sum <- sum(weighted_average) print(weighted_average_sum)\nwrite.xlsx(data, “Priya.xlsx”, sheetName = 1, startRow = 1, startCol = 1)"
+  },
+  {
+    "objectID": "presentations/Week11.html#kōrero-1",
+    "href": "presentations/Week11.html#kōrero-1",
+    "title": "4E Cognition",
+    "section": "Kōrero",
+    "text": "Kōrero\n\n\nJungnickel and Gramann (2016): Peer, Azadeh, Lucas, Jasmine, and Kendal - 11:15 - 11:30\nGrasso-Cladera et al. (2022): Harriet, Priya, Jasmine, and Kendal - 11:30 - 11:45\nConclusion: 11:45 - 11:50"
   }
 ]

@@ -36,17 +36,16 @@ A touch of frost, a promise of a glorious day.
 # Kauhau {background-color=orange}
 
 -   Housekeeping
+-   Kendal's presentation: 10:05-10:20
 -   Kōrero
 
 ## Housekeeping {background-color=#346bc8}
 
 ::: incremental
 
+-   Well done on figuring MS!
 -   Guest lecture next week
 -   Data collection
--   Presentation topics - due this Friday
--   Individual lab report instructions added <https://learn.canterbury.ac.nz/course/view.php?id=16816&section=2#labrep>
--   Setting up MATLAB/EEGLab on lab computers
 
 :::
 
@@ -54,11 +53,22 @@ A touch of frost, a promise of a glorious day.
 
 ::: incremental
 
--   Wingen (2022)
--   Haig (2022)
--   Jenkinson 92021)
--   Milkowski et al. (2018)
--   Marek et al. (2022)
+-   Why 4E and MoBI: Usman - 10:20 - 10:25
+-   Parada and Rossi (2020): Daniela, Sheena, Charlie, and Cambria - 10:25 - 10:40
+-   Ladouce et al. (2022): Peer, Azadeh, Lucas, Charlie, and Cambria - 10:40 - 10:55
+-   Break - 10:55 - 11:00
+-   Jungnickel et al. (2019): Daniela, Sheena, Harriet, and Priya - 11:00 - 11:15
+
+
+:::
+
+## Kōrero {background-color=#346bc8}
+
+::: incremental
+
+-   Jungnickel and Gramann (2016): Peer, Azadeh, Lucas, Jasmine, and Kendal - 11:15 - 11:30
+-   Grasso-Cladera et al. (2022): Harriet, Priya, Jasmine, and Kendal - 11:30 - 11:45
+-   Conclusion: 11:45 - 11:50
 
 :::
 
