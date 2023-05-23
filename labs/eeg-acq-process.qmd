@@ -7,97 +7,122 @@ format: html
 
 ::: callout-note
 ## Note
-This is workd under progress and more information will be added.
+
+This is work under progress and more information will be added.
 :::
 
-## Data Acquisition
+## Collecting EEG data
 
-EEG data can be collected using a variety of EEG headset tools and sofware. We are using a mobile, gel-based, 32 channel headset, [eego sports](https://www.ant-neuro.com/products/eego_sports) (by Ant Neuro).
+EEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, [Ant Neuro EEGO Sports](https://www.ant-neuro.com/products/eego_sports).
 
-More to come...
+### EEG Headset Technical details
+
+-   Brand: Ant Neuro EEGO Sports (EEGO Sports 32 (ES-230) **OR** EEGO Sports 32 pro (ES-231)
+-   Amplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device
+-   Reference: online referencing with **XYZ**
+-   Resolution: 24-bit
+-   EEG Cap: Waveguard -- sizes M, and L
+-   Sampling rate: upto 2048 Hz
+-   Software: EEGO software for recording, reviewing, and export EEG data
+
+### Data acquisition
+
+**1. Creating a new subject**
+
+**2. Placing EEG headset**
+
+**3. Checking Impedance**
+
+**4. EEG Recording**
+
+**5. Exporting EEG data**
 
 ## Data processing and analysis
 
-A large variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (that stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox [EEGLab](https://eeglab.org). 
+A variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox [EEGLab](https://eeglab.org).
 
-![](/figs/matlab.png)
-The alternative free programme is Python -- whereas the relevant library is called [MNE](https://mne.tools/stable/index.html).
+![MATLAB user interface](/figs/matlab.png)
 
+There are many alternative. A famous free programme is Python -- whereas the relevant library is called [MNE](https://mne.tools/stable/index.html).
 
+We primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on.
 
-## EEGLab
+## Installing EEGLab Toolbox
 
-1.    Use updated versions of MATLAB and EEGLab.
-2.    Unzip EEGLab and `Microstates1.2`, and paste `Microstates1.2` inside `EEGLab -> plugins`.
-3.    Make sure that you do not have any extra - old copies of the software on your computer.
-4.    From MATLAB `Home` tab, click `Preferences -> Add-Ons` and click on three dots beside the installation folder path. This shows you the folder where MATLAB has been installed. If you see a `MATLAB Add-Ons` folder within `Mathworks`, the EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it `MATLAB Add-Ons`, then paste the EEGLab folder here. Creating this folder should not be [problematic](https://usman-afzali.github.io/PSYC480/labs/matlab.html).
-5.    From MATLAB `Home` tab, click `Set Path -> Default`. This deletes all old paths. Once the process completes, click `Save`. Then, click `Add with Subfolders` and find the path to EEGLab folder based on point 4, then click `Save`.
-6.    Type `eeglab` in MATLAB `Command Window` and EEGLab shall open.
+1.  Use the latest versions of MATLAB and EEGLab.
+2.  Unzip EEGLab and `Microstates1.2`[^1], and paste `Microstates1.2` inside `EEGLab -> plugins`.
+3.  Make sure that you do not have any extra - old copies of the software on your computer.
+4.  From MATLAB `Home` tab, click `Preferences -> Add-Ons` and click on three dots beside the installation folder path (see @fig-matlab). This shows you the folder where MATLAB has been installed. If you see a `MATLAB Add-Ons` folder within `Mathworks`, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it `MATLAB Add-Ons`, then paste the EEGLab folder here. Creating this folder should not be problematics as described [here](https://usman-afzali.github.io/PSYC480/labs/matlab.html).
+5.  From MATLAB `Home` tab, click `Set Path -> Default`. This deletes all old paths. Once the process completes, click `Save`. Then, click `Add with Subfolders` and find the path to EEGLab folder based on point 4, then click `Save`.
+6.  Type `eeglab` in MATLAB `Command Window` and EEGLab shall open.
 
+[^1]: Microstates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.
 
+![MATLAB preferences](/figs/matlab-pref.png){#fig-matlab}
 
-Plugins
+EEGLab fig tba.
 
-*  clean_rawdata
-*   Firfilt
-*   ICLabel
-*   Dipfit
-*   Microstates
-*   PICARD
-
-![](/figs/eeglab.png)
-
-## How to actually do things
 
 **How to create a study**
 
 (Used to process multiple datasets at once)
 
-1.    Load in datasets
-2.    File -> Create Study -> Using all loaded datasets
+1.  Load in datasets
+2.  File -\> Create Study -\> Using all loaded datasets
 
 **How to remove non-EEG channels**
 
-1.    Edit -> Select Data -> Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)
+1.  Edit -\> Select Data -\> Tick the box on the same line as channel range and then click on the "..." box to select the channels to remove (how do you know how to remove the channels? I wish I knew)
 
 **How to compute the average reference for microstate analysis**
 
-1.    Tools -> Basic FIR filter -> Set lower edge to 2 and upper edge to 20 and run
+1.  Tools -\> Basic FIR filter -\> Set lower edge to 2 and upper edge to 20 and run
 
 **How to run artifact correction (ASR)**
 
-1.    Tools -> Reject data using clean rawdata and ASR
-2.    Tick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)
-3.    Uncheck the “Remove channel if it is flat for more than …” box
-4.    Change the min acceptable correlation with nearby chans from 0.8 to 0.7
+1.  Tools -\> Reject data using clean rawdata and ASR
+2.  Tick the "Remove channel drift" box and change the values to 0.75 and 1.25 (Why? IDK)
+3.  Uncheck the "Remove channel if it is flat for more than ..." box
+4.  Change the min acceptable correlation with nearby chans from 0.8 to 0.7
 
 Apparently we now average reference again, but this time we also interpolate removed channels
 
 **How to run ICA with Picard**
 
-1.    Tools -> Decompose data by ICA
-2.    Change from “runica” to “picard”
-3.    Uncheck the reorder components by variance box
-4.    After that is finished, go back to Tools -> Classify components using ICLabel-> label components (leave as default) and run
-5.    Then Tools -> Classify components using ICLabel-> Flag components as artifacts
-6.    Then Tools -> remove components from data
+1.  Tools -\> Decompose data by ICA
+2.  Change from "runica" to "picard"
+3.  Uncheck the reorder components by variance box
+4.  After that is finished, go back to Tools -\> Classify components using ICLabel-\> label components (leave as default) and run
+5.  Then Tools -\> Classify components using ICLabel-\> Flag components as artifacts
+6.  Then Tools -\> remove components from data
 
 **How to actually run microstate analysis (Windows edition)**
 
-1.    Tools -> Microstate analysis toolbox -> select data for microstate analysis
-2.    Change ERP – Concatenate datasets to Spontaneous GFP Peaks
-3.    Tools -> Microstate analysis toolbox -> Segment into microstates
-4.    Copy this (Shamelessly stolen from Usman’s slides)
+1.  Tools -\> Microstate analysis toolbox -\> select data for microstate analysis
+2.  Change ERP -- Concatenate datasets to Spontaneous GFP Peaks
+3.  Tools -\> Microstate analysis toolbox -\> Segment into microstates
+4.  Copy this (Shamelessly stolen from Usman's slides)
 
 ![](/figs/ms-windows.png)
 
-5.    Copy this
+5.  Copy this
 
 ![](/figs/ms-win-2.png)
 
 You should be able to plot them after doing this.
 
+
+## Resting EEG Microstates
+
+EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble pretty close to the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:
+
+1.    Channel locations
+2.    Filter 2-20 Hz
+3.    Remove artefacts with ASR, but make sure to uncheck the option ----
+4.    Reference to average and interpolate removed channels.
+5.    From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `resets` to 20.
+6.    From `Plots ->` ...
+
 ## EEG Headset maintenance and cleaning
 
 <https://youtu.be/FOgfR0QI9_A>
-

@@ -171,42 +171,62 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is workd under progress and more information will be added.</p>
+<p>This is work under progress and more information will be added.</p>
 </div>
 </div>
-<section id="data-acquisition" class="level2">
-<h2 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h2>
-<p>EEG data can be collected using a variety of EEG headset tools and sofware. We are using a mobile, gel-based, 32 channel headset, <a href="https://www.ant-neuro.com/products/eego_sports">eego sports</a> (by Ant Neuro).</p>
-<p>More to come…</p>
+<section id="collecting-eeg-data" class="level2">
+<h2 class="anchored" data-anchor-id="collecting-eeg-data">Collecting EEG data</h2>
+<p>EEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, <a href="https://www.ant-neuro.com/products/eego_sports">Ant Neuro EEGO Sports</a>.</p>
+<section id="eeg-headset-technical-details" class="level3">
+<h3 class="anchored" data-anchor-id="eeg-headset-technical-details">EEG Headset Technical details</h3>
+<ul>
+<li>Brand: Ant Neuro EEGO Sports (EEGO Sports 32 (ES-230) <strong>OR</strong> EEGO Sports 32 pro (ES-231)</li>
+<li>Amplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device</li>
+<li>Reference: online referencing with <strong>XYZ</strong></li>
+<li>Resolution: 24-bit</li>
+<li>EEG Cap: Waveguard – sizes M, and L</li>
+<li>Sampling rate: upto 2048 Hz</li>
+<li>Software: EEGO software for recording, reviewing, and export EEG data</li>
+</ul>
+</section>
+<section id="data-acquisition" class="level3">
+<h3 class="anchored" data-anchor-id="data-acquisition">Data acquisition</h3>
+<p><strong>1. Creating a new subject</strong></p>
+<p><strong>2. Placing EEG headset</strong></p>
+<p><strong>3. Checking Impedance</strong></p>
+<p><strong>4. EEG Recording</strong></p>
+<p><strong>5. Exporting EEG data</strong></p>
+</section>
 </section>
 <section id="data-processing-and-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="data-processing-and-analysis">Data processing and analysis</h2>
-<p>A large variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (that stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox <a href="https://eeglab.org">EEGLab</a>.</p>
-<p><img src="../figs/matlab.png" class="img-fluid"> The alternative free programme is Python – whereas the relevant library is called <a href="https://mne.tools/stable/index.html">MNE</a>.</p>
+<p>A variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox <a href="https://eeglab.org">EEGLab</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../figs/matlab.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">MATLAB user interface</figcaption><p></p>
+</figure>
+</div>
+<p>There are many alternative. A famous free programme is Python – whereas the relevant library is called <a href="https://mne.tools/stable/index.html">MNE</a>.</p>
+<p>We primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on.</p>
 </section>
-<section id="eeglab" class="level2">
-<h2 class="anchored" data-anchor-id="eeglab">EEGLab</h2>
+<section id="installing-eeglab-toolbox" class="level2">
+<h2 class="anchored" data-anchor-id="installing-eeglab-toolbox">Installing EEGLab Toolbox</h2>
 <ol type="1">
-<li>Use updated versions of MATLAB and EEGLab.</li>
-<li>Unzip EEGLab and <code>Microstates1.2</code>, and paste <code>Microstates1.2</code> inside <code>EEGLab -&gt; plugins</code>.</li>
+<li>Use the latest versions of MATLAB and EEGLab.</li>
+<li>Unzip EEGLab and <code>Microstates1.2</code><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and paste <code>Microstates1.2</code> inside <code>EEGLab -&gt; plugins</code>.</li>
 <li>Make sure that you do not have any extra - old copies of the software on your computer.</li>
-<li>From MATLAB <code>Home</code> tab, click <code>Preferences -&gt; Add-Ons</code> and click on three dots beside the installation folder path. This shows you the folder where MATLAB has been installed. If you see a <code>MATLAB Add-Ons</code> folder within <code>Mathworks</code>, the EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it <code>MATLAB Add-Ons</code>, then paste the EEGLab folder here. Creating this folder should not be <a href="https://usman-afzali.github.io/PSYC480/labs/matlab.html">problematic</a>.</li>
+<li>From MATLAB <code>Home</code> tab, click <code>Preferences -&gt; Add-Ons</code> and click on three dots beside the installation folder path (see <a href="#fig-matlab">Figure&nbsp;1</a>). This shows you the folder where MATLAB has been installed. If you see a <code>MATLAB Add-Ons</code> folder within <code>Mathworks</code>, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it <code>MATLAB Add-Ons</code>, then paste the EEGLab folder here. Creating this folder should not be problematics as described <a href="https://usman-afzali.github.io/PSYC480/labs/matlab.html">here</a>.</li>
 <li>From MATLAB <code>Home</code> tab, click <code>Set Path -&gt; Default</code>. This deletes all old paths. Once the process completes, click <code>Save</code>. Then, click <code>Add with Subfolders</code> and find the path to EEGLab folder based on point 4, then click <code>Save</code>.</li>
 <li>Type <code>eeglab</code> in MATLAB <code>Command Window</code> and EEGLab shall open.</li>
 </ol>
-<p>Plugins</p>
-<ul>
-<li>clean_rawdata</li>
-<li>Firfilt</li>
-<li>ICLabel</li>
-<li>Dipfit</li>
-<li>Microstates</li>
-<li>PICARD</li>
-</ul>
-<p><img src="../figs/eeglab.png" class="img-fluid"></p>
-</section>
-<section id="how-to-actually-do-things" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-actually-do-things">How to actually do things</h2>
+<div id="fig-matlab" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../figs/matlab-pref.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: MATLAB preferences</figcaption><p></p>
+</figure>
+</div>
+<p>EEGLab fig tba.</p>
 <p><strong>How to create a study</strong></p>
 <p>(Used to process multiple datasets at once)</p>
 <ol type="1">
@@ -252,6 +272,18 @@ Note
 <p><img src="../figs/ms-win-2.png" class="img-fluid"></p>
 <p>You should be able to plot them after doing this.</p>
 </section>
+<section id="resting-eeg-microstates" class="level2">
+<h2 class="anchored" data-anchor-id="resting-eeg-microstates">Resting EEG Microstates</h2>
+<p>EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble pretty close to the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:</p>
+<ol type="1">
+<li>Channel locations</li>
+<li>Filter 2-20 Hz</li>
+<li>Remove artefacts with ASR, but make sure to uncheck the option —-</li>
+<li>Reference to average and interpolate removed channels.</li>
+<li>From <code>Tools -&gt; Microstates -&gt; Obtain Microstate Maps</code>, use <code>k-means</code> method with a min of 4 and max of 5 maps, and set <code>resets</code> to 20.</li>
+<li>From <code>Plots -&gt;</code> …</li>
+</ol>
+</section>
 <section id="eeg-headset-maintenance-and-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="eeg-headset-maintenance-and-cleaning">EEG Headset maintenance and cleaning</h2>
 <p><a href="https://youtu.be/FOgfR0QI9_A" class="uri">https://youtu.be/FOgfR0QI9_A</a></p>
@@ -259,7 +291,13 @@ Note
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Microstates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

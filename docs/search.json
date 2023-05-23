@@ -291,21 +291,21 @@
     "href": "labs/eeg-acq-process.html",
     "title": "EEG data acquistion, processing, and analysis",
     "section": "",
-    "text": "Note\n\n\n\nThis is workd under progress and more information will be added."
+    "text": "Note\n\n\n\nThis is work under progress and more information will be added."
   },
   {
     "objectID": "labs/eeg-acq-process.html#data-acquisition",
     "href": "labs/eeg-acq-process.html#data-acquisition",
     "title": "EEG data acquistion, processing, and analysis",
     "section": "Data Acquisition",
-    "text": "Data Acquisition\nEEG data can be collected using a variety of EEG headset tools and sofware. We are using a mobile, gel-based, 32 channel headset, eego sports (by Ant Neuro).\nMore to come…"
+    "text": "Data Acquisition\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports (EEGO Sports 32 (ES-230) OR EEGO Sports 32 pro (ES-231)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with XYZ\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data"
   },
   {
     "objectID": "labs/eeg-acq-process.html#data-processing-and-analysis",
     "href": "labs/eeg-acq-process.html#data-processing-and-analysis",
     "title": "EEG data acquistion, processing, and analysis",
     "section": "Data processing and analysis",
-    "text": "Data processing and analysis\nA large variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (that stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox EEGLab.\n The alternative free programme is Python – whereas the relevant library is called MNE."
+    "text": "Data processing and analysis\nA variety of software are available for EEG data processing and analysis. The widely used licensed programme is MATALB (stands for matrix laboratory). It is primarily a statistical and machine learning programme and can be used for EEG data processing in two ways: via command line or via a freely available toolbox EEGLab.\n\n\n\nMATLAB user interface\n\n\nThere are many alternative. A famous free programme is Python – whereas the relevant library is called MNE.\nWe primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on."
   },
   {
     "objectID": "labs/eeg-acq-process.html#eeglab",
@@ -1111,5 +1111,33 @@
     "title": "4E Cognition",
     "section": "Kōrero",
     "text": "Kōrero\n\n\nJungnickel and Gramann (2016): Peer, Azadeh, Lucas, Jasmine, and Kendal - 11:15 - 11:30\nGrasso-Cladera et al. (2022): Harriet, Priya, Jasmine, and Kendal - 11:30 - 11:45\nConclusion: 11:45 - 11:50"
+  },
+  {
+    "objectID": "labs/eeg-acq-process.html#collecting-eeg-data",
+    "href": "labs/eeg-acq-process.html#collecting-eeg-data",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Collecting EEG data",
+    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports (EEGO Sports 32 (ES-230) OR EEGO Sports 32 pro (ES-231)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with XYZ\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
+  },
+  {
+    "objectID": "labs/eeg-acq-process.html#eeglab-toolbox",
+    "href": "labs/eeg-acq-process.html#eeglab-toolbox",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "EEGLab Toolbox",
+    "text": "EEGLab Toolbox\n\nUse updated versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.2, and paste Microstates1.2 inside EEGLab -> plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -> Add-Ons and click on three dots beside the installation folder path. This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, the EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematic.\nFrom MATLAB Home tab, click Set Path -> Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\nPlugins\n\nclean_rawdata\nFirfilt\nICLabel\nDipfit\nMicrostates\nPICARD"
+  },
+  {
+    "objectID": "labs/eeg-acq-process.html#installing-eeglab-toolbox",
+    "href": "labs/eeg-acq-process.html#installing-eeglab-toolbox",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Installing EEGLab Toolbox",
+    "text": "Installing EEGLab Toolbox\n\nUse the latest versions of MATLAB and EEGLab.\nUnzip EEGLab and Microstates1.21, and paste Microstates1.2 inside EEGLab -> plugins.\nMake sure that you do not have any extra - old copies of the software on your computer.\nFrom MATLAB Home tab, click Preferences -> Add-Ons and click on three dots beside the installation folder path (see Figure 1). This shows you the folder where MATLAB has been installed. If you see a MATLAB Add-Ons folder within Mathworks, then EEGLab (unzipped) should be pasted here and deleted from all other places on your computer. If such a folder does not exist, create a new folder and name it MATLAB Add-Ons, then paste the EEGLab folder here. Creating this folder should not be problematics as described here.\nFrom MATLAB Home tab, click Set Path -> Default. This deletes all old paths. Once the process completes, click Save. Then, click Add with Subfolders and find the path to EEGLab folder based on point 4, then click Save.\nType eeglab in MATLAB Command Window and EEGLab shall open.\n\n\n\n\nFigure 1: MATLAB preferences\n\n\nEEGLab fig tba.\nHow to create a study\n(Used to process multiple datasets at once)\n\nLoad in datasets\nFile -> Create Study -> Using all loaded datasets\n\nHow to remove non-EEG channels\n\nEdit -> Select Data -> Tick the box on the same line as channel range and then click on the “…” box to select the channels to remove (how do you know how to remove the channels? I wish I knew)\n\nHow to compute the average reference for microstate analysis\n\nTools -> Basic FIR filter -> Set lower edge to 2 and upper edge to 20 and run\n\nHow to run artifact correction (ASR)\n\nTools -> Reject data using clean rawdata and ASR\nTick the “Remove channel drift” box and change the values to 0.75 and 1.25 (Why? IDK)\nUncheck the “Remove channel if it is flat for more than …” box\nChange the min acceptable correlation with nearby chans from 0.8 to 0.7\n\nApparently we now average reference again, but this time we also interpolate removed channels\nHow to run ICA with Picard\n\nTools -> Decompose data by ICA\nChange from “runica” to “picard”\nUncheck the reorder components by variance box\nAfter that is finished, go back to Tools -> Classify components using ICLabel-> label components (leave as default) and run\nThen Tools -> Classify components using ICLabel-> Flag components as artifacts\nThen Tools -> remove components from data\n\nHow to actually run microstate analysis (Windows edition)\n\nTools -> Microstate analysis toolbox -> select data for microstate analysis\nChange ERP – Concatenate datasets to Spontaneous GFP Peaks\nTools -> Microstate analysis toolbox -> Segment into microstates\nCopy this (Shamelessly stolen from Usman’s slides)\n\n\n\nCopy this\n\n\nYou should be able to plot them after doing this."
+  },
+  {
+    "objectID": "labs/eeg-acq-process.html#resting-eeg-microstates",
+    "href": "labs/eeg-acq-process.html#resting-eeg-microstates",
+    "title": "EEG data acquistion, processing, and analysis",
+    "section": "Resting EEG Microstates",
+    "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble pretty close to the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to uncheck the option —-\nReference to average and interpolate removed channels.\nFrom Tools -> Microstates -> Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set resets to 20.\nFrom Plots -> …"
   }
 ]
