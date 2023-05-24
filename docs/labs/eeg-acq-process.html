@@ -22,6 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -274,25 +293,43 @@ Note
 </section>
 <section id="resting-eeg-microstates" class="level2">
 <h2 class="anchored" data-anchor-id="resting-eeg-microstates">Resting EEG Microstates</h2>
-<p>EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble pretty close to the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:</p>
+<p>EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:</p>
 <ol type="1">
 <li>Channel locations</li>
 <li>Filter 2-20 Hz</li>
-<li>Remove artefacts with ASR, but make sure to uncheck the option —-</li>
+<li>Remove artefacts with ASR, but make sure to un-check the option <code>Remove channel if it is flat for more than (seconds)</code>, see <a href="#fig-artefact-ms">Figure&nbsp;2</a>.</li>
 <li>Reference to average and interpolate removed channels.</li>
 <li>From <code>Tools -&gt; Microstates -&gt; Obtain Microstate Maps</code>, use <code>k-means</code> method with a min of 4 and max of 5 maps, and set <code>restarts</code> to 20.</li>
 <li>From <code>Plots -&gt;</code> …</li>
+<li>Examine whether or not your obtained microstates resemble the prototypical four network types (see <a href="#fig-fourmaps">Figure&nbsp;3</a>) <span class="citation" data-cites="nash2022">(<a href="#ref-nash2022" role="doc-biblioref">Nash et al. 2022</a>)</span>.</li>
 </ol>
+<div id="fig-artefact-ms" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../figs/artefact-ms.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Automatic artefact removal</figcaption><p></p>
+</figure>
+</div>
+<div id="fig-fourmaps" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../figs/fourmaps.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Four prototypical microstates <span class="citation" data-cites="nash2022">(<a href="#ref-nash2022" role="doc-biblioref">Nash et al. 2022</a>)</span></figcaption><p></p>
+</figure>
+</div>
 </section>
 <section id="eeg-headset-maintenance-and-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="eeg-headset-maintenance-and-cleaning">EEG Headset maintenance and cleaning</h2>
 <p><a href="https://youtu.be/FOgfR0QI9_A" class="uri">https://youtu.be/FOgfR0QI9_A</a></p>
 
 
+
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-nash2022" class="csl-entry" role="doc-biblioentry">
+Nash, Kyle, Tobias Kleinert, Josh Leota, Andy Scott, and Jeff Schimel. 2022. <span>“Resting-State Networks of Believers and Non-Believers: An EEG Microstate Study.”</span> <em>Biological Psychology</em> 169 (March): 108283. <a href="https://doi.org/10.1016/j.biopsycho.2022.108283">https://doi.org/10.1016/j.biopsycho.2022.108283</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>Microstates is not primarily needed for EEGLab. We install it because it will be used for acquiring resting EEG microstate plots and relevant statistics.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>

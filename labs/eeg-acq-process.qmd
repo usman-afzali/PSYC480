@@ -3,6 +3,7 @@ title: "EEG data acquistion, processing, and analysis"
 author: "Charlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali"
 date: 2023 05 11
 format: html
+bibliography: references.bib
 ---
 
 ::: callout-note
@@ -62,7 +63,6 @@ We primarily use EEGLab in PSYC480, that shall be installed as an MATLAB add-on.
 
 EEGLab fig tba.
 
-
 **How to create a study**
 
 (Used to process multiple datasets at once)
@@ -111,17 +111,21 @@ Apparently we now average reference again, but this time we also interpolate rem
 
 You should be able to plot them after doing this.
 
-
 ## Resting EEG Microstates
 
-EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble pretty close to the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:
+EEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:
 
-1.    Channel locations
-2.    Filter 2-20 Hz
-3.    Remove artefacts with ASR, but make sure to uncheck the option ----
-4.    Reference to average and interpolate removed channels.
-5.    From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `restarts` to 20.
-6.    From `Plots ->` ...
+1.  Channel locations
+2.  Filter 2-20 Hz
+3.  Remove artefacts with ASR, but make sure to un-check the option `Remove channel if it is flat for more than (seconds)`, see @fig-artefact-ms.
+4.  Reference to average and interpolate removed channels.
+5.  From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `restarts` to 20.
+6.  From `Plots ->` ...
+7.  Examine whether or not your obtained microstates resemble the prototypical four network types (see @fig-fourmaps) [@nash2022].
+
+![Automatic artefact removal](/figs/artefact-ms.jpg){#fig-artefact-ms}
+
+![Four prototypical microstates [@nash2022]](/figs/fourmaps.png){#fig-fourmaps}
 
 ## EEG Headset maintenance and cleaning
 
