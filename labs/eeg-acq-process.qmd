@@ -120,7 +120,7 @@ EEG data processing (as described above) has historically been recommended by ma
 2.    Filter 2-20 Hz
 3.    Remove artefacts with ASR, but make sure to uncheck the option ----
 4.    Reference to average and interpolate removed channels.
-5.    From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `resets` to 20.
+5.    From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `restarts` to 20.
 6.    From `Plots ->` ...
 
 ## EEG Headset maintenance and cleaning
