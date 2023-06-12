@@ -18,9 +18,10 @@ EEG data can be collected using a variety of EEG headset tools and software. We 
 
 ### EEG Headset Technical details
 
--   Brand: Ant Neuro EEGO Sports (EEGO Sports 32 (ES-230) **OR** EEGO Sports 32 pro (ES-231)
+-   Brand: Ant Neuro EEGO Sports 32 (ES-230)
 -   Amplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device
--   Reference: online referencing with **XYZ**
+-   Reference: online referencing with CPz
+-   Ground electrode: AFz
 -   Resolution: 24-bit
 -   EEG Cap: Waveguard -- sizes M, and L
 -   Sampling rate: upto 2048 Hz

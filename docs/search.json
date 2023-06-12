@@ -1117,7 +1117,7 @@
     "href": "labs/eeg-acq-process.html#collecting-eeg-data",
     "title": "EEG data acquistion, processing, and analysis",
     "section": "Collecting EEG data",
-    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports (EEGO Sports 32 (ES-230) OR EEGO Sports 32 pro (ES-231)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with XYZ\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
+    "text": "Collecting EEG data\nEEG data can be collected using a variety of EEG headset tools and software. We are using a mobile, gel-based, 32 channel headset, Ant Neuro EEGO Sports.\n\nEEG Headset Technical details\n\nBrand: Ant Neuro EEGO Sports 32 (ES-230)\nAmplifier: 32-channel EEGO amplifier, 2 kHz, CE Class IIa medical device\nReference: online referencing with CPz\nGround electrode: AFz\nResolution: 24-bit\nEEG Cap: Waveguard – sizes M, and L\nSampling rate: upto 2048 Hz\nSoftware: EEGO software for recording, reviewing, and export EEG data\n\n\n\nData acquisition\n1. Creating a new subject\n2. Placing EEG headset\n3. Checking Impedance\n4. EEG Recording\n5. Exporting EEG data"
   },
   {
     "objectID": "labs/eeg-acq-process.html#eeglab-toolbox",
