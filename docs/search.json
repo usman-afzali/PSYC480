@@ -1026,7 +1026,7 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Introduction to Neuroscience - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Neuroscience - 2 + Methods in Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nFundamentals of Electroencephalography (EEG)\n\n\nPSYC480 Weeks 3 and 4\n\n\n\n\n\n\n\n\n\nMar 6, 2023\n\n\nDr Roland Pfister\n\n\n\n\n\n\n  \n\n\n\n\nDSP & The neuroscience of contemplation - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nDr Roland Pfister and Dr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe neuroscience of contemplation - 2\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nBrain computer interface\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nApr 24, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrain Fingerprinting\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility in neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4E Cognition\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMay 22, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to Neuroscience - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 20, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Neuroscience - 2 + Methods in Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 27, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nFundamentals of Electroencephalography (EEG)\n\n\nPSYC480 Weeks 3 and 4\n\n\n\n\n\n\n\n\n\nMar 6, 2023\n\n\nDr Roland Pfister\n\n\n\n\n\n\n  \n\n\n\n\nDSP & The neuroscience of contemplation - 1\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\nDr Roland Pfister and Dr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe neuroscience of contemplation - 2\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 27, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nBrain computer interface\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nApr 24, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrain Fingerprinting\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility in neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4E Cognition\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMay 22, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nIntroductions & Fundamentals of Neuroscience\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 21, 2024\n\n\nDr Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "outline.html",
@@ -1139,5 +1139,250 @@
     "title": "EEG data acquistion, processing, and analysis",
     "section": "Resting EEG Microstates",
     "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 2.\nReference to average and interpolate removed channels.\nFrom Tools -> Microstates -> Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -> …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 3) (Nash et al. 2022).\n\n\n\n\nFigure 2: Automatic artefact removal\n\n\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#karakia-whakatūwhera",
+    "href": "presentations/Week01-2024.html#karakia-whakatūwhera",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Karakia Whakatūwhera",
+    "text": "Karakia Whakatūwhera\n\n\n\nUnuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea\n\n\nRemove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#class-reps",
+    "href": "presentations/Week01-2024.html#class-reps",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Class reps",
+    "text": "Class reps\n400 Level needs 2 class reps\nLink to registration system: https://ucsa.org.nz/support/classrepresentatives/"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#course-structure",
+    "href": "presentations/Week01-2024.html#course-structure",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Course Structure",
+    "text": "Course Structure\n\n\nFundamentals, EEG, contemplative sciences, MATLAB, broader scope\nLearning outcomes\nLecturers\nTextbook/readings"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#assessments",
+    "href": "presentations/Week01-2024.html#assessments",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Assessments",
+    "text": "Assessments\n\n\n\nAssessment\nDue\n% of final mark\n\n\n\n\nWritten labs\nDue Fridays\n15%\n\n\nClass participation\nDuring lectures\n15%\n\n\nLit Review/Essay\n28 Mar\n35%\n\n\nOral group presentation\nWeeks 11 and 12 (22 and 29 May)\n20%\n\n\nLab Report\n14 Jun\n15%"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#class-participation-10",
+    "href": "presentations/Week01-2024.html#class-participation-10",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Class Participation 10%",
+    "text": "Class Participation 10%\nDuring 7 out of 8 weeks (excluding weeks 3, 4, , 10, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 7 discussions, you will get a full 10% class contribution mark."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#class-participation",
+    "href": "presentations/Week01-2024.html#class-participation",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Class Participation",
+    "text": "Class Participation"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#written-labs-20",
+    "href": "presentations/Week01-2024.html#written-labs-20",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Written Labs 20%",
+    "text": "Written Labs 20%\nThis course has 10 one-hour labs, in the first 10 weeks. Eight labs deal with processing and analyzing EEG data and you will be required to submit written work by the end of these weeks. Two labs (Lab 7 and Lab 10) do not require any written work. Lab 7 deals with collecting data from each of you, using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Lab 10 teaches you how to write a lab report. Each lab contributes 2% to your final PSYC480 grades (=20% total from labs). Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, Lab 7 is also important for your 40% Individual Lab Report."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#written-labs",
+    "href": "presentations/Week01-2024.html#written-labs",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Written Labs",
+    "text": "Written Labs"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#literature-reviewessay-10",
+    "href": "presentations/Week01-2024.html#literature-reviewessay-10",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Literature Review/Essay 10%",
+    "text": "Literature Review/Essay 10%\nA 1000 word (3 pages) literature review/essay covering fundamentals of and methods in neuroscience. This exercise will help you dig deeper into the world of neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository and version control tools such as Git and GitHub, etc."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#literature-reviewessay",
+    "href": "presentations/Week01-2024.html#literature-reviewessay",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Literature Review/Essay",
+    "text": "Literature Review/Essay\n….and version control tools such as Git and GitHub, etc. Don’t worry. These will be covered in the first two weeks of the course, and a lot of literature on contemplative science will also be made available."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#oral-group-presentation-20",
+    "href": "presentations/Week01-2024.html#oral-group-presentation-20",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Oral Group Presentation 20%",
+    "text": "Oral Group Presentation 20%\n\n\nPrepare a talk individually or as part of a group of two - depending upon the breadth of the topic.\nAlthough you can present as part of a group, each of you will get their own grade.\nSelect a topic from Week 5-7 or 9-10. The readings will be added soon.\nEach person should take only 7.5 mins. If you are presenting as part of the group, the two of you will present one after another for 15 mins. If you exceed your allocated time, you will have your presentation terminated at the end of the allocated period."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#oral-group-presentation",
+    "href": "presentations/Week01-2024.html#oral-group-presentation",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Oral Group Presentation",
+    "text": "Oral Group Presentation"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#oral-group-presentation-1",
+    "href": "presentations/Week01-2024.html#oral-group-presentation-1",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Oral Group Presentation …",
+    "text": "Oral Group Presentation …\n\n\nPlan ahead and set clear goals and objectives.\nDivide the work and assign roles and responsibilities.\nConduct thorough research and organize information logically.\nCreate a visually appealing and engaging presentation.\nRehearse several times, individually and as a group.\nAnticipate questions and challenges and prepare appropriate responses.\nKeep track of time and adhere to the allotted time."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#oral-group-presentation-2",
+    "href": "presentations/Week01-2024.html#oral-group-presentation-2",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Oral Group Presentation …",
+    "text": "Oral Group Presentation …\n\n\nDeliver the presentation with confidence and enthusiasm.\nEnd with a strong conclusion and thank the audience.\nReflect on the performance and use feedback to improve future presentations."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#individual-lab-report-40",
+    "href": "presentations/Week01-2024.html#individual-lab-report-40",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Individual Lab Report 40%",
+    "text": "Individual Lab Report 40%\n\n\nAPA-styled scientific report\nIntro: the neuroscience of self-transcendent practices\nMethod: Method of your own EEG data collected in Week 7.\nResults: Analysis of your EEG data shall be reported.\nDiscussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#individual-lab-report",
+    "href": "presentations/Week01-2024.html#individual-lab-report",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Individual Lab Report",
+    "text": "Individual Lab Report"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#week-7-data-collection",
+    "href": "presentations/Week01-2024.html#week-7-data-collection",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Week 7 Data Collection",
+    "text": "Week 7 Data Collection\nWe might not be able to collect data from all of you within the one hour of weekly lab. Volunteering for data collection during the week or even during the term break are encouraged and appreciated."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#final-exam",
+    "href": "presentations/Week01-2024.html#final-exam",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Final Exam",
+    "text": "Final Exam"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#late-work",
+    "href": "presentations/Week01-2024.html#late-work",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Late Work",
+    "text": "Late Work\n\n\nNot accepted for Written Labs, Class Participation, or Oral Presentation\n5% penalty per each 24-hour delay for large assignments\nWhat if you have genuine reasons stopping you from submitting on-time?"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#how-to-seek-help",
+    "href": "presentations/Week01-2024.html#how-to-seek-help",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "How to seek help?",
+    "text": "How to seek help?\n\n\nUse forum extensively\nAttend office hour (Thursdays 11am - 12pm)\nIssues: Check Learn or Course Outline. Not solved? Ask Usman\nIf you email me or make a forum post, give me up to 24 hours to respond"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#means-of-communication",
+    "href": "presentations/Week01-2024.html#means-of-communication",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Means of Communication",
+    "text": "Means of Communication\n\nForum\nAsk directly\nEmail\n\n\n\n\n\n\n\nEmail\n\n\nPlease use your UC email address and my staff email address usman.afzali@canterbury.ac.nz"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#if-you-are-up-for-open-science",
+    "href": "presentations/Week01-2024.html#if-you-are-up-for-open-science",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "If you are up for Open Science",
+    "text": "If you are up for Open Science\nPSYC480 Open Science Website"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#note-taking-from-sas",
+    "href": "presentations/Week01-2024.html#note-taking-from-sas",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Note Taking (from SAS)",
+    "text": "Note Taking (from SAS)"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#note-taking-from-sas-1",
+    "href": "presentations/Week01-2024.html#note-taking-from-sas-1",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Note Taking (from SAS) …",
+    "text": "Note Taking (from SAS) …"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#what-is-neuroscience",
+    "href": "presentations/Week01-2024.html#what-is-neuroscience",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "What is Neuroscience?",
+    "text": "What is Neuroscience?\n\n\nPerception, thinking, understanding, control of movement\nExperimental psychology + physiology\nResearch: perception, control of movement, sleep and walking, reproductive/ingestive/emotional behaviour, learning, memory\nExamples of neuroscience subfields\nComputational neuroscience\nTools to conduct neuroscientific research"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#karakia-whakatūwhera-1",
+    "href": "presentations/Week01-2024.html#karakia-whakatūwhera-1",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Karakia Whakatūwhera",
+    "text": "Karakia Whakatūwhera\n\n\n\nUnuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea\n\n\nRemove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#class-participation-15",
+    "href": "presentations/Week01-2024.html#class-participation-15",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Class Participation 15%",
+    "text": "Class Participation 15%\nDuring 6 out of 7 weeks (excluding weeks 3, 4, 8, 11, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 6 discussions, you will get a full 15% class contribution mark."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#class-participation-continued",
+    "href": "presentations/Week01-2024.html#class-participation-continued",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Class Participation continued…",
+    "text": "Class Participation continued…\nThe first four weeks are dedicated to data collection, so there are no labs, and you will collect data using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, the first four weeks are important for your 15% Individual Lab Report."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#written-labs-15",
+    "href": "presentations/Week01-2024.html#written-labs-15",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Written Labs 15%",
+    "text": "Written Labs 15%\nThis course has 5 two-hour labs.\nFour labs deal with processing and analyzing EEG data + MATLAB and you will be required to submit written work by the end of these weeks. Each lab contributes 3.75% to your final PSYC480 grades (=15% total from labs). The final lab (Report Writing) does not require any written work."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#written-labs-continued",
+    "href": "presentations/Week01-2024.html#written-labs-continued",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Written Labs continued",
+    "text": "Written Labs continued\nThe first four weeks are dedicated to data collection, so there are no labs, and you will collect data using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, the first four weeks are important for your 15% Individual Lab Report."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#literature-reviewessay-35",
+    "href": "presentations/Week01-2024.html#literature-reviewessay-35",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Literature Review/Essay 35%",
+    "text": "Literature Review/Essay 35%\nBy the end of Week 6, you will be required to submit a 2000 word literature review/essay covering fundamentals of neuroscience, methods in neuroscience, and applications in contemplative sciences. This exercise will help you dig deeper into the world of contemplation, neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from a variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository…."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#literature-reviewessay-1",
+    "href": "presentations/Week01-2024.html#literature-reviewessay-1",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Literature Review/Essay",
+    "text": "Literature Review/Essay"
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#oral-group-presentation-continued",
+    "href": "presentations/Week01-2024.html#oral-group-presentation-continued",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Oral Group Presentation continued",
+    "text": "Oral Group Presentation continued\n\n\nThese presentations happen during Weeks 11 and 12 at the class time 9:00am - 12:00 noon. Chances are that these might get a bit longer, so be prepared.\nUse Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. The whole class will gain more from a presentation if everyone is prepared. When preparing a topic, you may arrange to discuss your proposed presentation with Usman beforehand."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#individual-lab-report-15",
+    "href": "presentations/Week01-2024.html#individual-lab-report-15",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Individual Lab Report 15%",
+    "text": "Individual Lab Report 15%\n\n\nAPA-styled scientific report\nMethod: Method of your own EEG data collected at the beginning.\nResults: Analysis of your EEG data shall be reported.\nDiscussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc."
+  },
+  {
+    "objectID": "presentations/Week01-2024.html#weeks-1-4-data-collection",
+    "href": "presentations/Week01-2024.html#weeks-1-4-data-collection",
+    "title": "Introductions & Fundamentals of Neuroscience",
+    "section": "Weeks 1-4 Data Collection",
+    "text": "Weeks 1-4 Data Collection\nFacilitate with Kendal and Harriet."
   }
 ]

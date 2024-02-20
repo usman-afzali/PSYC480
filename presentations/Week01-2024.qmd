@@ -1,0 +1,202 @@
+---
+title: "Introductions & Fundamentals of Neuroscience"
+subtitle: "PSYC480"
+author: "Dr Usman Afzali"
+institute: "University of Canterbury"
+date: 2024 02 21
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+---
+
+# Kauhau {background-color=orange}
+::: incremental
+-   Introductions
+-   Introduction to the course: Understand the overall scope and intention of PSYC480
+-   Fundamentals of Neuroscience
+:::
+
+# Introductions {background-color=orange}
+
+## Class reps {background-color=#346bc8}
+
+400 Level needs 2 class reps
+
+Link to registration system: [https://ucsa.org.nz/support/classrepresentatives/](https://ucsa.org.nz/support/classrepresentatives/)
+
+# Course Introduction {background-color=orange}
+
+## Course Structure {background-color=#346bc8}
+
+::: incremental
+-   Fundamentals, EEG, contemplative sciences, MATLAB, broader scope
+-   Learning outcomes
+-   Lecturers
+-   Textbook/readings
+:::
+
+## Assessments {background-color=#346bc8}
+
+| Assessment | Due | % of final mark |
+|---------|:-----|------:|
+| Written labs      | Due Fridays   |    15%  |
+| Class participation    | During lectures  |   15% |
+| Lit Review/Essay      | 28 Mar   |     35%  |
+| Oral group presentation | Weeks 11 and 12 (22 and 29 May) | 20% |
+| Lab Report | 14 Jun | 15% |
+
+## Written Labs 15% {background-color=#346bc8}
+
+This course has 5 two-hour labs. 
+
+Four labs deal with processing and analyzing EEG data + MATLAB and you will be required to submit written work by the end of these weeks. Each lab contributes 3.75% to your final PSYC480 grades (=15% total from labs). The final lab (Report Writing) does not require any written work. 
+
+## Written Labs continued {background-color=#346bc8}
+
+The first four weeks are dedicated to data collection, so there are no labs, and you will collect data using EEG headset, that you will process and analyze for your Individual Lab Report assignment. Please note that you cannot write the Individual Lab Report unless you have your own EEG data. This being the case, the first four weeks are important for your 15% Individual Lab Report.
+
+## Written Labs {background-color=#346bc8}
+
+![](/figs/written-labs-.png)
+
+## Class Participation 15% {background-color=#346bc8}
+
+During 6 out of 7 weeks (excluding weeks 3, 4, 8, 11, and 12), you will be required to contribute to class discussions. The quality of your contribution will be noted during classes. If you contribute meaningfully to at least 6 discussions, you will get a full 15% class contribution mark.
+
+## Class Participation {background-color=#346bc8}
+
+![](/figs/class-participation-.png)
+
+## Literature Review/Essay 35% {background-color=#346bc8}
+
+By the end of Week 6, you will be required to submit a 2000 word literature review/essay covering fundamentals of neuroscience, methods in neuroscience, and applications in contemplative sciences. This exercise will help you dig deeper into the world of contemplation, neuroscience and having a think about what processes and methods you might use in case you wanted to conduct neuroscientific research. You can select from a variety of topics, including but not limited to the history of neuroscience, old methods, contemporary methods, the role of advanced computational modelling, the role of open-science in improving neuroscientific research, the role of online repository.... 
+
+## Literature Review/Essay {background-color=#346bc8}
+
+....and version control tools such as Git and GitHub, etc. Don't worry. These will be covered in the first two weeks of the course, and a lot of literature on contemplative science will also be made available.
+
+## Literature Review/Essay {background-color=#346bc8}
+
+![](/figs/litrev.png)
+
+## Oral Group Presentation 20% {background-color=#346bc8}
+
+::: incremental
+
+-   Prepare a talk individually or as part of a group of two - depending upon the breadth of the topic.
+-   Although you can present as part of a group, each of you will get their own grade.
+-   Select a topic from Week 5-7 or 9-10. The readings will be added soon.
+-   Each person should take only 7.5 mins. If you are presenting as part of the group, the two of you will present one after another for 15 mins. If you exceed your allocated time, you will have your presentation terminated at the end of the allocated period.
+
+:::
+
+## Oral Group Presentation continued {background-color=#346bc8}
+
+::: incremental
+
+-   These presentations happen during Weeks 11 and 12 at the class time 9:00am - 12:00 noon. Chances are that these might get a bit longer, so be prepared.
+-   Use Google Scholar, PsycInfo, UC Library and other relevant databases to update and extend your readings. The whole class will gain more from a presentation if everyone is prepared. When preparing a topic, you may arrange to discuss your proposed presentation with Usman beforehand.
+
+:::
+
+## Oral Group Presentation {background-color=#346bc8}
+
+![](/figs/present.png)
+
+## Oral Group Presentation ... {background-color=#346bc8}
+::: incremental
+1. Plan ahead and set clear goals and objectives.
+2. Divide the work and assign roles and responsibilities.
+3. Conduct thorough research and organize information logically.
+4. Create a visually appealing and engaging presentation.
+5. Rehearse several times, individually and as a group.
+6. Anticipate questions and challenges and prepare appropriate responses.
+7. Keep track of time and adhere to the allotted time.
+:::
+
+## Oral Group Presentation ... {background-color=#346bc8}
+
+::: incremental
+
+8. Deliver the presentation with confidence and enthusiasm.
+8. End with a strong conclusion and thank the audience.
+9. Reflect on the performance and use feedback to improve future presentations.
+:::
+
+
+## Individual Lab Report 15% {background-color=#346bc8}
+
+::: incremental
+
+-   APA-styled scientific report
+-   Method: Method of your own EEG data collected at the beginning. 
+-   Results: Analysis of your EEG data shall be reported. 
+-   Discussion: Analytic report of the patterns in your EEG data compared with available literature, its theoretical implications etc.
+
+:::
+
+## Individual Lab Report {background-color=#346bc8}
+
+![](/figs/labreport2.png)
+
+
+
+## Weeks 1-4 Data Collection {background-color=#346bc8}
+
+Facilitate with Kendal and Harriet.
+
+
+## Final Exam {background-color=#346bc8}
+
+## Late Work {background-color=#346bc8}
+
+::: incremental
+-   Not accepted for Written Labs, Class Participation, or Oral Presentation
+-   5% penalty per each 24-hour delay for large assignments
+-   What if you have genuine reasons stopping you from submitting on-time?
+:::
+
+## How to seek help? {background-color=#346bc8}
+
+::: incremental
+-   Use forum extensively
+-   Attend office hour (Thursdays 11am - 12pm)
+-   Issues: Check Learn or Course Outline. Not solved? Ask Usman
+-   If you email me or make a forum post, give me up to 24 hours to respond
+:::
+
+## Means of Communication {background-color=#346bc8}
+
+-   Forum
+-   Ask directly
+-   Email
+
+::: {.callout-important}
+
+## Email {background-color=#346bc8}
+
+Please use your UC email address and my staff email address [usman.afzali@canterbury.ac.nz](mailto:usman.afzali@canterbury.ac.nz)
+:::
+
+# BREAK TIME {background-color=orange}
+
+# Fundamentals of Neuroscience {background-color=orange}
+
+## What is Neuroscience? {background-color=#346bc8}
+
+::: incremental
+
+-   Perception, thinking, understanding, control of movement
+-   Experimental psychology + physiology
+-   Research: perception, control of movement, sleep and walking, reproductive/ingestive/emotional behaviour, learning, memory
+-   Examples of neuroscience subfields
+-   Computational neuroscience
+-   Tools to conduct neuroscientific research
+
+:::
+
+
+
+# THE END {background-color=orange}
