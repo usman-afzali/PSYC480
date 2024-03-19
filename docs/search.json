@@ -396,7 +396,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assessments.html",
@@ -1587,5 +1587,131 @@
     "title": "Introduction to Neuroscience - 2 + Methods in Neuroscience",
     "section": "Change of the Lecture Venue",
     "text": "Change of the Lecture Venue\nChange of lecture venue. From next Wednesday onwards, we will be moving to Psyc Soci 210 (capacity = 27 seats)."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#what-is-matlab",
+    "href": "labs/Lab01-2024.html#what-is-matlab",
+    "title": "Lab 01",
+    "section": "What is MATLAB?",
+    "text": "What is MATLAB?\n\nProgramming language\nMatrix manipulations, plotting, implementing algorithms etc.\nToolboxes and apps"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#what-is-eeglab",
+    "href": "labs/Lab01-2024.html#what-is-eeglab",
+    "title": "Lab 01",
+    "section": "What is EEGLab?",
+    "text": "What is EEGLab?\n\nA MATLAB toolbox\nUsed for processing and analysing EEG, MEG and other electrophysiological signals.\nIt has a GUI"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#processing-and-analysing-eeg-data",
+    "href": "labs/Lab01-2024.html#processing-and-analysing-eeg-data",
+    "title": "Lab 01",
+    "section": "Processing and analysing EEG data",
+    "text": "Processing and analysing EEG data\n\nMATLAB command line\nThe standalone EEGLab software\nUse EEGLab in association with MATLAB"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#how-to-process-using-eeglab",
+    "href": "labs/Lab01-2024.html#how-to-process-using-eeglab",
+    "title": "Lab 01",
+    "section": "How to process using EEGLab",
+    "text": "How to process using EEGLab\n\nUse the available dataset from Learn Lab 1 demo.\nNote “Channels per frame, Frames per epoch, epoch, events, sampling rate, reference and other attributes."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#how-to-process-using-eeglab-1",
+    "href": "labs/Lab01-2024.html#how-to-process-using-eeglab-1",
+    "title": "Lab 01",
+    "section": "How to process using EEGLab",
+    "text": "How to process using EEGLab\n\nEpoch: A procedure in which specific time-windows are extracted from the continuous EEG signal. These time windows are called “epochs”, and usually are time-locked with respect an event e.g. a visual stimulus."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#attributes-contd",
+    "href": "labs/Lab01-2024.html#attributes-contd",
+    "title": "Lab 01",
+    "section": "Attributes contd…",
+    "text": "Attributes contd…\n\nEvent: a visual stimuli or a task\nSampling rate (Hz): the number of samples (of electrical activity) recorded per second\nFrames: Frames in EEGLAB are the same as samples (so if you sampled at 500 Hz your data will have 500 frames each second)\nReferencing: EEG recordings measure differences in electrical potentials between two points (Voltages). This means the signal displayed at any channel is in fact the difference in electrical potential to some other recording site (or reference)."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#visualising-eeg-data",
+    "href": "labs/Lab01-2024.html#visualising-eeg-data",
+    "title": "Lab 01",
+    "section": "Visualising EEG data",
+    "text": "Visualising EEG data\n\nUse Plot -> Channel data (scroll)."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#pipeline",
+    "href": "labs/Lab01-2024.html#pipeline",
+    "title": "Lab 01",
+    "section": "Pipeline",
+    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#referencing",
+    "href": "labs/Lab01-2024.html#referencing",
+    "title": "Lab 01",
+    "section": "Referencing",
+    "text": "Referencing\n\n\nWhy do we reference?"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#referencing-to-m1-and-m2",
+    "href": "labs/Lab01-2024.html#referencing-to-m1-and-m2",
+    "title": "Lab 01",
+    "section": "Referencing to M1 and M2",
+    "text": "Referencing to M1 and M2\n\n\nUse Tools -> re-reference the data.\nCompare the attributes to the original dataset. Is there any discrepancy? If yes, why?\nIf you haven’t picked answer to “why” yet, plot the data again and observe closely."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#filtering",
+    "href": "labs/Lab01-2024.html#filtering",
+    "title": "Lab 01",
+    "section": "Filtering",
+    "text": "Filtering\n\n\nWhy do we filter data?\nMany sources of noise, such as the 60Hz line noise, consist mainly of very high frequencies or very low frequencies, whereas most of the useful information in an EEG or ERP waveform is at intermediate frequencies (between approximately 0.1Hz and 50Hz)."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#filtering-contd.",
+    "href": "labs/Lab01-2024.html#filtering-contd.",
+    "title": "Lab 01",
+    "section": "Filtering contd….",
+    "text": "Filtering contd….\n\n\nConsequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\nDelorme recommends filtering at 0.5.\nUse Tools -> Filter data -> basic FIR Filter. Type 0.5 in the Lower edge\nDC offset: https://relaytraining.com/what-is-dc-offset-ask-chris/"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#visaul-inspection.",
+    "href": "labs/Lab01-2024.html#visaul-inspection.",
+    "title": "Lab 01",
+    "section": "Visaul inspection….",
+    "text": "Visaul inspection….\n\nFrom Edit, select channel locations\nPlot channels as 2-D"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#removing-unwanted-channels",
+    "href": "labs/Lab01-2024.html#removing-unwanted-channels",
+    "title": "Lab 01",
+    "section": "Removing unwanted channels",
+    "text": "Removing unwanted channels\nUse Edit -> Select data. Select the Channel range that you want to remove."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#examining-raw-data",
+    "href": "labs/Lab01-2024.html#examining-raw-data",
+    "title": "Lab 01",
+    "section": "Examining raw data",
+    "text": "Examining raw data\n\n\n\n\nTo identify artefacts\nAnd to reject them\nUse Tools -> Inspect/reject data by eye. Use your mouse to highlight the part you want to reject, and click the REJECT button."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#automatic-artefact-rejection",
+    "href": "labs/Lab01-2024.html#automatic-artefact-rejection",
+    "title": "Lab 01",
+    "section": "Automatic artefact rejection",
+    "text": "Automatic artefact rejection\nUse Tools -> Reject data using Clean Rawdata and ASR. Generally, we’d use all default choices - Consequently, the noise can often be reduced with minimal impact on the EEG/ERP waveform by filtering out the very low and/or very high frequencies.\n\nDelorme’s video and another video on these."
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#to-submit",
+    "href": "labs/Lab01-2024.html#to-submit",
+    "title": "Lab 01",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?"
+  },
+  {
+    "objectID": "labs/Lab01-2024.html#to-submit-continued",
+    "href": "labs/Lab01-2024.html#to-submit-continued",
+    "title": "Lab 01",
+    "section": "To submit continued",
+    "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
   }
 ]
