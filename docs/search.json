@@ -396,7 +396,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assessments.html",
@@ -1711,6 +1711,62 @@
     "objectID": "labs/Lab01-2024.html#to-submit-continued",
     "href": "labs/Lab01-2024.html#to-submit-continued",
     "title": "Lab 01",
+    "section": "To submit continued",
+    "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#pipeline",
+    "href": "labs/Lab02-2024.html#pipeline",
+    "title": "Lab 02",
+    "section": "Pipeline",
+    "text": "Pipeline\n\nEEGLab Preprocessing - Delorme"
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#recap",
+    "href": "labs/Lab02-2024.html#recap",
+    "title": "Lab 02",
+    "section": "Recap",
+    "text": "Recap\n\nReferencing and filtering\nRemoving unwanted channels\nRemoving artefacts"
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#independent-component-analysis-ica",
+    "href": "labs/Lab02-2024.html#independent-component-analysis-ica",
+    "title": "Lab 02",
+    "section": "Independent Component Analysis (ICA)",
+    "text": "Independent Component Analysis (ICA)\n\n\nWhy we need ICA?\nICA is a signal processing method to separate independent sources linearly mixed in several sensors (ICA for Dummies - By Delorme)\nLet’s watch the video together: ICA by Delorme\nRemove artefacts, make sure you have enough data (20 * square of number of channels), high pass filter at 0.5, remove bad channels."
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#running-ica",
+    "href": "labs/Lab02-2024.html#running-ica",
+    "title": "Lab 02",
+    "section": "Running ICA",
+    "text": "Running ICA\n\n\nUse the the Lab 2 demo dataset on Learn.\nUse Tools -> Decompose data by ICA. Select runica, extended 1 (helps to detect line noise).\nYou can also plot all or individual component maps from the Plot menu.\nUse Tools -> Inspect/label components by map.\nUse Tools -> Remove components from data."
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#continued",
+    "href": "labs/Lab02-2024.html#continued",
+    "title": "Lab 02",
+    "section": "Continued",
+    "text": "Continued\n\n\nOr, do this automatically: Tools -> Classify components using ICLabel, then flag components as artefacts.\nImportant: DON’T remove/reject components if you are conducting group level analysis (we will learn about group level analysis later)."
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#to-submit",
+    "href": "labs/Lab02-2024.html#to-submit",
+    "title": "Lab 02",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 2 exercise dataset on Learn.\nConduct pipeline processing as per usual (using last week’s processing too).\nRun ICA, share a screenshot.\nRemove components, share a screenshot.\nCompare pre- and post-analysis attributes.\nCompare pre- and post-analysis Channel data (scroll). What do you conclude? Any problems/issues? Why or why not? (consists 25% of today’s mark)."
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#to-submit-1",
+    "href": "labs/Lab02-2024.html#to-submit-1",
+    "title": "Lab 02",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 1 exercise dataset on Learn.\nRead it in to the EEGLab\nReport all attributes\nInsert a screenshot of the attributes\nPlot data using the scroll option\nInsert a screenshot\nReport your observation: do the data look similar to demonstration? What do you see as a potential difference?"
+  },
+  {
+    "objectID": "labs/Lab02-2024.html#to-submit-continued",
+    "href": "labs/Lab02-2024.html#to-submit-continued",
+    "title": "Lab 02",
     "section": "To submit continued",
     "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
   }
