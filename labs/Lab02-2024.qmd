@@ -41,7 +41,7 @@ format:
 ::: incremental
 
 -   Use the the `Lab 2 demo` dataset on Learn.
--   Use `Tools -> Decompose data by ICA`. Select `runica`, `extended 1` (helps to detect line noise).
+-   Use `Tools -> Decompose data by ICA`. Select `Infomax runica.m (default)`, `extended 1` (helps to detect line noise).
 -   You can also plot all or individual component maps from the `Plot` menu. 
 -   Use `Tools -> Inspect/label components by map`. 
 -   Use `Tools -> Remove components from data`.
