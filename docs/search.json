@@ -396,7 +396,7 @@
     "href": "labs.html",
     "title": "Labs",
     "section": "",
-    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n  \n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n  \n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n  \n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n  \n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
+    "text": "Lab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 04\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 15, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 01\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 19, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 05\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\nDr Usman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 02\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 26, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nLab 06\n\n\nPSYC480\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nUsman Afzali\n\n\n\n\n\n\n\n\n\n\n\n\nLab 03\n\n\nPSYC480\n\n\n\n\n\n\n\n\nApr 23, 2023\n\n\nHarriet Grace\n\n\n\n\n\n\n\n\n\n\n\n\nMATLAB add-ons\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nUsman\n\n\n\n\n\n\n\n\n\n\n\n\nEEG data acquistion, processing, and analysis\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nCharlie Drinkwater, Sheena Henderson, Cambria Doyle, and Usman Afzali\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assessments.html",
@@ -1769,5 +1769,138 @@
     "title": "Lab 02",
     "section": "To submit continued",
     "text": "To submit continued\n\nPlot channels as 2-D\nDo you see any anomaly? Comment!\nConduct automatic rejection with ASR.\nReport your findings in comparison with before artefact rejection.\nSubmit this as a pdf on Learn."
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates",
+    "href": "labs/Lab03-2024.html#microstates",
+    "title": "Lab 03",
+    "section": "Microstates",
+    "text": "Microstates\n\n\nDefinition\nUse\nRe-processing"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#obtaining-microstates",
+    "href": "labs/Lab03-2024.html#obtaining-microstates",
+    "title": "Lab 03",
+    "section": "Obtaining microstates",
+    "text": "Obtaining microstates\n\n\nUse Lab 3 demo dataset on Learn.\nConduct the necessary processing."
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#obtaining-microstates-continued",
+    "href": "labs/Lab03-2024.html#obtaining-microstates-continued",
+    "title": "Lab 03",
+    "section": "Obtaining microstates continued",
+    "text": "Obtaining microstates continued"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#to-submit",
+    "href": "labs/Lab03-2024.html#to-submit",
+    "title": "Lab 03",
+    "section": "To submit",
+    "text": "To submit\n\nUse the the Lab 3 exercise dataset on Learn.\nConduct necessary processing.\nIdentify microstate maps"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates-with-windows",
+    "href": "labs/Lab03-2024.html#microstates-with-windows",
+    "title": "Lab 03",
+    "section": "Microstates with Windows",
+    "text": "Microstates with Windows\n\nMenu"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates-with-windows-1",
+    "href": "labs/Lab03-2024.html#microstates-with-windows-1",
+    "title": "Lab 03",
+    "section": "Microstates with Windows…",
+    "text": "Microstates with Windows…\n\nStep 1"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates-with-windows-2",
+    "href": "labs/Lab03-2024.html#microstates-with-windows-2",
+    "title": "Lab 03",
+    "section": "Microstates with Windows…",
+    "text": "Microstates with Windows…\n\nStep 2"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#resting-eeg-microstates",
+    "href": "labs/Lab03-2024.html#resting-eeg-microstates",
+    "title": "Lab 03",
+    "section": "Resting EEG Microstates",
+    "text": "Resting EEG Microstates\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 2) (Nash et al. 2022).\n\n\n\n\n\n\n\nFigure 1: Automatic artefact removal\n\n\n\n\n\n\n\n\n\nFigure 2: Four prototypical microstates (Nash et al. 2022)"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates-definition",
+    "href": "labs/Lab03-2024.html#microstates-definition",
+    "title": "Lab 03",
+    "section": "Microstates Definition",
+    "text": "Microstates Definition\n“EEG microstates are brief, recurring periods of stable brain activity that reflect the activation of large-scale neural networks. The temporal characteristics of these microstates, including their average duration, number of occurrences, and percentage contribution have been shown to serve as biomarkers of mental and neurological disorders” (Kleinert, Nash, et al. 2024)."
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#the-use-of-microstates",
+    "href": "labs/Lab03-2024.html#the-use-of-microstates",
+    "title": "Lab 03",
+    "section": "The use of Microstates",
+    "text": "The use of Microstates\n“Recent publications demonstrate the potential of microstate research to contribute to a more sophisticated diagnosis, monitoring, prognosis, and prevention of mental disorders in clinical psychology and psychiatry. Microstate characteristics may serve as biomarkers of schizophrenia (da Cruz et al. 2020; de Bock et al. 2020), affective disorders (Al Zoubi et al. 2019; Damborská et al. 2019b; Murphy et al. 2020), anxiety disorders (Al Zoubi et al. 2019), ADHD (Férat et al. 2022a), and autism (D’Croz-Baron et al. 2019; Bochet et al. 2021). as mentioned in (Kleinert, Koenig, et al. 2024)”"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#re-processing-for-microstates-analysis",
+    "href": "labs/Lab03-2024.html#re-processing-for-microstates-analysis",
+    "title": "Lab 03",
+    "section": "Re-processing for Microstates analysis",
+    "text": "Re-processing for Microstates analysis\nEEG data processing (as described above) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four network types. To the best of my knowledge, it is important to use only the following processing steps:\n\nChannel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four network types (see Figure 2) (Nash et al. 2022).\n\n\n\n\n\n\n\nFigure 1: Automatic artefact removal\n\n\n\n\n\n\n\n\n\nFigure 2: Four prototypical microstates (Nash et al. 2022)"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#eeg-microstates",
+    "href": "labs/Lab03-2024.html#eeg-microstates",
+    "title": "Lab 03",
+    "section": "EEG Microstates",
+    "text": "EEG Microstates\n\n\nDefinition\nUse\nRe-processing"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#two-major-types",
+    "href": "labs/Lab03-2024.html#two-major-types",
+    "title": "Lab 03",
+    "section": "Two major types",
+    "text": "Two major types\n\n\nResting EEG Microstates\nERP Microstates"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#processing-for-microstates-analysis",
+    "href": "labs/Lab03-2024.html#processing-for-microstates-analysis",
+    "title": "Lab 03",
+    "section": "Processing for Microstates analysis",
+    "text": "Processing for Microstates analysis\nEEG data processing (as described in the previous labs) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four to seven network types."
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#processing-continued.",
+    "href": "labs/Lab03-2024.html#processing-continued.",
+    "title": "Lab 03",
+    "section": "Processing continued….",
+    "text": "Processing continued….\nTo the best of my knowledge, it is important to use only the following processing steps:\n\nAdd channel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20, see Figure 2."
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#processing-continued.-1",
+    "href": "labs/Lab03-2024.html#processing-continued.-1",
+    "title": "Lab 03",
+    "section": "Processing continued….",
+    "text": "Processing continued….\n\n\nFigure 1: Automatic artefact removal"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#processing-continued.-2",
+    "href": "labs/Lab03-2024.html#processing-continued.-2",
+    "title": "Lab 03",
+    "section": "Processing continued….",
+    "text": "Processing continued….\n\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see Figure 3) (Nash et al. 2022).\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates-continued",
+    "href": "labs/Lab03-2024.html#microstates-continued",
+    "title": "Lab 03",
+    "section": "Microstates continued",
+    "text": "Microstates continued\n\n\nFigure 2"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#microstates-menu",
+    "href": "labs/Lab03-2024.html#microstates-menu",
+    "title": "Lab 03",
+    "section": "Microstates menu",
+    "text": "Microstates menu\n\n\nFigure 2"
   }
 ]

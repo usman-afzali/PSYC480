@@ -1,0 +1,81 @@
+---
+title: "Lab 03"
+subtitle: "PSYC480"
+author: "Harriet Grace"
+institute: "University of Canterbury"
+date: 2023 04 23
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+bibliography: references.bib
+---
+
+## EEG Microstates {background-color="orange"}
+
+::: incremental
+-   Definition
+-   Use
+-   Re-processing
+:::
+
+## Microstates Definition {background-color="#346bc8"}
+
+"EEG microstates are brief, recurring periods of stable brain activity that reflect the activation of `large-scale neural networks`. The temporal characteristics of these microstates, including their average duration, number of occurrences, and percentage contribution have been shown to `serve` as biomarkers of mental and neurological disorders" [@kleinert2024].
+
+## Two major types {background-color="#346bc8"}
+
+::: incremental
+-   Resting EEG Microstates
+-   ERP Microstates
+:::
+
+## The use of Microstates {background-color="#346bc8"}
+
+"Recent publications demonstrate the potential of microstate research to `contribute` to a more sophisticated diagnosis, monitoring, prognosis, and prevention of mental disorders in clinical psychology and psychiatry. Microstate characteristics may serve as `biomarkers` of schizophrenia (da Cruz et al. 2020; de Bock et al. 2020), affective disorders (Al Zoubi et al. 2019; Damborská et al. 2019b; Murphy et al. 2020), anxiety disorders (Al Zoubi et al. 2019), ADHD (Férat et al. 2022a), and autism (D’Croz-Baron et al. 2019; Bochet et al. 2021). as mentioned in [@kleinert2024a]"
+
+## Processing for Microstates analysis {background-color="#346bc8"}
+
+EEG data processing (as described in the previous labs) has historically been recommended by many experts. However, recent research shows that the EEG data processing (or over-processing) could be counterproductive. Therefore, it is sensible to process the data to only the extent that is needed to obtain microstates that resemble the prototypical four to seven network types.
+
+## Processing continued.... {background-color="#346bc8"}
+
+To the best of my knowledge, it is important to use only the following processing steps:
+
+1.  Add channel locations
+2.  Filter 2-20 Hz
+3.  Remove artefacts with ASR, but make sure to un-check the option `Remove channel if it is flat for more than (seconds)`, see @fig-artefact-ms.
+4.  Reference to average and interpolate removed channels.
+5.  From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `restarts` to 20, see @fig-snap-ms.
+
+## Processing continued.... {background-color="#346bc8"}
+
+![Automatic artefact removal](/figs/artefact-ms.jpg){#fig-artefact-ms}
+
+## Microstates menu {background-color="#346bc8"}
+
+![](/figs/ms.png){#fig-snap-ms}
+
+## Processing continued....  {background-color="#346bc8"}
+
+6.  From `Plots ->` ...
+7.  Examine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see @fig-fourmaps) [@nash2022].
+
+
+![Four prototypical microstates [@nash2022]](/figs/fourmaps.png){#fig-fourmaps}
+
+## Obtaining microstates {background-color="#346bc8"}
+
+::: incremental
+-   Use `Lab 3 demo` dataset on Learn.
+-   Conduct the necessary processing.
+:::
+
+## To submit {background-color="#346bc8"}
+
+-   Use the the `Lab 3 exercise` dataset on Learn.
+-   Conduct necessary processing.
+-   Identify microstate maps
+
+# The END {background-color="orange"}
