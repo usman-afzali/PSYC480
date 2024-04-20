@@ -47,21 +47,25 @@ To the best of my knowledge, it is important to use only the following processin
 2.  Filter 2-20 Hz
 3.  Remove artefacts with ASR, but make sure to un-check the option `Remove channel if it is flat for more than (seconds)`, see @fig-artefact-ms.
 4.  Reference to average and interpolate removed channels.
-5.  From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `restarts` to 20, see @fig-snap-ms.
+
 
 ## Processing continued.... {background-color="#346bc8"}
 
 ![Automatic artefact removal](/figs/artefact-ms.jpg){#fig-artefact-ms}
 
-## Microstates menu {background-color="#346bc8"}
-
-![](/figs/ms.png){#fig-snap-ms}
 
 ## Processing continued....  {background-color="#346bc8"}
 
+5.  From `Tools -> Microstates -> Obtain Microstate Maps`, use `k-means` method with a min of 4 and max of 5 maps, and set `restarts` to 20, see @fig-snap-ms.
 6.  From `Plots ->` ...
 7.  Examine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see @fig-fourmaps) [@nash2022].
 
+
+## Microstates menu 
+
+![](/figs/ms.png){#fig-snap-ms}
+
+## Typical MS Maps {background-color="#346bc8"}
 
 ![Four prototypical microstates [@nash2022]](/figs/fourmaps.png){#fig-fourmaps}
 

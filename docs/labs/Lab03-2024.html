@@ -403,7 +403,6 @@ Harriet Grace
 <li>Filter 2-20 Hz</li>
 <li>Remove artefacts with ASR, but make sure to un-check the option <code>Remove channel if it is flat for more than (seconds)</code>, see <a href="#/fig-artefact-ms" class="quarto-xref">Figure&nbsp;1</a>.</li>
 <li>Reference to average and interpolate removed channels.</li>
-<li>From <code>Tools -&gt; Microstates -&gt; Obtain Microstate Maps</code>, use <code>k-means</code> method with a min of 4 and max of 5 maps, and set <code>restarts</code> to 20, see <a href="#/microstates-menu" class="quarto-xref">Figure&nbsp;2</a>.</li>
 </ol>
 </section>
 <section id="processing-continued.-1" class="slide level2" data-background-color="#346bc8">
@@ -412,18 +411,22 @@ Harriet Grace
 <img data-src="../figs/artefact-ms.jpg" class="r-stretch quarto-figure-center"><p class="caption">
 Figure&nbsp;1: Automatic artefact removal
 </p></section>
-<section id="microstates-menu" class="slide level2" data-background-color="#346bc8">
+<section id="processing-continued.-2" class="slide level2" data-background-color="#346bc8">
+<h2>Processing continued….</h2>
+<ol start="5" type="1">
+<li>From <code>Tools -&gt; Microstates -&gt; Obtain Microstate Maps</code>, use <code>k-means</code> method with a min of 4 and max of 5 maps, and set <code>restarts</code> to 20, see <a href="#/microstates-menu" class="quarto-xref">Figure&nbsp;2</a>.</li>
+<li>From <code>Plots -&gt;</code> …</li>
+<li>Examine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see <a href="#/fig-fourmaps" class="quarto-xref">Figure&nbsp;3</a>) <span class="citation" data-cites="nash2022">(<a href="#/the-end" role="doc-biblioref" onclick="">Nash et al. 2022</a>)</span>.</li>
+</ol>
+</section>
+<section id="microstates-menu" class="slide level2">
 <h2>Microstates menu</h2>
 
 <img data-src="../figs/ms.png" id="fig-snap-ms" class="r-stretch quarto-figure-center"><p class="caption">
 Figure&nbsp;2
 </p></section>
-<section id="processing-continued.-2" class="slide level2" data-background-color="#346bc8">
-<h2>Processing continued….</h2>
-<ol start="6" type="1">
-<li>From <code>Plots -&gt;</code> …</li>
-<li>Examine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see <a href="#/fig-fourmaps" class="quarto-xref">Figure&nbsp;3</a>) <span class="citation" data-cites="nash2022">(<a href="#/the-end" role="doc-biblioref" onclick="">Nash et al. 2022</a>)</span>.</li>
-</ol>
+<section id="typical-ms-maps" class="slide level2" data-background-color="#346bc8">
+<h2>Typical MS Maps</h2>
 
 <img data-src="../figs/fourmaps.png" class="r-stretch quarto-figure-center"><p class="caption">
 Figure&nbsp;3: Four prototypical microstates <span class="citation" data-cites="nash2022">(<a href="#/the-end" role="doc-biblioref" onclick="">Nash et al. 2022</a>)</span>

@@ -1873,7 +1873,7 @@
     "href": "labs/Lab03-2024.html#processing-continued.",
     "title": "Lab 03",
     "section": "Processing continued….",
-    "text": "Processing continued….\nTo the best of my knowledge, it is important to use only the following processing steps:\n\nAdd channel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels.\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20, see Figure 2."
+    "text": "Processing continued….\nTo the best of my knowledge, it is important to use only the following processing steps:\n\nAdd channel locations\nFilter 2-20 Hz\nRemove artefacts with ASR, but make sure to un-check the option Remove channel if it is flat for more than (seconds), see Figure 1.\nReference to average and interpolate removed channels."
   },
   {
     "objectID": "labs/Lab03-2024.html#processing-continued.-1",
@@ -1887,7 +1887,7 @@
     "href": "labs/Lab03-2024.html#processing-continued.-2",
     "title": "Lab 03",
     "section": "Processing continued….",
-    "text": "Processing continued….\n\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see Figure 3) (Nash et al. 2022).\n\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
+    "text": "Processing continued….\n\nFrom Tools -&gt; Microstates -&gt; Obtain Microstate Maps, use k-means method with a min of 4 and max of 5 maps, and set restarts to 20, see Figure 2.\nFrom Plots -&gt; …\nExamine whether or not your obtained microstates resemble the prototypical four (or seven) network types (see Figure 3) (Nash et al. 2022)."
   },
   {
     "objectID": "labs/Lab03-2024.html#microstates-continued",
@@ -1902,5 +1902,12 @@
     "title": "Lab 03",
     "section": "Microstates menu",
     "text": "Microstates menu\n\n\nFigure 2"
+  },
+  {
+    "objectID": "labs/Lab03-2024.html#typical-ms-maps",
+    "href": "labs/Lab03-2024.html#typical-ms-maps",
+    "title": "Lab 03",
+    "section": "Typical MS Maps",
+    "text": "Typical MS Maps\n\n\nFigure 3: Four prototypical microstates (Nash et al. 2022)"
   }
 ]
